@@ -26,6 +26,11 @@ const unit1Deck = [
 },
 {
   tag: "1.1",
+  question: "Which statement about schema on write is correct? A. The schema is applied when data is queried  B. It is mainly used for unstructured data  C. The schema is enforced before data is stored  D. It eliminates the need for data integration",
+  answer: "Correct answer: C."
+},
+{
+  tag: "1.1",
   question: "What is meant by data integration, and why is it needed?",
   answer: "Data integration refers to the process of combining data from heterogeneous sources into a unified and consistent format because data sources differ in structure, format, semantics, and quality."
 },
@@ -36,13 +41,13 @@ const unit1Deck = [
 },
 {
   tag: "1.1",
-  question: "Which statement about schema on write is correct?",
-  answer: "C. The schema is enforced before data is stored."
+  question: "Which statement about schema on write is correct?\nA. The schema is applied when data is queried\nB. It is mainly used for unstructured data\nC. The schema is enforced before data is stored\nD. It eliminates the need for data integration",
+  answer: "Correct answer: C. The schema is enforced before data is stored."
 },
 {
   tag: "1.1",
-  question: "Which storage option is most suitable for unstructured data according to the IU material?",
-  answer: "C. File systems or BLOB storage."
+  question: "Which storage option is most suitable for unstructured data according to the IU material?\nA. Relational databases\nB. Column-oriented NoSQL databases\nC. File systems or BLOB storage\nD. Schema-on-write data warehouses",
+  answer: "Correct answer: C. File systems or BLOB storage."
 },
 {
   tag: "1.1",
@@ -71,13 +76,18 @@ const unit1Deck = [
 },
 {
   tag: "1.1",
-  question: "What does ETL stand for in the context of data ingestion and integration? (MCQ)",
-  answer: "A. Extract, Transfer, Link  B. Encode, Transform, Load  C. Extract, Transform, Load  D. Evaluate, Transform, Learn — Correct answer: C."
+  question: "What does ETL stand for in the context of data ingestion and integration?\nA. Extract, Transfer, Link\nB. Encode, Transform, Load\nC. Extract, Transform, Load\nD. Evaluate, Transform, Learn",
+  answer: "Correct answer: C. Extract, Transform, Load."
 },
 {
   tag: "1.1",
   question: "Which three types of data are typically handled during data ingestion according to the IU course? Give examples.",
   answer: "Structured data (e.g., tabular data, relational databases), semi-structured data (e.g., JSON, XML, HTML), and unstructured data (e.g., images, audio, video, binary data)."
+},
+{
+  tag: "1.1",
+  question: "Which storage option is most suitable for unstructured data according to the IU material?\nA. Relational databases\nB. Column-oriented NoSQL databases\nC. File systems or BLOB storage\nD. Schema-on-write data warehouses",
+  answer: "Correct answer: C. File systems or BLOB storage."
 },
 
 /* =======================
@@ -108,6 +118,11 @@ const unit1Deck = [
   tag: "1.2",
   question: "Give an example of a typical batch processing job.",
   answer: "Collecting all customer orders for the last month and generating a monthly report."
+},
+{
+  tag: "1.2",
+  question: "What is streaming data ingestion?",
+  answer: "Streaming data ingestion processes data in real time or near real time, handling events as soon as they become available, often in an event-driven manner."
 },
 {
   tag: "1.2",
@@ -161,13 +176,13 @@ const unit1Deck = [
 },
 {
   tag: "1.2",
-  question: "Which factor mainly led to the rise of streaming data ingestion?",
-  answer: "C. Connected devices, social media, and mobile applications."
+  question: "Which factor mainly led to the rise of streaming data ingestion?\nA. Smaller data volumes\nB. Fixed reporting cycles\nC. Connected devices, social media, and mobile applications\nD. Lower storage costs",
+  answer: "Correct answer: C. Connected devices, social media, and mobile applications."
 },
 {
   tag: "1.2",
-  question: "Which Azure service provides a distributed data warehouse for advanced analytics?",
-  answer: "B. Azure Synapse."
+  question: "Which Azure service provides a distributed data warehouse for advanced analytics?\nA. Azure Stream Analytics\nB. Azure Synapse\nC. Azure Functions\nD. Event Hubs",
+  answer: "Correct answer: B. Azure Synapse."
 },
 {
   tag: "1.2",
@@ -286,8 +301,8 @@ const unit1Deck = [
 },
 {
   tag: "1.3",
-  question: "Which is an advantage of binary storage over text storage?",
-  answer: "C. Better compression and faster access."
+  question: "Which is an advantage of binary storage over text storage?\nA. Easier to read by humans\nB. Larger file size\nC. Better compression and faster access\nD. No need for software to interpret",
+  answer: "Correct answer: C. Better compression and faster access."
 },
 {
   tag: "1.3",
@@ -296,8 +311,8 @@ const unit1Deck = [
 },
 {
   tag: "1.3",
-  question: "Which of the following is a characteristic of a DAG-based data processing pipeline?",
-  answer: "C. Dependencies between tasks are clearly defined."
+  question: "Which of the following is a characteristic of a DAG-based data processing pipeline?\nA. Tasks can have circular dependencies\nB. Feedback loops are allowed\nC. Dependencies between tasks are clearly defined\nD. Tasks execute randomly",
+  answer: "Correct answer: C. Dependencies between tasks are clearly defined."
 },
 {
   tag: "1.3",
