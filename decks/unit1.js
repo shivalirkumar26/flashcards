@@ -78,7 +78,7 @@ const unit1Deck = [
   tag: "1.1",
   question: "Which three types of data are typically handled during data ingestion according to the IU course? Give examples.",
   answer: "Structured data (e.g., tabular data, relational databases), semi-structured data (e.g., JSON, XML, HTML), and unstructured data (e.g., images, audio, video, binary data)."
-}
+},
 
 /* =======================
    SECTION 1.2 – DATA PROCESSING
@@ -188,7 +188,7 @@ const unit1Deck = [
   tag: "1.2",
   question: "Which AWS services are used for storage and reporting in the Lambda architecture example?",
   answer: "Amazon Athena is used as the data warehouse, and Amazon QuickSight is used for reporting and visualization."
-}
+},
 
 /* =======================
    SECTION 1.3 – DATA STORAGE
