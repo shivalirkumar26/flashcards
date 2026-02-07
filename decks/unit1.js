@@ -5,7 +5,7 @@ const unit1Deck = [
    ======================= */
 
 {
-  tag: "1.1",
+  tag: "1.3",
   question: "How do file systems organize stored data?",
   answer: "File systems organize stored data in a hierarchical structure. At the top level, there is a root directory, which contains directories and subdirectories. These directories can further contain additional subdirectories and files. This hierarchical organization makes it easier to store, locate, access, and manage data on storage devices. File systems also maintain metadata about files, such as file name, size, location, permissions, and timestamps, which helps operating systems efficiently manage stored data."
 },
@@ -55,7 +55,7 @@ const unit1Deck = [
   answer: "The three types of data handled during data ingestion are structured data, semi-structured data, and unstructured data. Structured data follows a fixed schema and is typically stored in relational databases. Semi-structured data has a flexible structure, such as JSON or XML. Unstructured data has no predefined structure and includes text, images, audio, video, and binary files."
 },
 {
-  tag: "1.1",
+  tag: "1.3",
   question: "Why are joins less efficient in NoSQL databases compared to relational databases?",
   answer: "Joins are less efficient in NoSQL databases because they typically do not enforce strict schemas or referential integrity. As a result, relationships between data entities are not explicitly defined, and joins often require full scans of large datasets rather than indexed joins, which are common in relational databases."
 },
@@ -65,12 +65,12 @@ const unit1Deck = [
   answer: "Data ingestion and integration are critical because all subsequent phases of the data processing lifecycle depend on the availability, consistency, and quality of the ingested data. If data is incorrectly ingested or poorly integrated, errors will propagate to storage, processing, analysis, reporting, and decision-making, resulting in unreliable outcomes."
 },
 {
-  tag: "1.1",
+  tag: "1.3",
   question: "Compare relational databases and NoSQL databases, highlighting all major differences.",
   answer: "Relational databases enforce schema on write, meaning data must conform to a predefined structure before storage. They provide strong consistency, referential integrity, and efficient joins using indexes, making them suitable for transactional systems with structured data. NoSQL databases typically use schema on read, offering flexible data models that support structured, semi-structured, and unstructured data. However, NoSQL databases often sacrifice strict referential integrity and efficient joins. Importantly, both relational and NoSQL databases can be implemented in distributed architectures."
 },
 {
-  tag: "1.1",
+  tag: "1.3",
   question: "Describe the four main types of NoSQL databases and give a typical use case for each.",
   answer: "The four main types of NoSQL databases are: Key-value databases, which store data as key–value pairs and are commonly used for session management, caching, and IoT data; Document-oriented databases, which store data as JSON, XML, or BSON documents and are used for content management and flexible data models; Column-oriented (wide-column) databases, which store data by columns and are optimized for analytical queries and aggregations; Graph-oriented databases, which store data as nodes and edges and are used for highly interconnected data such as social networks and recommendation systems."
 },
@@ -105,7 +105,7 @@ const unit1Deck = [
   answer: "The key principle that enables modern data processing frameworks to scale is the distribution of storage and processing across multiple nodes. By distributing data and computation, tasks can be executed in parallel, which significantly improves performance, fault tolerance, and scalability when handling large volumes of data."
 },
 {
-  tag: "1.2",
+  tag: "1.1",
   question: "What is the role of the transform step in ETL?",
   answer: "The transform step in ETL is responsible for converting raw extracted data into a suitable format for storage and analysis. This includes cleaning incorrect or incomplete data, standardizing formats, harmonizing values across sources, resolving data inconsistencies, converting data types, and applying business rules. The goal of transformation is to ensure that data fits the target data model and can be reliably analyzed."
 },
@@ -140,7 +140,7 @@ const unit1Deck = [
   answer: "Streaming data ingestion is applied in use cases such as smart home applications, IoT infrastructure monitoring, logistics tracking, health monitoring systems, retail monitoring, fraud detection, and real-time system monitoring."
 },
 {
-  tag: "1.2",
+  tag: "1.3",
   question: "Name the four main types of NoSQL databases.",
   answer: "The four main types of NoSQL databases are key-value databases, document-oriented databases, column-oriented (wide-column) databases, and graph-oriented databases."
 },
@@ -220,12 +220,12 @@ const unit1Deck = [
   answer: "Direct attached storage (DAS) is a type of storage that is directly connected to a computer or server without using a network. Examples include internal hard drives, SSDs, and external USB drives. DAS provides fast access to data but lacks scalability and shared access compared to network-based storage systems."
 },
 {
-  tag: "1.3",
+  tag: "1.1",
   question: "What is meant by data transformation in the context of ETL?",
   answer: "Data transformation in the context of ETL refers to the process of converting raw data into a suitable format for storage and analysis. This includes cleaning data, correcting errors, standardising formats, harmonising values across sources, converting data types, and applying business rules so that the data can be reliably used in downstream systems."
 },
 {
-  tag: "1.3",
+  tag: "1.1",
   question: "What is semi-structured data? Give examples.",
   answer: "Semi-structured data is data that does not follow a rigid tabular schema but still contains structural elements such as tags or key–value pairs. Examples include HTML, XML, and JSON. This type of data is flexible and often generated by web applications, APIs, and IoT devices."
 },
@@ -260,7 +260,7 @@ const unit1Deck = [
   answer: "Text files are human-readable and store data as characters, while binary files store data in a machine-optimized format that is not human-readable. Binary files typically offer better compression and faster processing compared to text files."
 },
 {
-  tag: "1.3",
+  tag: "1.2",
   question: "What is the function of the serving layer in Lambda architecture?\nA. Execute batch jobs\nB. Perform stream ingestion\nC. Combine batch and stream results into a unified data view\nD. Store raw sensor data",
   answer: "Correct answer: C. The serving layer combines results from batch and stream layers into a unified view that can be queried."
 },
@@ -275,12 +275,12 @@ const unit1Deck = [
   answer: "The main purpose of a data warehouse is to integrate data from multiple sources and provide an optimized environment for analytical queries and reporting, rather than transactional processing."
 },
 {
-  tag: "1.3",
+  tag: "1.1",
   question: "What is unstructured data?",
   answer: "Unstructured data does not follow any predefined schema and does not have a fixed structure when stored. Examples include text documents, images, audio files, and video files."
 },
 {
-  tag: "1.3",
+  tag: "1.2",
   question: "Which AWS services are used for storage and reporting in the Lambda architecture example?",
   answer: "In the Lambda architecture example, Amazon Athena is used as the data warehouse for querying data, and Amazon QuickSight is used for reporting and visualization."
 },
@@ -295,7 +295,7 @@ const unit1Deck = [
   answer: "Correct answer: C. YARN manages cluster resources and job scheduling."
 },
 {
-  tag: "1.3",
+  tag: "1.2",
   question: "Which factor mainly led to the rise of streaming data ingestion?\nA. Smaller data volumes\nB. Fixed reporting cycles\nC. Connected devices, social media, and mobile applications\nD. Lower storage costs",
   answer: "Correct answer: C. Continuous data generation from devices and applications made streaming necessary."
 },
@@ -305,12 +305,12 @@ const unit1Deck = [
   answer: "Correct answer: C. Binary storage offers better compression and faster access."
 },
 {
-  tag: "1.3",
+  tag: "1.1",
   question: "Which of the following is NOT typically part of the transformation step in ETL?\nA. Data cleaning\nB. Data standardisation\nC. Data harmonisation\nD. Data reporting",
   answer: "Correct answer: D. Data reporting is a later phase, not part of transformation."
 },
 {
-  tag: "1.3",
+  tag: "1.2",
   question: "Which of the following is a characteristic of a DAG-based data processing pipeline?\nA. Tasks can have circular dependencies\nB. Feedback loops are allowed\nC. Dependencies between tasks are clearly defined\nD. Tasks execute randomly",
   answer: "Correct answer: C. DAGs clearly define task dependencies without feedback loops."
 },
@@ -325,12 +325,12 @@ const unit1Deck = [
   answer: "Correct answer: C. Unstructured data often needs preprocessing for machine analysis."
 },
 {
-  tag: "1.3",
+  tag: "1.2",
   question: "Which statement correctly describes streaming data?\nA. The total number of data entries is known in advance\nB. Data is processed once per week\nC. Data is unbounded and processed continuously\nD. Data must be stored before processing",
   answer: "Correct answer: C. Streaming data is continuous and unbounded."
 },
 {
-  tag: "1.3",
+  tag: "1.1",
   question: "Which type of data typically follows schema-on-write?\nA. Unstructured data\nB. Semi-structured data\nC. Structured data\nD. Multimedia data",
   answer: "Correct answer: C. Structured data requires a predefined schema."
 },
@@ -350,7 +350,7 @@ const unit1Deck = [
   answer: "HDFS supports parallel data processing because data is distributed across multiple nodes, allowing multiple processing tasks to run simultaneously on different parts of the data."
 },
 {
-  tag: "1.3",
+  tag: "1.2",
   question: "Why is the Kappa architecture considered easier to implement than Lambda?",
   answer: "The Kappa architecture is easier to implement because it uses a single processing layer for both batch and stream data, reducing system complexity, maintenance effort, and operational overhead."
 },
@@ -375,7 +375,7 @@ const unit1Deck = [
   answer: "Relational databases store structured data in tables with rows and columns, enforce predefined schemas, support referential integrity and normalization, guarantee ACID properties, and use SQL for efficient querying."
 },
 {
-  tag: "1.3",
+  tag: "1.1",
   question: "What is structured data? Give examples.",
   answer: "Structured data follows a predefined schema and is stored in tabular form. Examples include relational databases, column-based NoSQL databases, CSV files, and Excel spreadsheets."
 }
