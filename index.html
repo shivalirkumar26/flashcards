@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flashcards – Data Management</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <h1>📘 Flashcards</h1>
+
+    <!-- Deck selector -->
+    <select id="deckSelector" onchange="loadDeck()">
+      <option value="unit1">Unit 1 – Data Management</option>
+    </select>
+
+    <!-- Tag selector -->
+    <select id="tagSelector" onchange="filterByTag()">
+      <option value="all">All Sections</option>
+      <option value="1.1">Section 1.1</option>
+      <option value="1.2">Section 1.2</option>
+      <option value="1.3">Section 1.3</option>
+    </select>
+
+    <div class="card">
+      <div class="question" id="question"></div>
+      <div class="answer hidden" id="answer"></div>
+    </div>
+
+    <div class="controls">
+      <button onclick="showAnswer()">Show Answer</button>
+      <button onclick="prevCard()">Previous</button>
+      <button onclick="nextCard()">Next</button>
+      <button onclick="shuffleDeck()">Shuffle</button>
+    </div>
+
+    <p class="counter" id="counter"></p>
+  </div>
+
+  <script src="decks/unit1.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
