@@ -17,24 +17,25 @@
     </select>
 
     <!-- Tag selector -->
-    <select id="tagSelector" onchange="filterByTag()">
-      <option value="all">All Sections</option>
-      <option value="1.1">Section 1.1</option>
-      <option value="1.2">Section 1.2</option>
-      <option value="1.3">Section 1.3</option>
-    </select>
+   <select id="tagSelector" onchange="filterByTag()">
+  <option value="all">All Sections</option>
+  <option value="1.1">Section 1.1</option>
+  <option value="1.2">Section 1.2</option>
+  <option value="1.3">Section 1.3</option>
+  <option value="important">⭐ Important only</option>
+</select>
 
     <div class="card">
       <div class="question" id="question"></div>
       <div class="answer hidden" id="answer"></div>
     </div>
 
-    <div class="controls">
-      <button onclick="showAnswer()">Show Answer</button>
-      <button onclick="prevCard()">Previous</button>
-      <button onclick="nextCard()">Next</button>
-      <button onclick="shuffleDeck()">Shuffle</button>
-    </div>
+   <div class="controls">
+  <button onclick="showAnswer()">Show Answer</button>
+  <button onclick="prevCard()">Previous</button>
+  <button onclick="nextCard()">Next</button>
+  <button onclick="toggleImportant()">⭐ Mark as Important</button>
+</div>
 
     <p class="counter" id="counter"></p>
   </div>
