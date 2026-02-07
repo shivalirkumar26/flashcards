@@ -2,21 +2,51 @@ let fullDeck = [];
 let deck = [];
 let currentIndex = 0;
 
+const IMPORTANT_KEY = "importantCards";
+
 const questionEl = document.getElementById("question");
 const answerEl = document.getElementById("answer");
 const counterEl = document.getElementById("counter");
 
 function loadDeck() {
-  fullDeck = [...unit1Deck];
+  fullDeck = unit1Deck.map((card, index) => ({
+    ...card,
+    id: index
+  }));
   deck = [...fullDeck];
   currentIndex = 0;
   renderCard();
 }
 
+function getImportantCards() {
+  return JSON.parse(localStorage.getItem(IMPORTANT_KEY)) || [];
+}
+
+function saveImportantCards(list) {
+  localStorage.setItem(IMPORTANT_KEY, JSON.stringify(list));
+}
+
+function toggleImportant() {
+  const important = getImportantCards();
+  const cardId = deck[currentIndex].id;
+
+  if (important.includes(cardId)) {
+    saveImportantCards(important.filter(id => id !== cardId));
+  } else {
+    important.push(cardId);
+    saveImportantCards(important);
+  }
+
+  renderCard();
+}
+
 function filterByTag() {
   const tag = document.getElementById("tagSelector").value;
+  const important = getImportantCards();
 
-  if (tag === "all") {
+  if (tag === "important") {
+    deck = fullDeck.filter(card => important.includes(card.id));
+  } else if (tag === "all") {
     deck = [...fullDeck];
   } else {
     deck = fullDeck.filter(card => card.tag === tag);
@@ -28,16 +58,22 @@ function filterByTag() {
 
 function renderCard() {
   if (deck.length === 0) {
-    questionEl.textContent = "No cards for this section.";
+    questionEl.textContent = "No cards to show.";
     answerEl.textContent = "";
     counterEl.textContent = "";
     return;
   }
 
-  questionEl.textContent = deck[currentIndex].question;
-  answerEl.textContent = deck[currentIndex].answer;
+  const card = deck[currentIndex];
+  const important = getImportantCards();
+
+  questionEl.textContent = card.question;
+  answerEl.textContent = card.answer;
   answerEl.classList.add("hidden");
-  counterEl.textContent = `Card ${currentIndex + 1} of ${deck.length}`;
+
+  counterEl.textContent =
+    `Card ${currentIndex + 1} of ${deck.length}` +
+    (important.includes(card.id) ? " ⭐" : "");
 }
 
 function showAnswer() {
@@ -56,12 +92,6 @@ function prevCard() {
     currentIndex--;
     renderCard();
   }
-}
-
-function shuffleDeck() {
-  deck = deck.sort(() => Math.random() - 0.5);
-  currentIndex = 0;
-  renderCard();
 }
 
 loadDeck();
