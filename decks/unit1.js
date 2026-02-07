@@ -36,8 +36,8 @@ const unit1Deck = [
 },
 {
   tag: "1.1",
-  question: "Which of the following best describes the relationship between data ingestion and data integration?",
-  answer: "C. Data ingestion collects data, while data integration harmonizes heterogeneous data."
+  question: "Which of the following best describes the relationship between data ingestion and data integration?\nA. Data integration happens before data ingestion\nB. Data ingestion and integration are identical processes\nC. Data ingestion collects data, while data integration harmonizes heterogeneous data\nD. Data integration replaces the need for data ingestion",
+  answer: "Correct answer: C. Data ingestion collects data, while data integration harmonizes heterogeneous data."
 },
 {
   tag: "1.1",
@@ -287,17 +287,17 @@ const unit1Deck = [
 {
   tag: "1.3",
   question: "Which NoSQL database type is best suited for highly interconnected data?",
-  answer: "D. Graph-oriented databases."
+  answer: "Graph-oriented databases."
 },
 {
   tag: "1.3",
-  question: "Which component in Hadoop manages distributed processing resources?",
-  answer: "C. YARN."
+  question: "Which component in Hadoop manages distributed processing resources?\nA. NameNode\nB. DataNode\nC. YARN\nD. ZooKeeper",
+  answer: "Correct answer: C. YARN."
 },
 {
   tag: "1.3",
-  question: "Which factor mainly led to the rise of streaming data ingestion?",
-  answer: "C. Connected devices, social media, and mobile applications."
+  question: "Which factor mainly led to the rise of streaming data ingestion?\nA. Smaller data volumes\nB. Fixed reporting cycles\nC. Connected devices, social media, and mobile applications\nD. Lower storage costs",
+  answer: "Correct answer: C. Connected devices, social media, and mobile applications."
 },
 {
   tag: "1.3",
@@ -306,8 +306,8 @@ const unit1Deck = [
 },
 {
   tag: "1.3",
-  question: "Which of the following is NOT typically part of the transformation step in ETL?",
-  answer: "D. Data reporting."
+  question: "Which of the following is NOT typically part of the transformation step in ETL?\nA. Data cleaning\nB. Data standardisation\nC. Data harmonisation\nD. Data reporting",
+  answer: "Correct answer: D. Data reporting."
 },
 {
   tag: "1.3",
@@ -316,23 +316,23 @@ const unit1Deck = [
 },
 {
   tag: "1.3",
-  question: "Which of the following is an example of secondary storage?",
-  answer: "C. Solid State Drive (SSD)."
+  question: "Which of the following is an example of secondary storage?\nA. CPU cache\nB. RAM\nC. Solid State Drive (SSD)\nD. CPU registers",
+  answer: "Correct answer: C. Solid State Drive (SSD)."
 },
 {
   tag: "1.3",
-  question: "Which statement best describes unstructured data?",
-  answer: "C. It is easily interpreted by humans but requires preprocessing for machines to extract meaningful information."
+  question: "Which statement best describes unstructured data?\nA. It is directly machine-readable without preprocessing\nB. It always follows schema-on-read\nC. It is easily interpreted by humans but requires preprocessing for machines to extract meaningful information\nD. It cannot be analyzed",
+  answer: "Correct answer: C. It is easily interpreted by humans but requires preprocessing for machines to extract meaningful information."
 },
 {
   tag: "1.3",
-  question: "Which statement correctly describes streaming data?",
-  answer: "C. Data is unbounded and processed continuously."
+  question: "Which statement correctly describes streaming data?\nA. The total number of data entries is known in advance\nB. Data is processed once per week\nC. Data is unbounded and processed continuously\nD. Data must be stored before processing",
+  answer: "Correct answer: C. Data is unbounded and processed continuously."
 },
 {
   tag: "1.3",
-  question: "Which type of data typically follows schema-on-write?",
-  answer: "C. Structured data."
+  question: "Which type of data typically follows schema-on-write?\nA. Unstructured data\nB. Semi-structured data\nC. Structured data\nD. Multimedia data",
+  answer: "Correct answer: C. Structured data."
 },
 {
   tag: "1.3",
