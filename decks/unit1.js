@@ -378,6 +378,133 @@ const unit1Deck = [
   tag: "1.1",
   question: "What is structured data? Give examples.",
   answer: "Structured data follows a predefined schema and is stored in tabular form. Examples include relational databases, column-based NoSQL databases, CSV files, and Excel spreadsheets."
+},
+
+/* =======================
+   SECTION 1.4 – DATA ANALYSIS
+   ======================= */
+
+{
+  tag: "1.4",
+  question: "What is the purpose of data analysis in the data processing lifecycle?",
+  answer: "The purpose of data analysis is to gain insights, information, and knowledge from stored data. Data storage itself is not the final goal of data management; instead, organizations aim to create added value by analyzing data. Data analysis transforms raw or processed data into meaningful insights that support understanding, prediction, and decision-making within an organization."
+},
+{
+  tag: "1.4",
+  question: "Why is data analysis not considered a self-purpose in data management?",
+  answer: "Data analysis is not a self-purpose because the ultimate goal of data management is not to store or process data, but to derive insights and support decisions. Without analysis, stored data has no practical value. Data analysis enables organizations to understand past events, anticipate future developments, and choose optimal actions."
+},
+{
+  tag: "1.4",
+  question: "What is descriptive data analytics, and what types of insights does it provide?",
+  answer: "Descriptive data analytics focuses on explaining past or present events. It analyzes historical data to understand what has happened or what is currently happening. Typical methods include statistical summaries, reports, dashboards, spreadsheets, and visual infographics. Descriptive analytics can also include more advanced techniques such as root-cause analysis to identify the reasons behind observed events, such as system failures."
+},
+{
+  tag: "1.4",
+  question: "What is predictive data analytics, and how does it use historical data?",
+  answer: "Predictive data analytics aims to forecast future events by learning patterns and correlations from historical data. Data-driven models are trained on past observations and use these learned relationships to predict future outcomes, such as stock prices, customer churn probabilities, or future demand. Predictive analytics projects past behavior into the future using statistical and machine learning models."
+},
+{
+  tag: "1.4",
+  question: "What is prescriptive data analytics, and how does it differ from predictive analytics?",
+  answer: "Prescriptive data analytics evaluates different future scenarios and recommends actions that lead to the most favorable outcomes. While predictive analytics forecasts what is likely to happen, prescriptive analytics suggests what should be done. It is often used in optimization problems, such as maximizing production efficiency, planning logistics, or analyzing climate impact scenarios."
+},
+{
+  tag: "1.4",
+  question: "What is machine learning, and how does it differ from traditional programming?",
+  answer: "Machine learning is the ability of programs to automatically extract informative patterns from data without explicit step-by-step instructions. In traditional programming, rules are manually defined by developers. In machine learning, models learn rules and patterns directly from data, making them flexible and capable of adapting to new information."
+},
+{
+  tag: "1.4",
+  question: "How are artificial intelligence, machine learning, and deep learning related?",
+  answer: "Artificial intelligence is a broad field that aims to create intelligent systems. Machine learning is a subset of artificial intelligence that focuses on learning patterns from data. Deep learning is a specialized subfield of machine learning that uses neural networks with many layers to learn complex representations, particularly from large or non-tabular datasets."
+},
+{
+  tag: "1.4",
+  question: "On what type of data is machine learning typically performed in data management systems?",
+  answer: "Machine learning is often performed on structured, tabular data stored in data lakes or data warehouses. Each row represents a data point or sample, while columns represent attributes or features. One column may represent the label or target variable that the model aims to predict."
+},
+{
+  tag: "1.4",
+  question: "What is data partitioning into training and testing sets, and why is it important?",
+  answer: "Data partitioning divides labeled data into a training set and a testing set. The training set is used to build the machine learning model, while the testing set is used to evaluate its prediction quality. This separation is important to assess how well the model generalizes to unseen data and to avoid overfitting."
+},
+{
+  tag: "1.4",
+  question: "What is supervised learning, and what role do labels play in it?",
+  answer: "Supervised learning uses labeled data, meaning each data point has a known target value. The model learns the relationship between input features and the target variable during the training phase. Labels provide explicit guidance to the learning algorithm, allowing it to make predictions for unseen data during inference."
+},
+{
+  tag: "1.4",
+  question: "What is the difference between classification and regression tasks in supervised learning?",
+  answer: "Classification tasks predict categorical outcomes, such as whether an email is spam or not. Regression tasks predict numerical values, such as future temperatures or stock prices. Although linear regression is a common regression method, regression tasks are not limited to linear relationships."
+},
+{
+  tag: "1.4",
+  question: "What is unsupervised learning, and how does it differ from supervised learning?",
+  answer: "Unsupervised learning works on unlabeled data and aims to discover hidden patterns without predefined target variables. Unlike supervised learning, there are no labels guiding the learning process. Instead, the algorithms identify structure, similarity, or anomalies within the data."
+},
+{
+  tag: "1.4",
+  question: "What is clustering, and what are typical clustering algorithms?",
+  answer: "Clustering assigns data points to groups or clusters that are not known before analysis. The goal is to group similar data points together. Typical clustering algorithms include k-Means, Hierarchical Clustering, and DBSCAN. Clustering is often used for customer segmentation or survey analysis."
+},
+{
+  tag: "1.4",
+  question: "What is anomaly detection, and where is it commonly applied?",
+  answer: "Anomaly detection identifies data points that deviate significantly from normal patterns. These anomalies may indicate fraud, system failures, or security breaches. Common applications include financial fraud detection, insurance fraud analysis, and intrusion detection in information systems."
+},
+{
+  tag: "1.4",
+  question: "What is dimensionality reduction, and why is it useful?",
+  answer: "Dimensionality reduction reduces the number of features in a dataset while preserving as much information as possible. It improves interpretability, reduces computational complexity, and helps avoid the curse of dimensionality. Typical techniques include Principal Component Analysis (PCA), t-SNE, and Linear Discriminant Analysis (LDA)."
+},
+{
+  tag: "1.4",
+  question: "What are artificial neural networks (ANNs), and what is a perceptron?",
+  answer: "Artificial neural networks are inspired by biological neural networks and consist of interconnected nodes called neurons. A perceptron is the basic unit of an ANN. It combines weighted inputs and activates an output if a threshold is exceeded. Perceptrons form the foundation of more complex neural networks."
+},
+{
+  tag: "1.4",
+  question: "What is backpropagation, and why is it important in neural networks?",
+  answer: "Backpropagation is a training algorithm used in neural networks to adjust weights based on prediction errors. It propagates the error backward through the network to update weights, enabling the model to learn suitable parameter values and improve performance."
+},
+{
+  tag: "1.4",
+  question: "What makes deep learning different from traditional machine learning?",
+  answer: "Deep learning uses neural networks with many hidden layers, allowing the model to learn complex, nonlinear relationships automatically. It is particularly effective for large datasets and non-tabular data such as images, videos, and text. However, it is not always superior to simpler models, especially for small datasets."
+},
+{
+  tag: "1.4",
+  question: "What is time series analysis, and what makes time-indexed data special?",
+  answer: "Time series analysis focuses on data indexed by time and aims to forecast future values based on historical observations. The time index is crucial because the order of data points matters. Time series models rely on temporal dependencies and lagged values rather than multiple independent features."
+},
+{
+  tag: "1.4",
+  question: "How does time series analysis differ from supervised machine learning?",
+  answer: "In supervised machine learning, multiple features are used to predict a target variable. In time series analysis, future values are typically predicted based on a single time-indexed variable and its past values. Although the distinction is becoming blurred, the time index remains a critical aspect of time series data."
+},
+{
+  tag: "1.4",
+  question: "What is CRISP-DM, and why is it important in data science projects?",
+  answer: "CRISP-DM is the Cross-Industry Standard Process for Data Mining. It provides a structured framework for developing data science and machine learning projects. It emphasizes iterative development, close collaboration between stakeholders, and alignment between business goals and technical solutions."
+},
+{
+  tag: "1.4",
+  question: "What are the six phases of the CRISP-DM model?",
+  answer: "The six phases of CRISP-DM are business understanding, data understanding, data preparation, modeling, evaluation, and deployment. These phases are iterative and interdependent rather than strictly sequential."
+},
+{
+  tag: "1.4",
+  question: "Why is collaboration between data management and machine learning teams important in CRISP-DM?",
+  answer: "Many CRISP-DM phases, such as data understanding, data preparation, and deployment, require close collaboration between data management and machine learning teams. High-quality data, proper storage, governance, and deployment infrastructure are essential for building reliable and valuable machine learning models."
+},
+{
+  tag: "1.4",
+  question: "Why must data deletion and data protection be considered at the end of the data processing lifecycle?",
+  answer: "At the end of the data processing lifecycle, organizations must define when and how data should be deleted to comply with data protection principles such as data minimization and storage limitation. Proper data deletion helps ensure legal compliance and ethical data management."
 }
+
+];
 
 ];
