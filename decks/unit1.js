@@ -503,8 +503,105 @@ const unit1Deck = [
   tag: "1.4",
   question: "Why must data deletion and data protection be considered at the end of the data processing lifecycle?",
   answer: "At the end of the data processing lifecycle, organizations must define when and how data should be deleted to comply with data protection principles such as data minimization and storage limitation. Proper data deletion helps ensure legal compliance and ethical data management."
-}
+},
+/* =======================
+   SECTION 1.5 – REPORTING
+   ======================= */
 
-];
+{
+  tag: "1.5",
+  question: "Why is reporting considered the final phase of the data processing lifecycle?",
+  answer: "Reporting is considered the final phase of the data processing lifecycle because it is the stage where the results of all previous phases—data ingestion, storage, processing, and analysis—are presented to users in a comprehensible form. The goal of data processing is not data storage itself but the generation of insights and knowledge that support decision-making. Reporting delivers this added value through visualizations, dashboards, and reports."
+},
+{
+  tag: "1.5",
+  question: "What is reporting in the context of the data processing lifecycle?",
+  answer: "Reporting provides visualizations, dashboards, and textual reports that allow users to gain insights from aggregated and processed data. It transforms analytical results into an understandable and actionable format."
+},
+{
+  tag: "1.5",
+  question: "What is Business Intelligence (BI), and how is it related to reporting?",
+  answer: "Business Intelligence refers to the processes and tools used for data analysis to obtain actionable insights about an organization’s operations. Reporting is a core component of BI, as BI tools generate dashboards, visualizations, and reports that support data-driven decision-making."
+},
+{
+  tag: "1.5",
+  question: "Why is Business Intelligence not limited to business decisions?",
+  answer: "Although called Business Intelligence, BI techniques apply to any data-driven decision-making context. Examples include urban planning, logistics, environmental policies, spatial decision support systems, and other non-business domains where decisions are based on data analysis."
+},
+{
+  tag: "1.5",
+  question: "What is the main objective of reporting and BI?",
+  answer: "The main objective of reporting and BI is to improve decisions by basing them on information and evidence rather than intuition or traditional rules. Organizations use reporting to understand their operations and optimize outcomes."
+},
+{
+  tag: "1.5",
+  question: "What is a Key Performance Indicator (KPI)?",
+  answer: "A Key Performance Indicator (KPI) is a meaningful metric that is used to measure the performance of an activity within an organization. KPIs help organizations monitor progress toward their goals and evaluate operational success."
+},
+{
+  tag: "1.5",
+  question: "Why are KPIs important in reporting?",
+  answer: "KPIs are important because they provide measurable indicators that allow organizations to monitor performance, identify issues, track progress, and support informed decision-making based on data."
+},
+{
+  tag: "1.5",
+  question: "Which insights can be gained from Business Intelligence reporting?",
+  answer: "BI reporting enables evidence-based decision-making, real-time analytics, detailed insights into organizational processes, discovery of business opportunities, control of planning commitments, and monitoring of operations using KPIs."
+},
+{
+  tag: "1.5",
+  question: "Why do BI applications need to integrate data from the entire organization?",
+  answer: "BI applications aim to reflect the reality of the organization. To do this accurately, they must integrate information from the entire organization, including different departments and systems, as well as internal and external data sources."
+},
+{
+  tag: "1.5",
+  question: "What is an ERP system, and what role does it play in BI reporting?",
+  answer: "An ERP (Enterprise Resource Planning) system is an application used to plan and organize a company’s resources. In BI reporting, ERP systems provide internal data such as material costs, financial information, and operational efficiency."
+},
+{
+  tag: "1.5",
+  question: "What is a MES system, and how is it relevant for BI reporting?",
+  answer: "A MES (Manufacturing Execution System) controls and monitors the manufacturing process from raw materials to finished products. In BI reporting, MES systems provide detailed production data used to analyze operational efficiency and production performance."
+},
+{
+  tag: "1.5",
+  question: "Why are external data sources relevant for BI reporting?",
+  answer: "External data sources, such as customer reviews or competitor pricing, provide additional context that cannot be obtained from internal systems alone. They help assess competitiveness, market acceptance, and profitability."
+},
+{
+  tag: "1.5",
+  question: "Give an example of how internal and external data are combined in BI.",
+  answer: "To analyze production costs, BI tools may combine internal ERP and MES data (material costs and operational efficiency) with external data such as competitor prices or customer feedback to evaluate competitiveness and profitability."
+},
+{
+  tag: "1.5",
+  question: "What are the main characteristics of modern BI tools?",
+  answer: "Modern BI tools are designed to be easy to use, support data integration, provide graphical user interfaces for ETL processes, and enable visual and interactive exploration of data through dashboards and web-based reports."
+},
+{
+  tag: "1.5",
+  question: "What role does ETL play in BI tools?",
+  answer: "BI tools often include ETL functionality that allows users to integrate data from multiple sources, transform it into a suitable format, and load it into analytical systems using graphical user interfaces."
+},
+{
+  tag: "1.5",
+  question: "What types of reports do BI tools typically support?",
+  answer: "BI tools typically support dashboards, interactive web-based reports, visual analytics, and textual summaries that allow users to explore and understand data."
+},
+{
+  tag: "1.5",
+  question: "Which of the following best describes the goal of BI reporting?\nA. Data storage\nB. Algorithm training\nC. Decision support through insights\nD. Data ingestion",
+  answer: "Correct answer: C. Decision support through insights."
+},
+{
+  tag: "1.5",
+  question: "Which systems are commonly used as data sources for BI reporting?\nA. ERP systems only\nB. MES systems only\nC. Internal and external systems\nD. Only external data sources",
+  answer: "Correct answer: C. Internal and external systems."
+},
+{
+  tag: "1.5",
+  question: "Name examples of modern BI tools.",
+  answer: "Examples of modern BI tools include Microsoft Power BI, Tableau, and Qlik Sense."
+}
 
 ];
