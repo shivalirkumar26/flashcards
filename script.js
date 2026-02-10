@@ -1,6 +1,7 @@
 let fullDeck = [];
 let deck = [];
 let currentIndex = 0;
+let currentUnit = "unit1";
 
 const IMPORTANT_KEY = "importantCards";
 
@@ -9,21 +10,35 @@ const answerEl = document.getElementById("answer");
 const counterEl = document.getElementById("counter");
 
 function loadDeck() {
-  fullDeck = unit1Deck.map((card, index) => ({
+  currentUnit = document.getElementById("deckSelector").value;
+
+  let sourceDeck = [];
+
+  if (currentUnit === "unit1") {
+    sourceDeck = unit1Deck;
+  } else if (currentUnit === "unit2") {
+    sourceDeck = unit2Deck;
+  }
+
+  fullDeck = sourceDeck.map((card, index) => ({
     ...card,
-    id: index
+    id: `${currentUnit}-${index}` // unique across units
   }));
+
   deck = [...fullDeck];
   currentIndex = 0;
   renderCard();
 }
 
 function getImportantCards() {
-  return JSON.parse(localStorage.getItem(IMPORTANT_KEY)) || [];
+  const stored = JSON.parse(localStorage.getItem(IMPORTANT_KEY)) || {};
+  return stored[currentUnit] || [];
 }
 
 function saveImportantCards(list) {
-  localStorage.setItem(IMPORTANT_KEY, JSON.stringify(list));
+  const stored = JSON.parse(localStorage.getItem(IMPORTANT_KEY)) || {};
+  stored[currentUnit] = list;
+  localStorage.setItem(IMPORTANT_KEY, JSON.stringify(stored));
 }
 
 function toggleImportant() {
@@ -94,4 +109,5 @@ function prevCard() {
   }
 }
 
+// Initial load
 loadDeck();
