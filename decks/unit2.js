@@ -292,5 +292,105 @@ const unit2Deck = [
   tag: "2.3",
   question: "How can you easily remember the Data Security Principles and the GDPR Data Protection Principles using memory helpers?",
   answer: "The Data Security Principles can be remembered using the acronym CANAADIE and the sentence: “Crazy Astronauts Never Ask Aliens During Intergalactic Emergencies.” CANAADIE stands for Confidentiality, Availability, Non-repudiation, Authenticity, Access control, Disaster recovery, Integrity, and Encryption. The GDPR Data Protection Principles can be remembered using the acronym FAADPIS and the sentence: “Cool Lawyers Tell People Data Always Stays In Account.” FAADPIS represents Fairness, Lawfulness and Transparency, Purpose limitation, Data minimisation, Accuracy, Storage limitation, Integrity and Confidentiality, and Accountability. The different themes (technical space theme vs legal lawyer theme) help distinguish security from protection principles."
+},
+/* =======================
+   SECTION 2.4 – DATA ENCRYPTION
+   ======================= */
+
+{
+  tag: "2.4",
+  question: "What is data encryption and what is its purpose?",
+  answer: "Data encryption is the process of converting readable data into an unreadable format called ciphertext. Ciphertext cannot be understood by unauthorized users and can only be deciphered using a password or secret key held by authorized users. The purpose of encryption is to protect the confidentiality and integrity of data by preventing unauthorized access and preventing data from being read or altered."
+},
+{
+  tag: "2.4",
+  question: "What is ciphertext?",
+  answer: "Ciphertext is the unreadable format of data that results after encryption. It cannot be interpreted by unauthorized users and requires a secret key or password to be converted back into its original readable form."
+},
+{
+  tag: "2.4",
+  question: "What is the difference between encryption at rest and encryption in transit?",
+  answer: "Encryption at rest refers to the encryption of stored data, such as archived datasets, database tables, logs, and backups. Its purpose is to protect data if storage systems are accessed by unauthorized users. Encryption in transit refers to the encryption of data while it is being transferred over a network. It protects data during transmission and prevents interception by unauthorized parties."
+},
+{
+  tag: "2.4",
+  question: "Which of the following best describes symmetric encryption?\nA. It uses a public key for encryption and a private key for decryption\nB. It uses the same key for encryption and decryption\nC. It produces a fixed-length digital fingerprint\nD. It does not require key management",
+  answer: "Correct answer: B. Symmetric encryption uses the same key for encryption and decryption."
+},
+{
+  tag: "2.4",
+  question: "Explain symmetric encryption and give examples.",
+  answer: "Symmetric encryption uses the same cryptographic key for both encryption and decryption. This means that the sender and receiver must share the same secret key. It is efficient and suitable for encrypting large volumes of data. Examples include DES (Data Encryption Standard), AES (Advanced Encryption Standard), and Blowfish. AES, especially with 256-bit keys, is considered a secure and widely used encryption method."
+},
+{
+  tag: "2.4",
+  question: "Which of the following best describes asymmetric encryption?\nA. It uses one shared key for both encryption and decryption\nB. It uses a pair of public and private keys\nC. It cannot be used for secure communication\nD. It is only used for hashing",
+  answer: "Correct answer: B. Asymmetric encryption uses a pair of public and private keys."
+},
+{
+  tag: "2.4",
+  question: "Explain asymmetric encryption and give examples.",
+  answer: "Asymmetric encryption, also referred to as public key cryptography, uses a pair of keys: a public key for encryption and a private key for decryption. The public key can be shared openly, while the private key is kept secret. This method is commonly used for secure communication and key exchange. Examples include RSA, Diffie-Hellman, and Elliptic Curve Cryptography such as ECDSA."
+},
+{
+  tag: "2.4",
+  question: "What are hash functions and what are they used for?",
+  answer: "Hash functions generate a fixed-length digital fingerprint of data. This fingerprint is unique to the given content and is used for verifying data integrity. If the content changes, the hash value changes as well. Hash functions are one-way functions and cannot be reversed to obtain the original data. Examples include SHA-256 and MD-5."
+},
+{
+  tag: "2.4",
+  question: "Why is key length important in encryption?",
+  answer: "The robustness of an encryption algorithm is related to the length of the cryptographic key. Longer keys provide greater security because they increase the number of possible combinations that must be computationally verified to break the encryption. For example, AES 256-bit encryption relies on a 256-bit key and is considered secure because of the large number of possible key combinations."
+},
+{
+  tag: "2.4",
+  question: "What are Hardware Security Modules (HSM)?",
+  answer: "Hardware Security Modules (HSM) are physical devices designed for secure key storage and cryptographic operations. They can range from personal cryptographic chipsets to large hardware modules capable of handling massive cryptographic operations. Their purpose is to securely manage and protect cryptographic keys."
+},
+{
+  tag: "2.4",
+  question: "What are cloud-based key stores and give examples.",
+  answer: "Cloud-based key stores are centralized key management solutions that provide secure storage and management of cryptographic keys in cloud environments. Examples include Amazon Key Management Service (KMS) and Azure Key Vault."
+},
+{
+  tag: "2.4",
+  question: "Explain Transparent Data Encryption (TDE).",
+  answer: "Transparent Data Encryption (TDE) is a database encryption approach handled automatically by the Database Management System (DBMS). It transparently encrypts data at rest and in transit without requiring manual intervention by users. Data at rest includes tables, tablespaces, logs, and backups, while data in transit refers to data retrieval over networks."
+},
+{
+  tag: "2.4",
+  question: "What is column-level encryption?",
+  answer: "Column-level encryption encrypts only specific sensitive data stored in particular columns of a database rather than encrypting the entire database. This approach improves performance by applying encryption only where necessary."
+},
+{
+  tag: "2.4",
+  question: "What is file-level encryption?",
+  answer: "File-level encryption encrypts individual database files stored on disk, including data files, index files, and backups. This approach is useful for protecting data stored on portable devices such as laptops or cloud-based databases."
+},
+{
+  tag: "2.4",
+  question: "What is application-level encryption?",
+  answer: "Application-level encryption encrypts data within the application before it is stored in the database. The application is responsible for managing cryptographic keys and performing the encryption process. This method is often used for highly sensitive information."
+},
+{
+  tag: "2.4",
+  question: "Which protocol is commonly used for encryption in transit?\nA. FTP\nB. HTTP\nC. SSL/TLS\nD. CSV",
+  answer: "Correct answer: C. SSL/TLS."
+},
+{
+  tag: "2.4",
+  question: "Explain the role of SSL and TLS in data encryption.",
+  answer: "SSL (Secure Socket Layer) and TLS (Transport Layer Security) are protocols used to encrypt data during transmission over a network. They ensure confidentiality and integrity of data in transit. The encryption is transparent to users, meaning that users do not need to manually manage encryption keys during communication."
+},
+{
+  tag: "2.4",
+  question: "Give an example of how encryption protects personal information stored in a database.",
+  answer: "Sensitive information such as names, addresses, and account details can be encrypted using a symmetric encryption algorithm such as AES. The encryption key is stored securely and separately from the encrypted data. If unauthorized access to the database occurs, the attacker will only see encrypted ciphertext, which cannot be read without the encryption key."
+},
+{
+  tag: "2.4",
+  question: "Name and explain the four database encryption approaches mentioned in the IU material.",
+  answer: "The four database encryption approaches are Transparent Data Encryption (TDE), which encrypts data at rest and in transit automatically within the DBMS; column-level encryption, which encrypts only specific sensitive columns; file-level encryption, which encrypts database files including data files, index files, and backups; and application-level encryption, which encrypts data within the application before storing it in the database and requires the application to manage keys."
 }
+  
 ];
