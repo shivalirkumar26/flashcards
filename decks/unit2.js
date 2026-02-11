@@ -208,5 +208,89 @@ const unit2Deck = [
   tag: "2.2",
   question: "Why must risk management procedures be continuously monitored and documented?",
   answer: "According to the IU course, security risks evolve over time, so mitigation strategies must be monitored and adapted regularly. Documentation provides evidence that security risks are properly addressed and that the organization complies with data security regulations."
+},
+/* =======================
+   UNIT 2 – SECTION 2.3 – DATA PROTECTION PRINCIPLES (GDPR)
+   ======================= */
+
+{
+  tag: "2.3",
+  question: "What is the GDPR and why is it important for systems handling data of EU citizens?",
+  answer: "The General Data Protection Regulation (GDPR), Regulation (EU) 2016/679, became effective in May 2018 and provides a legal framework for the protection and privacy of personal data of EU citizens. It defines rules for the collection, storage, and processing of personal data. The GDPR establishes roles of stakeholders, data protection principles, and rights and obligations of the involved parties. It is crucial for any system handling personal data of EU citizens because it legally mandates compliance with data protection principles and requires organizations to design and operate data systems in accordance with these principles."
+},
+{
+  tag: "2.3",
+  question: "What are the roles defined under the GDPR framework?",
+  answer: "The GDPR distinguishes three main roles. Data subjects are the individuals from whom personal data is collected. Data controllers are the entities that hold the collected data and determine the purposes and means of processing the data. Data processors collect and process personal data on behalf of and commissioned by the data controllers. These clearly defined roles establish responsibilities and accountability within the data handling process."
+},
+{
+  tag: "2.3",
+  question: "Name and explain all the Data Protection Principles under the GDPR.",
+  answer: "The GDPR defines several core data protection principles that guide the lawful and ethical processing of personal data. These principles are: Fairness, Lawfulness, and Transparency; Purpose Limitation; Data Minimisation; Accuracy; Storage Limitation; Integrity and Confidentiality; and Accountability. Fairness, Lawfulness, and Transparency require that data is processed on a legal basis, in a fair manner, and that individuals are clearly informed about what data is collected, for which purpose, and for how long. Purpose Limitation means data may only be processed for specified and legitimate purposes. Data Minimisation requires collecting only the data that is necessary and relevant for the intended purpose. Accuracy obliges controllers to ensure that personal data is correct and up to date. Storage Limitation means personal data must not be kept longer than necessary and should be deleted or anonymized once the purpose is fulfilled. Integrity and Confidentiality require appropriate technical and organizational measures to protect personal data against unauthorized access, loss, destruction, or damage. Accountability emphasizes that the data controller is responsible for complying with all these principles and must be able to demonstrate such compliance."
+},
+{
+  tag: "2.3",
+  question: "Explain the GDPR principle of Fairness, Lawfulness, and Transparency in detail.",
+  answer: "Fairness, lawfulness, and transparency require that personal data must be processed on a legal basis such as consent, public interest, or legitimate interest. Consent must be explicit in the case of sensitive data. Lawfulness ensures that data collection is justified by a valid legal ground. Fairness means that data processing must be reasonable and not harmful from the perspective of the data subject. Transparency requires that organizations clearly inform individuals about what data is collected, for what purpose, who processes it, and how long it will be stored. This information must be communicated in a clear and understandable manner."
+},
+{
+  tag: "2.3",
+  question: "What does the principle of Purpose Limitation mean under the GDPR?",
+  answer: "Purpose limitation means that personal data must only be collected and processed for clearly specified, explicit, and legitimate purposes. Data must not be used for purposes that are incompatible with the original purpose unless additional consent is obtained. For example, address data collected for shipping products must not be used for marketing or advertisement without explicit additional authorization from the data subject."
+},
+{
+  tag: "2.3",
+  question: "Explain the GDPR principle of Data Minimisation.",
+  answer: "Data minimisation requires that personal data collected must be appropriate, relevant, and limited to what is necessary for achieving the specified purpose. Before collecting data, organizations must define the minimum quantity of data required. For example, collecting health data from employees is only allowed if it is necessary for a legitimate purpose such as workplace risk assessment. Otherwise, such collection would violate the principle of data minimisation."
+},
+{
+  tag: "2.3",
+  question: "What does the Accuracy principle require from data controllers and processors?",
+  answer: "The accuracy principle requires that personal data must be correct and up to date. Data controllers and processors are obligated to correct inaccurate data upon request or when changes occur that render the data outdated. This ensures that decisions based on personal data are made using reliable and current information."
+},
+{
+  tag: "2.3",
+  question: "Explain the principle of Storage Limitation.",
+  answer: "Storage limitation means that personal data must not be stored longer than necessary for the purpose for which it was collected. Organizations must define retention policies specifying how long data is stored and when it is deleted or anonymized. This deletion or anonymization should be technically implemented in the data system to ensure compliance."
+},
+{
+  tag: "2.3",
+  question: "What is meant by Integrity and Confidentiality under the GDPR?",
+  answer: "Integrity and confidentiality require that personal data be processed securely and protected against unauthorized or unlawful access, processing, accidental loss, destruction, or damage. This includes implementing appropriate technical and organizational measures to safeguard data security and ensure that data remains accurate, complete, and protected from breaches."
+},
+{
+  tag: "2.3",
+  question: "What does Accountability mean in the GDPR context?",
+  answer: "Accountability emphasizes the responsibility of the data controller to comply with all GDPR principles and to be able to demonstrate compliance. It is not a standalone principle but reinforces that controllers must document, justify, and prove that appropriate data protection measures are implemented."
+},
+{
+  tag: "2.3",
+  question: "What rights do data subjects have under the GDPR?",
+  answer: "Data subjects have several rights including the right of information about which personal data are collected and processed; the right to know the source of personal data; the right of access to obtain a copy of their personal data; the right to rectification; the right to erasure (right to be forgotten); the right to object to processing; the right to restrict processing; the right to be notified about further processing activities or data breaches; the right to data portability; and the right not to be subject to profiling or automated decision-making without proper safeguards."
+},
+{
+  tag: "2.3",
+  question: "What is the right not to be subject to profiling and what must the data controller do before implementing automated decision-making?",
+  answer: "The right not to be subject to profiling protects individuals from automated processing that evaluates personal aspects such as performance at work, economic situation, health, personal preferences, reliability, behavior, location, or movements. Before implementing automated decision-making systems, the data controller must conduct a Data Impact Assessment to evaluate privacy risks. The use of such systems requires explicit authorization from the data subject unless authorized by law. Individuals also have the right to obtain explanatory information about the logic behind automated decisions."
+},
+{
+  tag: "2.3",
+  question: "Explain the concepts of Data Protection by Design and Data Protection by Default.",
+  answer: "Data Protection by Design requires that data protection principles are technically implemented into the architecture of data systems from the earliest stage of development. Data Protection by Default means that the highest possible data protection settings must be selected by default throughout the system lifecycle. These principles ensure that privacy is embedded into systems proactively rather than retroactively."
+},
+{
+  tag: "2.3",
+  question: "What is anonymization and what are the different categories of attributes that must be considered?",
+  answer: "Anonymization is a technique used to remove Personal Identifiable Information (PII) so that re-identification of individuals is extremely unlikely using appropriate means. There are four categories of attributes: explicit identifiers (direct identifiers like name or email), quasi-identifiers (attributes like zip code, gender, and birth date that may identify a person in combination), sensitive information (health, financial data, political beliefs), and non-sensitive information (data without linkage to individuals). Anonymization techniques include suppression, generalization, permutation, perturbation, k-anonymity, l-diversity, t-closeness, and differential privacy."
+},
+{
+  tag: "2.3",
+  question: "What is pseudonymization and how does it differ from anonymization?",
+  answer: "Pseudonymization substitutes Personal Identifiable Information with random identifiers using a linkage table that connects the pseudonyms to the original identities. Unlike anonymization, pseudonymized data can be re-identified by the data controller using the linkage table. Therefore, pseudonymization does not completely remove identifiability but reduces privacy risks while maintaining the possibility of controlled re-identification."
+},
+{
+  tag: "2.3",
+  question: "How can you easily remember the Data Security Principles and the GDPR Data Protection Principles using memory helpers?",
+  answer: "The Data Security Principles can be remembered using the acronym CANAADIE and the sentence: “Crazy Astronauts Never Ask Aliens During Intergalactic Emergencies.” CANAADIE stands for Confidentiality, Availability, Non-repudiation, Authenticity, Access control, Disaster recovery, Integrity, and Encryption. The GDPR Data Protection Principles can be remembered using the acronym FAADPIS and the sentence: “Cool Lawyers Tell People Data Always Stays In Account.” FAADPIS represents Fairness, Lawfulness and Transparency, Purpose limitation, Data minimisation, Accuracy, Storage limitation, Integrity and Confidentiality, and Accountability. The different themes (technical space theme vs legal lawyer theme) help distinguish security from protection principles."
 }
 ];
