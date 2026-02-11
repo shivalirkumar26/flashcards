@@ -391,6 +391,95 @@ const unit2Deck = [
   tag: "2.4",
   question: "Name and explain the four database encryption approaches mentioned in the IU material.",
   answer: "The four database encryption approaches are Transparent Data Encryption (TDE), which encrypts data at rest and in transit automatically within the DBMS; column-level encryption, which encrypts only specific sensitive columns; file-level encryption, which encrypts database files including data files, index files, and backups; and application-level encryption, which encrypts data within the application before storing it in the database and requires the application to manage keys."
+},
+/* =======================
+   UNIT 2 – SECTION 2.5 – DATA MASKING STRATEGY
+   ======================= */
+
+{
+  tag: "2.5",
+  question: "What is data masking and what is its purpose?",
+  answer: "Data masking, also referred to as data sanitization, is a technique that substitutes original values in data with randomized or obfuscated values in order to secure and keep confidential personally identifiable data. The masked data can then be used for analysis, research, or testing without compromising the privacy of personal data. In contrast to encrypted data, masked data is not supposed to be reversed to its original values by reverse engineering or an algorithm."
+},
+{
+  tag: "2.5",
+  question: "Explain the difference between data masking and encryption.",
+  answer: "Encryption converts data into unreadable ciphertext that can be reversed to its original form using a secret key. Data masking, on the other hand, replaces sensitive values with altered or randomized values and is not meant to be reversed. Encryption is reversible with the correct key, whereas masked data is not supposed to be reconstructed into its original values."
+},
+{
+  tag: "2.5",
+  question: "What is shuffling as a data masking technique?",
+  answer: "Shuffling changes the values in a column randomly by reordering the values. For example, the place of residence of individuals in a database can be interchanged randomly across records. The values remain valid, but their linkage to the original individual is broken."
+},
+{
+  tag: "2.5",
+  question: "What is scrambling in data masking?",
+  answer: "Scrambling changes the value of data by reordering its alphanumeric characters. For example, an ID number such as 894264Q can be transformed into 6Q94824. The structure of the value remains similar, but the original content is obfuscated."
+},
+{
+  tag: "2.5",
+  question: "What is substitution in data masking?",
+  answer: "Substitution replaces the original content of sensitive variables with other values from a set of possible values. The substituted values must satisfy constraints in order to conserve the original characteristics of the data. For example, email records may be replaced with fictive yet valid email addresses to preserve structure while protecting identity."
+},
+{
+  tag: "2.5",
+  question: "What are data aging and variance in data masking?",
+  answer: "Data aging or variance modifies numerical values. Data aging adds or subtracts a random offset from the original numeric value. Variance adds noise to the original value according to the data distribution. These methods preserve statistical properties while obfuscating individual values."
+},
+{
+  tag: "2.5",
+  question: "What is character masking?",
+  answer: "Character masking substitutes part of the original value with a given character while leaving only some of the original information visible. For example, all digits of a telephone number may be replaced with * except for the last three digits."
+},
+{
+  tag: "2.5",
+  question: "What does nullifying mean in data masking?",
+  answer: "Nullifying substitutes the original values with null values. This completely removes the sensitive information from the dataset."
+},
+{
+  tag: "2.5",
+  question: "What is static data masking?",
+  answer: "Static data masking refers to creating a copy of the original data and obfuscating sensitive fields in that copy. The masked copy is then used for analysis, testing, or demonstration by third parties while preserving the confidentiality of personal data. The production system remains unchanged."
+},
+{
+  tag: "2.5",
+  question: "What is dynamic data masking?",
+  answer: "Dynamic data masking is applied in production systems and obfuscates sensitive information at the time of access based on role-based policies. For example, administrative staff in a health system may only see appointment information while medical history remains hidden or masked, whereas doctors may access the full information."
+},
+{
+  tag: "2.5",
+  question: "Why is dynamic data masking considered more suitable for production systems?",
+  answer: "Dynamic data masking provides flexibility by applying masking rules at runtime depending on the user's role. This allows sensitive information to be selectively hidden without modifying the underlying production database, making it more suitable for operational systems."
+},
+{
+  tag: "2.5",
+  question: "What are the main challenges associated with data masking?",
+  answer: "The process of data masking can become complicated in large databases. It may reduce system performance as masking requires processing resources. Obfuscated data requires maintenance when production systems change. Data integrity can be lost if masking breaks relationships between tables or alters structure. Inadequate masking approaches can also lead to leakage of sensitive information."
+},
+{
+  tag: "2.5",
+  question: "How can data integrity be compromised during masking?",
+  answer: "Data integrity can be compromised if masking changes the structure or relationships between datasets. For example, scrambling identifier values can break joins with external tables. Subsetting may lead to nonrepresentative results. Improper randomization may alter the meaning of features."
+},
+{
+  tag: "2.5",
+  question: "Name examples of database-integrated data masking solutions.",
+  answer: "Microsoft SQL Server integrates with Redgate SQL Data Masker. Oracle SQL Server uses the Oracle Data Masking and Subsetting Utility to apply obfuscation methods."
+},
+{
+  tag: "2.5",
+  question: "Name examples of standalone data masking applications.",
+  answer: "Commercial standalone applications include Delphix Dynamic Platform, Informatica MDM, and IBM Infosphere Data Privacy. Talend Data Masking is an open-source solution. These tools are compatible with on-premise and cloud storage solutions such as AWS S3 and Microsoft Azure Blob Storage."
+},
+{
+  tag: "2.5",
+  question: "How does AWS support data masking?",
+  answer: "Amazon Web Services offers data masking capabilities integrated with Amazon RedShift Data Management, Amazon S3 Inventory, and Amazon Macie. Amazon Macie automatically discovers sensitive information stored in Amazon S3 and enables automatic protection by obfuscating its values in reports."
+},
+{
+  tag: "2.5",
+  question: "How does Microsoft Azure support data masking?",
+  answer: "Microsoft Azure provides dynamic data masking solutions in Azure SQL Database and Azure SQL Data Warehouse. The Azure Security Center establishes masking rules and automatically hides sensitive data in reports and logs."
 }
   
 ];
