@@ -15,10 +15,12 @@ function loadDeck() {
   let sourceDeck = [];
 
   if (currentUnit === "unit1") {
-    sourceDeck = unit1Deck;
-  } else if (currentUnit === "unit2") {
-    sourceDeck = unit2Deck;
-  }
+  sourceDeck = unit1Deck;
+} else if (currentUnit === "unit2") {
+  sourceDeck = unit2Deck;
+} else if (currentUnit === "unit3") {
+  sourceDeck = unit3Deck;
+}
 
   fullDeck = sourceDeck.map((card, index) => ({
     ...card,
