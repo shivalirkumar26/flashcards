@@ -20,6 +20,8 @@ function loadDeck() {
   sourceDeck = unit2Deck;
 } else if (currentUnit === "unit3") {
   sourceDeck = unit3Deck;
+} else if (currentUnit === "unit4") {
+  sourceDeck = unit4Deck;
 }
 
   fullDeck = sourceDeck.map((card, index) => ({
