@@ -148,6 +148,56 @@ const unit3Deck = [
   tag: "3.2",
   question: "Explain directory-based and geospatial partitioning and their relevance in distributed cloud systems.",
   answer: "Directory-based partitioning divides data files into folders in a file hierarchy based on attributes such as the date of creation. It is commonly used in cloud storage systems. Geospatial partitioning distributes data according to geographic location and is appropriate for applications that require low latency by processing data close to its origin. Geospatial partitioning is also relevant for compliance with data protection regulations and data sovereignty requirements. Examples include Azure Blob Storage, Azure Data Lake Storage, and Amazon S3, which use containers, folders, buckets, and prefixes to implement partitioning strategies."
+},
+{
+  tag: "3.3",
+  question: "What are the key components required for distributed data processing frameworks?",
+  answer: "Distributed data processing relies on several key components. Data partitioning divides data into chunks and distributes them across multiple nodes in a cluster. Data shuffling reorganizes data distributions to ensure load balancing and processing efficiency. Task scheduling assigns tasks to nodes, supervises execution, and handles failures to maintain consistency. Data-based code execution brings the code to the data instead of transferring large datasets to a centralized system. Data storage on disk or in memory is designed for fast access during processing. Fault tolerance detects and manages failures to ensure processing continuity. Performance optimization reduces data movement, intermediate steps, and communication overhead to improve efficiency."
+},
+{
+  tag: "3.3",
+  question: "Explain the MapReduce programming paradigm and its main processing steps.",
+  answer: "MapReduce is a distributed computing programming paradigm initially developed by Google. It consists of two main functions: the Map function and the Reduce function. The Map function takes an input value, performs a stateless computation, and outputs key-value pairs. After mapping, the system performs a shuffle phase, where all keys are sorted and grouped. Finally, the Reduce function aggregates the values associated with each key. This paradigm is suitable for rule-based filtering, aggregation, counting, and descriptive statistics. However, complex processing logic, such as machine learning algorithms, is difficult to implement directly using MapReduce."
+},
+{
+  tag: "3.3",
+  question: "What are the limitations of MapReduce and how do Pig and Hive address them?",
+  answer: "One major limitation of MapReduce is that programming complex processing logic is difficult and intricate. Implementing machine learning algorithms or advanced data transformations directly in MapReduce is challenging. Apache Pig and Apache Hive provide higher-level abstractions over MapReduce. Pig offers a simplified scripting language that runs MapReduce under the hood, while Hive provides a SQL-like interface for grouping, querying, and joining data. These abstractions make distributed processing more accessible and easier to use."
+},
+{
+  tag: "3.3",
+  question: "Explain why Apache Spark is faster than MapReduce.",
+  answer: "Apache Spark addresses a major drawback of MapReduce related to disk I/O operations. MapReduce frequently writes intermediate results to disk to ensure fault tolerance, which slows down performance. Spark groups intermediate processing steps into a Directed Acyclic Graph (DAG) and keeps intermediate data in memory. This in-memory computation significantly reduces disk reads and writes, making Spark much faster than MapReduce. Additionally, Spark provides higher-level abstractions and can handle both batch and stream processing."
+},
+{
+  tag: "3.3",
+  question: "What are Resilient Distributed Datasets (RDDs) in Apache Spark?",
+  answer: "Resilient Distributed Datasets (RDDs) are immutable collections of objects distributed across multiple cluster nodes. They form the foundation of Apache Spark. The term resilient refers to the fact that data replication and lineage information allow automatic recovery from node failures without data loss. RDDs support parallel processing and transformations such as map and filter, enabling scalable distributed computation."
+},
+{
+  tag: "3.3",
+  question: "Explain the main components of the Spark ecosystem.",
+  answer: "The Spark ecosystem consists of Apache Spark Core and several higher-level libraries. Spark Core provides in-memory distributed computation based on RDDs. Spark SQL processes structured data using SQL queries and DataFrames. Spark Streaming enables scalable and fault-tolerant stream processing using mini-batches. Spark MLlib provides machine learning algorithms for large-scale data processing pipelines. Spark GraphX supports distributed graph processing. Together, these components make Spark suitable for batch processing, stream processing, machine learning, and graph analytics."
+},
+{
+  tag: "3.3",
+  question: "What is the difference between batch processing and stream processing in distributed frameworks?",
+  answer: "Batch processing handles bounded datasets collected over a defined period and processes them in scheduled intervals. Stream processing handles unbounded data continuously as it arrives. In distributed frameworks such as Spark, batch processing can be performed using Spark Core and Spark SQL, while stream processing can be implemented using Spark Streaming. Spark Streaming uses mini-batches to simulate real-time processing."
+},
+{
+  tag: "3.3",
+  question: "Explain how Apache Flink processes distributed data streams.",
+  answer: "Apache Flink implements both stream and batch processing. It reads data as input from streams and partitions it into smaller parts for parallel processing. Data transformations such as map, filter, and reduce are applied. Aggregation operations such as windowing processing are performed to group data over time intervals. The results are written to external sinks. Fault tolerance is achieved using checkpoints that store the state of data streams to enable recovery from failures."
+},
+{
+  tag: "3.3",
+  question: "Describe the architecture and processing model of Apache Storm.",
+  answer: "Apache Storm processes distributed data streams using Directed Acyclic Graphs (DAGs). The DAG consists of small, discrete operations that form a transformation pipeline. Streaming data flows along the edges of the graph from one node to another. At each node, specific data transformations are executed. This model enables continuous real-time stream processing."
+},
+{
+  tag: "3.3",
+  question: "How are distributed data processing frameworks implemented in cloud environments?",
+  answer: "Cloud environments provide managed services built on open-source distributed frameworks. AWS Elastic MapReduce is a managed service for processing data stored in Amazon S3. Microsoft Azure HDInsights is a managed service using Hadoop, Spark, or Hive for scalable processing. Databricks is a managed cloud platform built on Apache Spark that provides tools for data ingestion, machine learning, and collaboration. These managed services provide scalability, fault tolerance, and simplified cluster management."
 }
   
 ];
