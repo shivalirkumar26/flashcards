@@ -60,6 +60,60 @@ const unit4Deck = [
   tag: "4.1",
   question: "What are the core architectural components of Apache NiFi?",
   answer: "Apache NiFi is an open-source ETL tool with a flow-based distributed architecture. Its basic unit of information is the FlowFile, which contains data content as key-value pairs. NiFi uses three repositories: the FlowFile Repository to track metadata and processing state, the Content Repository to store the actual data content, and the Provenance Repository to record the history and lineage of data transfers. A flow controller supervises execution, processor nodes execute ETL operations, and ZooKeeper manages cluster coordination. NiFi supports parallel processing and scalability."
+},
+/* =======================
+   SECTION 4.2 – DATA VIRTUALIZATION
+   ======================= */
+
+{
+  tag: "4.2",
+  question: "What is data virtualization?",
+  answer: "Data virtualization is the creation of a logical data layer that integrates data from multiple underlying sources and presents it in a specified unified format without physically copying the data. The data remains stored in its original systems, and the virtualization layer provides a consistent, standardized view that hides the technical complexity of the underlying architecture."
+},
+{
+  tag: "4.2",
+  question: "Explain the concept of abstraction in data virtualization.",
+  answer: "Abstraction in data virtualization refers to separating the data from its underlying physical sources and presenting it in a consistent and unified format. The abstraction layer hides the diversity of source systems, data models, storage formats, and technical implementations, allowing users and applications to interact with the data without needing to understand how or where it is physically stored."
+},
+{
+  tag: "4.2",
+  question: "What is meant by virtual data access in data virtualization?",
+  answer: "Virtual data access is the capability to access data from different source systems without physically copying it into a centralized repository. Instead of moving data, the virtualization layer uses logical connections or pointers to retrieve the data in real time from the original sources. This enables unified access while keeping the data in its original storage location."
+},
+{
+  tag: "4.2",
+  question: "Explain how data transformation works in data virtualization.",
+  answer: "In data virtualization, data transformation is performed on-the-fly when data is requested. The virtualization layer converts data from different formats and schemas into a standardized and clean data view that complies with a defined logical data model. These transformations may include format alignment, schema mapping, filtering, aggregation, and data cleaning. Unlike ETL-based systems, the transformation is not permanently stored but dynamically applied during query execution."
+},
+{
+  tag: "4.2",
+  question: "What are the main advantages of data virtualization?",
+  answer: "The main advantages of data virtualization include seamless access to data through unified logical views, on-the-fly data integration, faster prototyping of applications because logical views can easily be adapted, expandability to include new data sources without redesigning the physical architecture, and optimization of storage space because no physical copies of the data are created and duplicates are avoided."
+},
+{
+  tag: "4.2",
+  question: "What are the main disadvantages of data virtualization?",
+  answer: "The main disadvantages of data virtualization include slower response times compared to systems such as data warehouses that precompute and store aggregated data views. Since virtualization retrieves and transforms data in real time from multiple sources, latency may increase. Additionally, virtualization faces challenges in storing historical and versioned data because unified views are derived dynamically and usually represent only snapshots of the underlying systems rather than persistently stored historical states."
+},
+{
+  tag: "4.2",
+  question: "Explain the difference between data virtualization and data warehouses.",
+  answer: "Data virtualization does not physically copy data into a centralized repository but instead creates a logical layer that provides unified access to distributed data sources in real time. In contrast, data warehouses rely on ETL processes that physically copy, transform, and store data in a centralized storage system. Data warehouses often precompute aggregates and support historical storage, while data virtualization focuses on abstraction, flexibility, and dynamic integration without data duplication."
+},
+{
+  tag: "4.2",
+  question: "Explain the difference between data federation and data virtualization.",
+  answer: "Data federation refers to combining multiple data sources into a single unified virtual view without copying the data. Data virtualization is a broader concept that includes data federation but can also provide abstraction and unified views over a single data source. Therefore, data federation is one implementation strategy within the broader concept of data virtualization."
+},
+{
+  tag: "4.2",
+  question: "Why can response times be slower in data virtualization compared to data warehouses?",
+  answer: "Response times in data virtualization can be slower because queries must access and retrieve data from multiple underlying systems in real time. Transformations and integration are applied dynamically during query execution. In contrast, data warehouses store precomputed and aggregated data views, which significantly reduces query processing time. Therefore, virtualization trades storage efficiency and flexibility for potentially higher latency."
+},
+{
+  tag: "4.2",
+  question: "Name and explain technical approaches used to implement data virtualization.",
+  answer: "Technical approaches to implement data virtualization include data federation, which combines multiple sources into a single logical virtual view; data caching, where data is temporarily loaded into an in-memory or cache layer to improve performance; and data services, which expose standardized data views through API endpoints such as RESTful APIs. These approaches enable unified and consistent access to distributed data without physically consolidating it into a centralized repository."
 }
 
 ];
