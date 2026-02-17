@@ -164,6 +164,56 @@ const unit4Deck = [
   tag: "4.3",
   question: "Give examples of DaaS applications and explain their purpose.",
   answer: "Examples of DaaS applications include commercial data services such as Informatica offering verified contact information for commercial use, and non-commercial platforms such as the European Integrated Data Archive (IDEA) providing scientific seismic data, or Copernicus offering earth observation data. These services provide integrated, curated, and high-quality data to users through standardized access mechanisms, enabling analytical applications and supporting data-driven strategies."
+},
+{
+  tag: "4.4",
+  question: "What is data governance and what is its main objective within an organization?",
+  answer: "Data governance focuses on managing data in an organization to maximize its value by assuring its availability, integrity, usability, and security. It ensures that data are accurate, consistent, secure, and compliant with regulations throughout all phases of the data lifecycle. Data governance is based on defined standards, policies, and procedures for data management and involves multiple stakeholders across the organization."
+},
+{
+  tag: "4.4",
+  question: "Explain the difference between data management and data quality management.",
+  answer: "Data management includes frameworks and processes that consider the entire data lifecycle, often involving technical requirement analysis and implementation of technical solutions. Data quality management, on the other hand, focuses specifically on ensuring that data are accurate, consistent, relevant, and complete. It emphasizes that data quality is primarily a communicative challenge rather than purely technical and includes root cause analyses and preventive standards to avoid recurring data issues."
+},
+{
+  tag: "4.4",
+  question: "At which three stages can data quality issues be introduced into a data system?",
+  answer: "Data quality issues can be introduced during data ingestion, when changes are applied to the target system, and when changes occur over time. During ingestion, errors may arise from manual data entry, insufficient metadata, inconsistent source systems, or failures in batch or real-time interfaces. Errors can also occur when subsystems fail to capture updates or when new analyses misuse existing data. Over time, inconsistencies may arise if data processing or cleansing activities are not properly communicated or documented."
+},
+{
+  tag: "4.4",
+  question: "What are the six pragmatic data quality dimensions and what does each one mean?",
+  answer: "The six pragmatic data quality dimensions are accuracy, completeness, consistency, validity, timeliness, and uniqueness. Accuracy means that the data are free from errors such as typos or incorrect values. Completeness evaluates whether the dataset sufficiently covers the topic at hand. Consistency ensures that data follow uniform standards across the system. Validity assesses whether data follow predefined rules, constraints, and formats. Timeliness measures whether data are available when required. Uniqueness ensures that redundant or duplicate entries do not exist in the system."
+},
+{
+  tag: "4.4",
+  question: "Why is data quality considered more of a communicative challenge than a purely technical one?",
+  answer: "Data quality is considered more of a communicative challenge because it depends heavily on how data are collected, organized, interpreted, modified, and used across departments. Inconsistent communication, unclear ownership, lack of documentation, and misinterpretation of data often cause quality problems. While technical tools can measure or detect issues, sustainable data quality requires clearly defined roles, responsibilities, policies, and organizational collaboration."
+},
+{
+  tag: "4.4",
+  question: "What is the role of the Chief Data Officer (CDO) in data governance?",
+  answer: "The Chief Data Officer (CDO) is responsible for the overall management and strategy of the organization's data assets. The CDO ensures that data are used efficiently and align with organizational objectives. If a data governance board exists, the CDO collaborates with it to define policies, standards, and long-term strategies for data management and quality."
+},
+{
+  tag: "4.4",
+  question: "Explain the five data quality management capability levels.",
+  answer: "Capability level 1 means data are processed only for specific use cases without organization-wide policies. At level 2, documented specifications and continuous monitoring exist. Level 3 introduces structured data-related support such as qualified staff and infrastructure, as well as long-term data quality planning and policies. Level 4 includes overall system assessment and the introduction of a data assurance process. At level 5, data quality is fully integrated into all operations, including continuous improvement, awareness raising, and regular root cause analyses."
+},
+{
+  tag: "4.4",
+  question: "What is the difference between top-down and bottom-up data governance approaches?",
+  answer: "In the top-down approach, top management defines the data governance strategy and assigns responsibilities to middle management for implementation. This ensures a unified long-term vision but may overlook operational details. In the bottom-up approach, data governance initiatives start within operational units and focus on specific assets or departments. This approach is more manageable at a smaller scale but may lack organization-wide alignment and strategic coherence."
+},
+{
+  tag: "4.4",
+  question: "What is a hybrid data governance approach?",
+  answer: "A hybrid approach combines the advantages of both top-down and bottom-up strategies. Top management defines the overall vision and strategic goals for data governance, while operational units implement policies through agile and iterative processes. This approach balances strategic alignment with practical operational feasibility."
+},
+{
+  tag: "4.4",
+  question: "Why are data quality metrics necessary, and what are examples of technical metrics?",
+  answer: "Data quality metrics are necessary to measure whether implemented data governance actions improve data quality over time. Without measurable indicators, organizations cannot assess the effectiveness of their policies and improvements. Examples of technical metrics include the number of false entries in a database, the number of primary or foreign key errors, total data volume, time spent handling data, and the number of unauthorized accesses within a given period."
 }
 
 ];
