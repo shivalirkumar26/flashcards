@@ -114,6 +114,56 @@ const unit4Deck = [
   tag: "4.2",
   question: "Name and explain technical approaches used to implement data virtualization.",
   answer: "Technical approaches to implement data virtualization include data federation, which combines multiple sources into a single logical virtual view; data caching, where data is temporarily loaded into an in-memory or cache layer to improve performance; and data services, which expose standardized data views through API endpoints such as RESTful APIs. These approaches enable unified and consistent access to distributed data without physically consolidating it into a centralized repository."
+},
+{
+  tag: "4.3",
+  question: "What is Data as a Service (DaaS)?",
+  answer: "Data as a Service (DaaS) refers to a model of offering access to data over a network as a service to data users. It is both a strategic and technical solution to provide data as a value-added service. In a DaaS model, the service provider is responsible for infrastructure maintenance, storage, security, data backups, and data quality management, while the customer concentrates on using the data via APIs or web interfaces. DaaS can be used internally as a data democratization solution or externally as a commercial asset."
+},
+{
+  tag: "4.3",
+  question: "What are the main characteristics of Data as a Service (DaaS)?",
+  answer: "Data as a Service offers access to high-quality data derived from large integrated data volumes. The service provider is responsible for infrastructure maintenance, storage, security, and backups, while the customer focuses on using the data. The data is typically integrated from multiple sources such as public databases, corporate data, operational databases, data lakes, or social media. DaaS provides scalable solutions, seamless access via APIs, and supports data-driven applications without requiring users to become data management experts."
+},
+{
+  tag: "4.3",
+  question: "Explain the advantages of Data as a Service (DaaS).",
+  answer: "The advantages of DaaS include simplicity, scalability, maintenance, interoperability, and cost-effectiveness. Simplicity refers to minimal effort required to set up data-intensive applications. Scalability allows dynamic assignment of resources, especially in cloud environments. Maintenance responsibilities, including infrastructure and data quality, are handled by the service provider. Interoperability is achieved by hiding the complexity of origin data systems, allowing broad usability. Cost-effectiveness arises from pay-per-use models that reduce infrastructure and maintenance overhead."
+},
+{
+  tag: "4.3",
+  question: "Explain the disadvantages and challenges of Data as a Service (DaaS).",
+  answer: "Challenges of DaaS include metadata dependency, limited analytical capabilities, bandwidth constraints, and security risks. Users rely entirely on metadata provided by the service provider, which may be incomplete or ambiguous. Analytical limitations arise because aggregated or abstracted data views may not provide the high-resolution datasets needed for advanced analytics such as machine learning. Bandwidth limitations may restrict access to large datasets over networks. Security risks arise due to data transfer over networks requiring strong encryption and integrity checks."
+},
+{
+  tag: "4.3",
+  question: "Describe the architecture of Data as a Service (DaaS).",
+  answer: "In a DaaS architecture, data from various sources such as data warehouses, operational databases, data lakes, and external systems are integrated into a unified view using data virtualization. The DaaS provider exposes access to this unified data through standardized APIs. API management, including security, documentation, data quality management, infrastructure maintenance, and orchestration, is the responsibility of the service provider."
+},
+{
+  tag: "4.3",
+  question: "How does Data as a Service (DaaS) support data democratization within an organization?",
+  answer: "DaaS supports data democratization by aggregating business data from operational databases and other sources into a unified view. By overcoming data silos and isolated datasets, DaaS provides consistent and high-quality data accessible across departments. This enables organization-wide analytics and supports data-driven decision-making without requiring users to understand the underlying technical complexity."
+},
+{
+  tag: "4.3",
+  question: "Explain how Data as a Service (DaaS) can be commercialized.",
+  answer: "DaaS can be commercialized by collecting data from multiple sources, performing data curation and aggregation, and offering high-quality datasets to customers through data marketplaces. Organizations may monetize data as a corporate asset by providing enriched data, such as verified contact information for commercial leads. However, commercialization can raise privacy and data protection concerns, particularly in cases involving web scraping, social network surveillance, or large-scale data collection."
+},
+{
+  tag: "4.3",
+  question: "Why can DaaS limit analytical capabilities in certain use cases?",
+  answer: "DaaS may limit analytical capabilities because it often provides aggregated or abstracted data views that hide the complexity of the original datasets. While this abstraction simplifies usage for most applications, advanced analytical methods such as machine learning often require access to detailed, high-resolution raw data. Without access to the full dataset, predictive models may perform worse than they could with complete data access."
+},
+{
+  tag: "4.3",
+  question: "Explain the relationship between Data as a Service (DaaS) and data virtualization.",
+  answer: "Data as a Service relies heavily on data virtualization to integrate multiple data sources into a unified logical view without physically copying the data. Data virtualization enables abstraction and unified access to heterogeneous data systems, which forms the foundation for exposing standardized APIs in DaaS architectures. Therefore, data virtualization is a key technical enabler of DaaS."
+},
+{
+  tag: "4.3",
+  question: "Give examples of DaaS applications and explain their purpose.",
+  answer: "Examples of DaaS applications include commercial data services such as Informatica offering verified contact information for commercial use, and non-commercial platforms such as the European Integrated Data Archive (IDEA) providing scientific seismic data, or Copernicus offering earth observation data. These services provide integrated, curated, and high-quality data to users through standardized access mechanisms, enabling analytical applications and supporting data-driven strategies."
 }
 
 ];
