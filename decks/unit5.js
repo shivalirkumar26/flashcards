@@ -43,6 +43,46 @@ const unit5Deck = [
   tag: "5.1",
   question: "Name several ERD tools and explain their purpose in database modeling.",
   answer: "ERD tools are software applications used to create and manage Entity Relationship Diagrams (ERDs). They help visualize database schemas and often allow exporting SQL scripts to implement the designed schema. Examples include ERDPlus, Lucidchart, MySQL Workbench, Microsoft Visio, SmartDraw, Draw.io, ConceptDraw, and Dia. Many of these tools support automation features to export diagrams and generate SQL scripts for creating database tables, relationships, and constraints."
+},
+{
+  tag: "5.2",
+  question: "What is data normalization and why is it necessary?",
+  answer: "Data normalization optimizes data storage and consistency by designing a logically linked storage structure, eliminating redundant data, and avoiding anomalies introduced by data modifications. It is necessary because redundant data can lead to update anomalies, insertion anomalies, and deletion anomalies. Normalization improves data consistency, storage efficiency, and processing performance by restructuring large tables into smaller, logically related tables connected by primary and foreign keys."
+},
+{
+  tag: "5.2",
+  question: "Explain what update anomaly, insertion anomaly, and deletion anomaly mean in the context of data normalization.",
+  answer: "An update anomaly occurs when redundant data exists and a change is not propagated to all relevant records, leading to inconsistency. For example, if a department name changes but not all employee records are updated, the database becomes inconsistent. An insertion anomaly occurs when inserting new data requires additional unrelated information or when outdated related data is inserted unintentionally. A deletion anomaly occurs when deleting a record unintentionally removes additional important information. For example, if all employees of a department are deleted and department information is stored only in the employee table, information about the department head may also be lost."
+},
+{
+  tag: "5.2",
+  question: "What are the rules of the First Normal Form (1NF)?",
+  answer: "The First Normal Form requires that a table contains only single-value (atomic) attributes, that records are unique, and that column names are unique. Multi-valued attributes must be removed, duplicate rows must be eliminated, and each field must contain only one value. 1NF ensures a basic clean table structure with no repeating groups or duplicate entries."
+},
+{
+  tag: "5.2",
+  question: "What is a partial dependency and how is it resolved in the Second Normal Form (2NF)?",
+  answer: "A partial dependency occurs when a non-primary attribute depends only on part of a composite primary key instead of the entire composite key. In the Second Normal Form, the table must first comply with 1NF and then eliminate partial dependencies. This is achieved by moving the partially dependent attributes into a separate table where they depend fully on the appropriate primary key. This reduces redundancy and improves data integrity."
+},
+{
+  tag: "5.2",
+  question: "What is a transitive dependency and how is it resolved in the Third Normal Form (3NF)?",
+  answer: "A transitive dependency occurs when a non-primary attribute depends on another non-primary attribute instead of directly depending on the primary key. In the Third Normal Form, the table must comply with 2NF and must not contain transitive dependencies. To resolve this, the dependent attributes are moved into a separate table, and a foreign key is used to link the related entities. This reduces redundancy and ensures that non-key attributes depend only on the primary key."
+},
+{
+  tag: "5.2",
+  question: "What does the Fourth Normal Form (4NF) address and how is it implemented?",
+  answer: "The Fourth Normal Form requires compliance with 3NF and the elimination of multi-valued dependencies. It addresses redundancy caused by many-to-many relationships. 4NF is implemented by creating separate entity tables and introducing an association table that contains the foreign keys linking the related entities. This avoids unnecessary repetition of data and ensures a clean many-to-many relationship structure."
+},
+{
+  tag: "5.2",
+  question: "Why is normalization often applied only up to 2NF or 3NF in practice?",
+  answer: "In practice, normalization is usually applied until the Second or Third Normal Form because further normalization may increase structural complexity without providing proportional benefits. Fully normalized databases contain many tables and relationships, which can become difficult to oversee and maintain. Therefore, many practical systems aim for a compromise between normalization and denormalization depending on the use case."
+},
+{
+  tag: "5.2",
+  question: "What are the advantages and disadvantages of normalized databases according to the IU coursebook?",
+  answer: "The advantages of normalized databases include improved data consistency, elimination of redundancy, prevention of update, insertion, and deletion anomalies, improved flexibility during data integration, and easier propagation of changes throughout the system. The disadvantages include increased structural complexity, more tables and relationships that are harder to oversee, and potentially reduced performance for certain analytical workloads such as frequent aggregations. In some cases, denormalized structures may provide better performance depending on the application requirements."
 }
 
 ];
