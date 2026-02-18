@@ -83,6 +83,46 @@ const unit5Deck = [
   tag: "5.2",
   question: "What are the advantages and disadvantages of normalized databases according to the IU coursebook?",
   answer: "The advantages of normalized databases include improved data consistency, elimination of redundancy, prevention of update, insertion, and deletion anomalies, improved flexibility during data integration, and easier propagation of changes throughout the system. The disadvantages include increased structural complexity, more tables and relationships that are harder to oversee, and potentially reduced performance for certain analytical workloads such as frequent aggregations. In some cases, denormalized structures may provide better performance depending on the application requirements."
+},
+{
+  tag: "5.3",
+  question: "What are star and snowflake schemas, and why are they used?",
+  answer: "Star and snowflake schemas are multi-dimensional data models used in databases and data warehouses. They are designed to improve the usability and performance of analytical queries. Both schemas are built on fact tables and dimension tables. The star schema connects a central fact table directly to denormalized dimension tables, forming a star-like structure. The snowflake schema extends this structure by further normalizing the dimension tables into subdimension tables, creating a more complex structure."
+},
+{
+  tag: "5.3",
+  question: "What is a fact table and what type of information does it contain?",
+  answer: "A fact table contains information central to the organization’s core processes, such as shipment records or transactions. Each record includes measures that describe events, typically numeric values, and foreign keys linking to dimension tables. Fact tables are usually designed in a vertical or long format, meaning they contain many records but few attributes. The granularity of the fact table depends on the specific use case."
+},
+{
+  tag: "5.3",
+  question: "What is a dimension table and how does it differ structurally from a fact table?",
+  answer: "A dimension table contains descriptive background information related to the facts stored in the fact table. It typically stores categorical data such as customer information, product information, or location data. Dimension tables are usually structured horizontally or wide, meaning they contain many attributes but fewer records compared to fact tables. In star schemas, dimension tables are typically denormalized."
+},
+{
+  tag: "5.3",
+  question: "Explain the structure of a star schema.",
+  answer: "In a star schema, a central fact table is directly connected to multiple dimension tables through foreign keys. The dimension tables are denormalized, meaning that all relevant descriptive attributes are stored in single tables. This design forms a star-like structure and enables simple join operations between the fact table and dimension tables. It improves query performance but increases redundancy."
+},
+{
+  tag: "5.3",
+  question: "Explain the structure of a snowflake schema.",
+  answer: "A snowflake schema is an extension of the star schema in which dimension tables are normalized and divided into subdimension tables. Instead of storing all descriptive attributes in a single dimension table, the schema separates them into multiple related tables. This reduces redundancy and improves consistency but increases structural complexity and requires more join operations."
+},
+{
+  tag: "5.3",
+  question: "Compare star and snowflake schemas in terms of normalization and redundancy.",
+  answer: "In a star schema, dimension tables are denormalized, which increases redundancy and disk space usage but simplifies queries and improves performance. In a snowflake schema, dimension tables are normalized, reducing redundancy and improving data consistency. However, this results in more complex joins and a more complicated database structure."
+},
+{
+  tag: "5.3",
+  question: "How do star and snowflake schemas differ regarding query complexity and performance?",
+  answer: "In a star schema, queries are typically simpler because joins occur directly between the fact table and the dimension tables. This improves analytical performance. In a snowflake schema, queries require multiple joins between fact tables, dimension tables, and subdimension tables, which increases complexity and may impact query performance."
+},
+{
+  tag: "5.3",
+  question: "For which use cases are star and snowflake schemas typically applied?",
+  answer: "Star and snowflake schemas are commonly used in business intelligence systems, data warehouses, data marts, and OLAP operations on large datasets. Star schemas are particularly suitable for analyzing large volumes of historical data efficiently. Snowflake schemas are beneficial when minimizing redundancy and maintaining consistency are important, especially when integrating new data into normalized structures."
 }
 
 ];
