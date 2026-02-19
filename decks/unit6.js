@@ -98,6 +98,58 @@ const unit6Deck = [
     "tag": "6.1",
     "question": "What is data quality metadata?",
     "answer": "Data quality metadata provides information about the accuracy, completeness, consistency, timeliness, and relevancy of datasets."
+  },
+  [
+  {
+    "tag": "6.2",
+    "question": "What is the purpose of a metadata repository?",
+    "answer": "A metadata repository gathers all relevant metadata in one place so that it can be found and used easily by data users. Since metadata itself is data, organizations need a structured way to manage it. A metadata repository stores and manages metadata in a centralized or logically centralized location. It improves data quality, consistency, accessibility, and usability by providing a structured framework for organizing and accessing metadata."
+  },
+  {
+    "tag": "6.2",
+    "question": "What is the difference between a metadata repository and a data catalog?",
+    "answer": "A metadata repository focuses on managing metadata and is typically used by IT professionals. It serves as the foundational system that stores metadata about data assets. A data catalog, in contrast, provides a searchable and browsable inventory of data assets within an organization. It is often used by data scientists, analysts, and business users. While both provide information about data, metadata repositories focus on managing metadata structures, whereas data catalogs focus on making data assets discoverable and understandable. In practice, data catalogs are often considered a more applied sub-category of metadata repositories."
+  },
+  {
+    "tag": "6.2",
+    "question": "Explain centralized metadata repositories.",
+    "answer": "A centralized metadata repository stores metadata in one central system. This approach improves maintenance, consistency, and security. For example, metadata concerning data security and protection is often held in a centralized repository, also referred to as consolidated metadata. Centralization helps ensure consistent policies and standards and reduces fragmentation."
+  },
+  {
+    "tag": "6.2",
+    "question": "Explain distributed or federated metadata repositories.",
+    "answer": "A distributed or federated metadata repository stores metadata in decentralized systems. This approach is suitable for domain-specific metadata that is subject to frequent change and requires expert knowledge. Instead of storing all metadata centrally, different domains maintain their own metadata repositories, allowing flexibility and specialized control."
+  },
+  {
+    "tag": "6.2",
+    "question": "Explain hybrid metadata architecture.",
+    "answer": "A hybrid metadata architecture combines centralized and federated approaches. Consolidated metadata sets, such as security-related metadata, are stored centrally. Federated metadata remains in decentralized repositories. In this model, only the metadata APIs of federated repositories are registered in the central repository along with consolidated metadata. This approach combines consistency with flexibility."
+  },
+  {
+    "tag": "6.2",
+    "question": "What is the search-find-bind approach in metadata systems?",
+    "answer": "The search-find-bind approach is commonly implemented in metadata management tools and self-service data portals. It provides a straightforward search engine to find datasets, understand their metadata, and access them via endpoints such as APIs. This approach improves usability and accessibility of organizational data assets."
+  },
+  {
+    "tag": "6.2",
+    "question": "Why are metadata repositories important for data governance?",
+    "answer": "Metadata repositories are important for data governance because they improve data usability, quality, consistency, and accessibility. By centralizing or logically organizing metadata, organizations can better document data assets, maintain standards, and ensure that data can be found and used efficiently. Metadata repositories support structured documentation and help maximize the value of data assets."
+  },
+  {
+    "tag": "6.2",
+    "question": "Give examples of open-source metadata management solutions.",
+    "answer": "Examples of open-source metadata management solutions include Apache Atlas, Amundsen, DataHub, Netflix Metacat, Magda, OpenMetadata, Select Star, DKAN, and CKAN. These tools typically provide features such as data visualization, access control, search capabilities, and API support."
+  },
+  {
+    "tag": "6.2",
+    "question": "Give examples of commercial metadata management solutions.",
+    "answer": "Examples of commercial metadata management solutions include Informatica Data Management Cloud, Informatica Enterprise Data Catalog (EDC), IBM Infosphere, IBM Data Management Platform, Collibra, and Alation. These tools often provide search engines, data lineage tools, data quality features, and additional governance functionalities."
+  },
+  {
+    "tag": "6.2",
+    "question": "Name examples of cloud-based metadata catalog services.",
+    "answer": "Examples of cloud-based metadata catalog services include Google Data Catalog on Google Cloud Platform, Azure Data Catalog on Microsoft Azure, and AWS Glue Data Catalog on Amazon Web Services. These services integrate closely with other services within their respective cloud ecosystems."
   }
+]
   
 ];
