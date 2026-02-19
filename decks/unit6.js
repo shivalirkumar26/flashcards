@@ -99,7 +99,6 @@ const unit6Deck = [
     "question": "What is data quality metadata?",
     "answer": "Data quality metadata provides information about the accuracy, completeness, consistency, timeliness, and relevancy of datasets."
   },
-  [
   {
     "tag": "6.2",
     "question": "What is the purpose of a metadata repository?",
@@ -150,6 +149,5 @@ const unit6Deck = [
     "question": "Name examples of cloud-based metadata catalog services.",
     "answer": "Examples of cloud-based metadata catalog services include Google Data Catalog on Google Cloud Platform, Azure Data Catalog on Microsoft Azure, and AWS Glue Data Catalog on Amazon Web Services. These services integrate closely with other services within their respective cloud ecosystems."
   }
-]
   
 ];
