@@ -89,5 +89,77 @@ const unit1Deck = [
     "tag": "1.1",
     "question": "What are examples of components included in IT governance?",
     "answer": "Controls, policies, procedures, ethics, security, and privacy components."
+  },
+  {
+    "tag": "1.2",
+    "question": "What is a framework in the context of IT governance?",
+    "answer": "A framework is a ready-made construction kit that provides methods for optimizing processes and controls in an organization."
+  },
+  {
+    "tag": "1.2",
+    "question": "Why can superficial compliance with IT governance frameworks be problematic?",
+    "answer": "Because it can create unnecessary additional work, increase costs, and jeopardize the successful implementation of governance objectives."
+  },
+  {
+    "tag": "1.2",
+    "question": "What must remain the priority when implementing IT governance frameworks?",
+    "answer": "The defined business goals and requirements must remain the priority over mere compliance with standards."
+  },
+  {
+    "tag": "1.2",
+    "question": "What are the three stages of the Three-Step Approach to introducing IT governance?",
+    "answer": "Why, What, and How."
+  },
+  {
+    "tag": "1.2",
+    "question": "What must be clarified in the 'Why' stage of IT governance implementation?",
+    "answer": "The necessity of governance, alignment with corporate governance, business and IT goals, and measurable key figures."
+  },
+  {
+    "tag": "1.2",
+    "question": "Why is defining key figures important in IT governance implementation?",
+    "answer": "Because key figures allow the measurement of the degree of target achievement."
+  },
+  {
+    "tag": "1.2",
+    "question": "What is the main focus of the 'What' stage in IT governance implementation?",
+    "answer": "Selecting the appropriate modular parts of reference models based on company-specific requirements."
+  },
+  {
+    "tag": "1.2",
+    "question": "Why should companies avoid implementing an entire framework without evaluation?",
+    "answer": "Because it can lead to an overloaded, cost-intensive implementation that employees may refuse to use."
+  },
+  {
+    "tag": "1.2",
+    "question": "What is analyzed in the 'How' stage of IT governance implementation?",
+    "answer": "How selected framework components are adapted to operational circumstances using existing processes and defined roles."
+  },
+  {
+    "tag": "1.2",
+    "question": "Name one possible weakness in IT governance implementation.",
+    "answer": "Employees may perceive IT governance as a nuisance due to poor communication of its benefits."
+  },
+  {
+    "tag": "1.2",
+    "question": "How can incorrect risk assessment occur in IT governance?",
+    "answer": "Through inadequate definition of key figures and measurable variables."
+  },
+  {
+    "tag": "1.2",
+    "question": "What does PDCA stand for?",
+    "answer": "Plan, Do, Check, Act."
+  },
+  {
+    "tag": "1.2",
+    "question": "What is the purpose of the PDCA cycle in IT governance?",
+    "answer": "To iteratively eliminate weaknesses and gradually improve governance processes."
+  },
+  {
+    "tag": "1.2",
+    "question": "According to the PDCA model diagram, what does each step (Plan, Do, Check, Act) involve?",
+    "answer": "PLAN – Recognize weaknesses; Why? What? How? DO – Implementation and Awareness: Implementation and operation of the measures and processes (personnel, organizational, and technical); Education, employee training. CHECK – Monitoring and Testing: Monitoring of the measures and processes for effectiveness; A report goes to management. ACT – Maintenance and Improvement: Continual improvement through corrective and preventative measures."
   }
+
+
 ]
