@@ -3,7 +3,7 @@ const unit1Deck = [
   {
     "tag": "1.1",
     "question": "Define IT governance according to the coursebook.",
-    "answer": "IT governance is comprised of the processes that ensure effective and efficient use of IT in enabling an organization to achieve its goals."
+    "answer": "IT governance is the systematic determination of processes that ensure effective and efficient use of IT in enabling an organization to achieve its goals with buy-in from upper management and the board."
   },
   {
     "tag": "1.1",
