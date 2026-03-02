@@ -159,6 +159,81 @@ const unit1Deck = [
     "tag": "1.2",
     "question": "According to the PDCA model diagram, what does each step (Plan, Do, Check, Act) involve?",
     "answer": "PLAN – Recognize weaknesses; Why? What? How? DO – Implementation and Awareness: Implementation and operation of the measures and processes (personnel, organizational, and technical); Education, employee training. CHECK – Monitoring and Testing: Monitoring of the measures and processes for effectiveness; A report goes to management. ACT – Maintenance and Improvement: Continual improvement through corrective and preventative measures."
+  },
+  {
+    "tag": "1.3",
+    "question": "What is the difference between a standard and a framework?",
+    "answer": "Standards are mandatory requirements that an organization must follow, whereas frameworks are best practices that may be followed unless required by law or regulation."
+  },
+  {
+    "tag": "1.3",
+    "question": "What is COSO primarily associated with?",
+    "answer": "Corporate governance and internal control."
+  },
+  {
+    "tag": "1.3",
+    "question": "What does COBIT 2019 focus on?",
+    "answer": "Governance of Enterprise IT (IT governance)."
+  },
+  {
+    "tag": "1.3",
+    "question": "Which category does ITIL V4 belong to?",
+    "answer": "Service Management (Sv)."
+  },
+  {
+    "tag": "1.3",
+    "question": "Which framework is classified under Security Management (Sc)?",
+    "answer": "ISO/IEC 27000."
+  },
+  {
+    "tag": "1.3",
+    "question": "What does MA stand for in governance frameworks?",
+    "answer": "Maturity Assessment."
+  },
+  {
+    "tag": "1.3",
+    "question": "What is PRINCE2 used for?",
+    "answer": "Project Management (PM)."
+  },
+  {
+    "tag": "1.3",
+    "question": "What does QM stand for?",
+    "answer": "Quality Management."
+  },
+  {
+    "tag": "1.3",
+    "question": "What are controls in the context of governance?",
+    "answer": "Controls are mechanisms used to measure and ensure that activities comply with laws, regulations, internal policies, and best practices."
+  },
+  {
+    "tag": "1.3",
+    "question": "What does D/R stand for?",
+    "answer": "Disaster Recovery."
+  },
+  {
+    "tag": "1.3",
+    "question": "What does BCP stand for?",
+    "answer": "Business Continuity Plan."
+  },
+  {
+    "tag": "1.3",
+    "question": "How often should D/R and BCP plans be updated and tested?",
+    "answer": "They should be updated and tested annually."
+  },
+  {
+    "tag": "1.3",
+    "question": "What is the first step when a security event occurs under D/R and BCP?",
+    "answer": "Report the event to an attorney and the cyber liability insurance provider."
+  },
+  {
+    "tag": "1.3",
+    "question": "Explain Disaster Recovery (D/R) and Business Continuity Plan (BCP) in the context of IT governance.",
+    "answer": "Disaster Recovery (D/R) and Business Continuity Plan (BCP) are formal governance mechanisms that ensure an organization can continue operations during or after disruptions. They must be established, updated, and tested annually. BCP ensures continuity of critical business activities during predefined events, while D/R focuses on restoring IT systems and data after a disruption."
+  },
+  {
+    "tag": "1.3",
+    "question": "List all seven governance categories and one or more examples for each.",
+    "answer": "CG – Corporate Governance: COSO. ITG – IT Governance: COBIT 2019. Sv – Service Management: ITIL V4, ISO/IEC 20000, MOF, IBM, IT, PM (Process Model), ITSM (IT Service Management). Sc – Security Management: ISO/IEC 27000, ISO/IEC 15408, IT-Grundschutz. MA – Maturity Assessment: CMMI (Capability Maturity Model Integration), ISO/IEC 15504 / ISO/IEC 330xx. PM – Project Management: PRINCE2. QM – Quality Management: ISO 9000, ISO 9001."
   }
 
 
