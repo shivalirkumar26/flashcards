@@ -148,7 +148,7 @@ const unit1Deck = [
   {
     "tag": "1.2",
     "question": "What does PDCA stand for?",
-    "answer": "Plan, Do, Check, Act."
+    "answer": "Plan, Do, Check, Act. Also called as Deming cycle."
   },
   {
     "tag": "1.2",
