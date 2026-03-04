@@ -172,7 +172,7 @@ const unit2Deck = [
   {
     "tag": "2.2",
     "question": "List the Seven Governance Components.",
-    "answer": "Processes; Organizational structures; Information flows and items; People, skills and competencies; Culture, ethics and behavior; Policies and procedures; Services, infrastructure and applications."
+    "answer": "COPPPIS; Processes; Organizational structures; Information flows and items; People, skills and competencies; Culture, ethics and behavior; Policies and procedures; Services, infrastructure and applications."
   },
   {
     "tag": "2.2",
