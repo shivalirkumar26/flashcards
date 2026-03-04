@@ -599,6 +599,91 @@ const unit2Deck = [
 "tag":"2.3",
 "question":"What is the Anarchy IT decision-making archetype?",
 "answer":"Individuals or small groups independently make IT decisions without centralized governance."
+},
+{
+"tag":"2.4",
+"question":"What is the COBIT Target Cascade?",
+"answer":"A mechanism that translates stakeholder needs and expectations into enterprise goals, alignment goals, and governance and management objectives."
+},
+{
+"tag":"2.4",
+"question":"What is the starting point of the COBIT Target Cascade?",
+"answer":"Stakeholder drivers and needs."
+},
+{
+"tag":"2.4",
+"question":"What is the first level after stakeholder needs in the target cascade?",
+"answer":"Enterprise goals."
+},
+{
+"tag":"2.4",
+"question":"What is the second level in the COBIT target cascade?",
+"answer":"Alignment goals."
+},
+{
+"tag":"2.4",
+"question":"What is the final level of the COBIT target cascade?",
+"answer":"Governance and management objectives."
+},
+{
+"tag":"2.4",
+"question":"What is the purpose of alignment goals?",
+"answer":"To ensure that IT services support business objectives and enterprise strategy."
+},
+{
+"tag":"2.4",
+"question":"What is business-IT alignment?",
+"answer":"The coordination of IT and business strategies to ensure IT investments create business value."
+},
+{
+"tag":"2.4",
+"question":"Which governance tool is used to measure enterprise goals?",
+"answer":"Balanced Scorecard (BSC)."
+},
+{
+"tag":"2.4",
+"question":"What does the Balanced Scorecard measure?",
+"answer":"Organizational performance across multiple dimensions such as financial results, customer perspective, internal processes, and learning and growth."
+},
+{
+"tag":"2.4",
+"question":"Give examples of enterprise goals mentioned in the coursebook.",
+"answer":"Competitive products and services, managed business risk, compliance with external laws and regulations, quality of financial information."
+},
+{
+"tag":"2.4",
+"question":"Which COBIT implementation phase evaluates whether governance improvements were successful?",
+"answer":"Phase 6."
+},
+{
+"tag":"2.4",
+"question":"What is Phase 6 of COBIT implementation called?",
+"answer":"Did We Get There?"
+},
+{
+"tag":"2.4",
+"question":"What is the main purpose of Phase 6?",
+"answer":"To monitor governance improvements and evaluate whether desired outcomes have been achieved."
+},
+{
+"tag":"2.4",
+"question":"What tools are used to measure governance performance in Phase 6?",
+"answer":"IT Balanced Scorecard, performance metrics, and benefits registers."
+},
+{
+"tag":"2.4",
+"question":"What is the purpose of setting targets for metrics?",
+"answer":"To measure IT performance and determine success or failure of governance improvements."
+},
+{
+"tag":"2.4",
+"question":"Why must results from performance monitoring be communicated to stakeholders?",
+"answer":"To build confidence and enable corrective actions when needed."
+},
+{
+"tag":"2.4",
+"question":"What is the purpose of continual improvement tasks in COBIT?",
+"answer":"To continuously monitor performance, detect deviations, and implement corrective actions."
 }
 
 ];
