@@ -684,6 +684,76 @@ const unit2Deck = [
 "tag":"2.4",
 "question":"What is the purpose of continual improvement tasks in COBIT?",
 "answer":"To continuously monitor performance, detect deviations, and implement corrective actions."
+},
+{
+"tag":"2.5",
+"question":"What model does COBIT 2019 use to measure process capability?",
+"answer":"A Capability Maturity Model derived from CMMI (Capability Maturity Model Integration)."
+},
+{
+"tag":"2.5",
+"question":"What does the COBIT capability maturity model measure?",
+"answer":"The maturity and effectiveness of governance and management processes."
+},
+{
+"tag":"2.5",
+"question":"How many capability levels exist in the COBIT maturity model?",
+"answer":"Six levels (0–5)."
+},
+{
+"tag":"2.5",
+"question":"What does capability level 0 represent?",
+"answer":"Incomplete process with lack of basic capability."
+},
+{
+"tag":"2.5",
+"question":"What does capability level 1 represent?",
+"answer":"Initial or performed process with incomplete and unorganized activities."
+},
+{
+"tag":"2.5",
+"question":"What does capability level 2 represent?",
+"answer":"A basic but complete set of activities is performed to achieve the process purpose."
+},
+{
+"tag":"2.5",
+"question":"What does capability level 3 represent?",
+"answer":"Processes are well-defined and organized using organizational assets."
+},
+{
+"tag":"2.5",
+"question":"What does capability level 4 represent?",
+"answer":"Process performance is quantitatively measured."
+},
+{
+"tag":"2.5",
+"question":"What does capability level 5 represent?",
+"answer":"Continuous improvement is pursued and performance is optimized."
+},
+{
+"tag":"2.5",
+"question":"Which capability level indicates a properly implemented governance process?",
+"answer":"Level 3 or higher."
+},
+{
+"tag":"2.5",
+"question":"What was the main IT governance issue at Gerais Mining?",
+"answer":"The company lacked a formal IT governance framework."
+},
+{
+"tag":"2.5",
+"question":"Why should Gerais implement COBIT 2019?",
+"answer":"To establish a globally accepted and customizable IT governance framework."
+},
+{
+"tag":"2.5",
+"question":"What information should be collected before starting a COBIT assessment?",
+"answer":"Organizational structure and budget allocation for IT resources."
+},
+{
+"tag":"2.5",
+"question":"Can COBIT be used alone to address cybersecurity vulnerabilities?",
+"answer":"No. COBIT should be combined with cybersecurity frameworks such as NIST, CIS, MITRE ATT&CK, or ISO 27000."
 }
 
 ];
