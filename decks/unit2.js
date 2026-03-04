@@ -559,8 +559,46 @@ const unit2Deck = [
 "tag":"2.3",
 "question":"How do Design Factors influence governance maturity levels?",
 "answer":"They determine which governance objectives should be prioritized and require higher maturity."
+},
+{
+"tag":"2.3",
+"question":"What are IT decision-making archetypes in COBIT 2019?",
+"answer":"Models that describe who has authority to make IT-related decisions within an organization."
+},
+{
+"tag":"2.3",
+"question":"How many IT decision-making archetypes are defined in COBIT?",
+"answer":"Six."
+},
+{
+"tag":"2.3",
+"question":"What is the Business Monarchy IT decision-making archetype?",
+"answer":"Executive management makes IT decisions."
+},
+{
+"tag":"2.3",
+"question":"What is the IT Monarchy IT decision-making archetype?",
+"answer":"IT personnel or the IT department makes IT decisions."
+},
+{
+"tag":"2.3",
+"question":"What is the Feudal IT decision-making archetype?",
+"answer":"Individual business units within the organization make their own IT decisions independently."
+},
+{
+"tag":"2.3",
+"question":"What is the Federal IT decision-making archetype?",
+"answer":"Corporate executives and business units jointly make IT decisions, sometimes with IT department involvement."
+},
+{
+"tag":"2.3",
+"question":"What is the IT Duopoly IT decision-making archetype?",
+"answer":"IT decision-making is shared between the IT department and either executive management or a specific business unit."
+},
+{
+"tag":"2.3",
+"question":"What is the Anarchy IT decision-making archetype?",
+"answer":"Individuals or small groups independently make IT decisions without centralized governance."
 }
 
-
-  
 ];
