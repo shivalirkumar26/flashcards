@@ -408,7 +408,158 @@ const unit2Deck = [
     "tag": "2.2",
     "question": "Which domain focuses on compliance and internal control monitoring?",
     "answer": "MEA."
-  }
+  },
+  
+{
+"tag":"2.3",
+"question":"What are COBIT 2019 Design Factors?",
+"answer":"Context variables used to customize the governance system according to an organization's environment, strategy, risk profile, and operational conditions."
+},
+{
+"tag":"2.3",
+"question":"Why are COBIT Design Factors important?",
+"answer":"They help determine which governance and management objectives are most important and what maturity levels should be achieved."
+},
+{
+"tag":"2.3",
+"question":"How many COBIT 2019 Design Factors exist?",
+"answer":"Eleven."
+},
+{
+"tag":"2.3",
+"question":"Who determines the values of Design Factors?",
+"answer":"Management and relevant stakeholders."
+},
+{
+"tag":"2.3",
+"question":"Why are Design Factors considered subjective?",
+"answer":"Because they are based on organizational judgement and stakeholder input rather than purely objective measurements."
+},
+{
+"tag":"2.3",
+"question":"What is the purpose of Enterprise Strategy as a design factor?",
+"answer":"To define the organization's strategic orientation and governance priorities."
+},
+{
+"tag":"2.3",
+"question":"List the four enterprise strategy archetypes in COBIT.",
+"answer":"Growth/Acquisition, Innovation/Differentiation, Cost Leadership, Client Service/Stability."
+},
+{
+"tag":"2.3",
+"question":"How many enterprise strategies should an organization typically adopt?",
+"answer":"One primary strategy and optionally one secondary strategy."
+},
+{
+"tag":"2.3",
+"question":"What is the purpose of Corporate Goals in COBIT design factors?",
+"answer":"To align governance activities with enterprise performance goals based on the Balanced Scorecard."
+},
+{
+"tag":"2.3",
+"question":"What is the Balanced Scorecard used for in COBIT?",
+"answer":"To align enterprise strategy with performance measurement."
+},
+{
+"tag":"2.3",
+"question":"What does the Risk Profile design factor determine?",
+"answer":"The organization's risk exposure based on risk assessment and risk appetite."
+},
+{
+"tag":"2.3",
+"question":"What is risk appetite?",
+"answer":"The amount of risk an organization is willing to accept in pursuit of its objectives."
+},
+{
+"tag":"2.3",
+"question":"What does the I&T-related issues design factor represent?",
+"answer":"Current operational IT problems or challenges the organization is facing."
+},
+{
+"tag":"2.3",
+"question":"What are examples of I&T-related issues?",
+"answer":"Data breaches, system outages, user frustration, poor IT-business alignment."
+},
+{
+"tag":"2.3",
+"question":"What does the Threat Landscape design factor measure?",
+"answer":"The external threat environment affecting the organization."
+},
+{
+"tag":"2.3",
+"question":"What are the two threat landscape categories?",
+"answer":"Normal and High."
+},
+{
+"tag":"2.3",
+"question":"What does the Compliance Requirements design factor measure?",
+"answer":"The regulatory pressure on the organization."
+},
+{
+"tag":"2.3",
+"question":"What compliance requirement levels exist?",
+"answer":"High, Medium, Low."
+},
+{
+"tag":"2.3",
+"question":"What does the Role of IT design factor represent?",
+"answer":"The importance of IT for business operations and competitiveness."
+},
+{
+"tag":"2.3",
+"question":"What are the three IT role categories?",
+"answer":"Support, Factory/Turnaround, Strategic."
+},
+{
+"tag":"2.3",
+"question":"What does the IT Sourcing Model design factor describe?",
+"answer":"How IT services are delivered."
+},
+{
+"tag":"2.3",
+"question":"What are the four IT sourcing models?",
+"answer":"Insourced, Outsourced, Cloud, Hybrid."
+},
+{
+"tag":"2.3",
+"question":"What does the IT Implementation Methods design factor represent?",
+"answer":"The software development approaches used by the organization."
+},
+{
+"tag":"2.3",
+"question":"What are the four IT implementation methods?",
+"answer":"Agile, DevOps, Traditional, Hybrid."
+},
+{
+"tag":"2.3",
+"question":"What does the Technology Adoption Strategy design factor represent?",
+"answer":"How quickly the organization adopts new technologies."
+},
+{
+"tag":"2.3",
+"question":"What are the three technology adoption strategies?",
+"answer":"First mover, Follower, Slow adopter."
+},
+{
+"tag":"2.3",
+"question":"What does the Enterprise Size design factor measure?",
+"answer":"The size of the organization based on employee count."
+},
+{
+"tag":"2.3",
+"question":"What is the employee threshold for large enterprises?",
+"answer":"250 or more employees."
+},
+{
+"tag":"2.3",
+"question":"What is the employee range for SMEs?",
+"answer":"50–250 employees."
+},
+{
+"tag":"2.3",
+"question":"How do Design Factors influence governance maturity levels?",
+"answer":"They determine which governance objectives should be prioritized and require higher maturity."
+}
 
 
   
