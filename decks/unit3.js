@@ -88,7 +88,7 @@ const unit3Deck = [
 {
 "tag": "3.1",
 "question": "What are the six types of controls?",
-"answer": "Preventative, deterrent, detective, compensatory, directive, and corrective controls."
+"answer": "P2C3D: Preventative, deterrent, detective, compensatory, directive, and corrective controls."
 },
 {
 "tag": "3.1",
