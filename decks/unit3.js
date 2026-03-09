@@ -174,6 +174,85 @@ const unit3Deck = [
 "tag": "3.1",
 "question": "What is risk avoidance?",
 "answer": "Avoiding an activity entirely because its risk outweighs its benefits."
+},
+
+{"tag":"3.2","question":"What is the purpose of ISO 31000:2018?","answer":"ISO 31000:2018 is a risk management standard that provides guidelines and best practices for managing organizational risk."},
+
+{"tag":"3.2","question":"Does ISO 31000:2018 contain mandatory requirements?","answer":"No. Although it is called a standard, ISO 31000 provides guidelines and best practices rather than mandatory requirements."},
+
+{"tag":"3.2","question":"What are the three main sections of ISO 31000:2018?","answer":"Principles, Framework, and Process."},
+
+{"tag":"3.2","question":"What is the central concept of ISO 31000 risk management principles?","answer":"Value creation and protection."},
+
+{"tag":"3.2","question":"List the eight ISO 31000 risk management principles.","answer":"Integrated, Structured and comprehensive, Customized, Inclusive, Dynamic, Best available information, Human and cultural factors, Continual improvement."},
+
+{"tag":"3.2","question":"What is the most important component of the ISO 31000 risk management framework?","answer":"Leadership and commitment from top management."},
+
+{"tag":"3.2","question":"What are the six activities of the ISO 31000 risk management process?","answer":"Communication and consultation, Scope context and criteria, Risk assessment, Risk treatment, Monitoring and review, Recording and reporting."},
+
+{"tag":"3.2","question":"What are the three subactivities of risk assessment in ISO 31000?","answer":"Risk identification, Risk analysis, and Risk evaluation."},
+
+{"tag":"3.2","question":"What is the purpose of ISO/IEC 27005:2018?","answer":"ISO 27005 provides best practices for information security risk management."},
+
+{"tag":"3.2","question":"Does ISO 27005 contain mandatory requirements?","answer":"No. It provides best practice guidelines rather than mandatory requirements."},
+
+{"tag":"3.2","question":"What is the main focus of ISO/IEC 27002:2013?","answer":"ISO 27002 provides best practices for implementing information security controls."},
+
+{"tag":"3.2","question":"How many security control clauses are included in ISO 27002?","answer":"14 security control clauses."},
+
+{"tag":"3.2","question":"How many control objectives exist in ISO 27002?","answer":"35 control objectives."},
+
+{"tag":"3.2","question":"What is SOC 2?","answer":"SOC 2 is an IT security framework maintained by the AICPA that evaluates control design and effectiveness for systems processing customer data."},
+
+{"tag":"3.2","question":"Which organization maintains SOC 2?","answer":"The American Institute of Certified Public Accountants (AICPA)."},
+
+{"tag":"3.2","question":"What are the five SOC 2 Trust Service Criteria?","answer":"Security, Availability, Confidentiality, Processing Integrity, and Privacy."},
+
+{"tag":"3.2","question":"Who can sign or attest SOC 2 reports?","answer":"A U.S. Certified Public Accountant (CPA)."},
+
+{"tag":"3.2","question":"How long is a SOC 2 report valid?","answer":"One year."},
+
+{"tag":"3.2","question":"What is the NIST 800 series?","answer":"A set of IT security frameworks developed by the National Institute of Standards and Technology."},
+
+{"tag":"3.2","question":"What is NIST 800-53?","answer":"An IT security framework used to evaluate security controls."},
+
+{"tag":"3.2","question":"What is NIST 800-30?","answer":"The NIST risk management framework."},
+
+{"tag":"3.2","question":"What is ISO/IEC 27001?","answer":"ISO 27001 is the Information Security Management System (ISMS) standard."},
+
+{"tag":"3.2","question":"Why is ISO 27001 different from other ISO standards discussed in this section?","answer":"Because ISO 27001 contains mandatory requirements and organizations must meet them to obtain certification."},
+
+{"tag":"3.2","question":"How long is ISO 27001 certification valid?","answer":"Three years."},
+
+{
+"tag":"3.2",
+"question":"Name the eight ISO 31000:2018 risk management principles.",
+"answer":"DIICCSHB: Integrated, Structured and comprehensive, Customized, Inclusive, Dynamic, Best available information, Human and cultural factors, Continual improvement."
+},
+{
+"tag":"3.2",
+"question":"Name the six components of the ISO 31000:2018 risk management framework.",
+"answer":"DIIIEL: Leadership and commitment, Integration, Design, Implementation, Evaluation, Improvement."
+},
+{
+"tag":"3.2",
+"question":"Name the six activities of the ISO 31000:2018 risk management process.",
+"answer":"Communication and consultation, Scope context and criteria, Risk assessment, Risk treatment, Monitoring and review, Recording and reporting."
+},
+{
+"tag":"3.2",
+"question":"Name the six clauses of ISO/IEC 27005:2018 information security risk management.",
+"answer":"Context establishment, Information security risk assessment, Risk treatment, Information security risk acceptance, Information security risk communication and consultation, Information security risk monitoring review and improvement."
+},
+{
+"tag":"3.2",
+"question":"What does SOC 2 stand for?",
+"answer":"System and Organization Controls 2."
+},
+{
+"tag":"3.2",
+"question":"What does AICPA stand for?",
+"answer":"American Institute of Certified Public Accountants."
 }
 
 ];
