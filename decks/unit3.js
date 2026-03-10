@@ -254,5 +254,45 @@ const unit3Deck = [
 "question":"What does AICPA stand for?",
 "answer":"American Institute of Certified Public Accountants."
 }
+  {
+    "question": "What are the three stages of the IT compliance process?",
+    "answer": "1. Requirements analysis 2. Implementation of measures 3. Examination/testing of measures"
+  },
+  {
+    "question": "What activities are included in the IT compliance requirements phase?",
+    "answer": "Consideration of regulations, involvement of in-house experts, and measure definition and documentation."
+  },
+  {
+    "question": "What activities occur during the implementation of measures stage?",
+    "answer": "Evaluation of the measures and execution of the measures."
+  },
+  {
+    "question": "What activities are included in the examination/testing phase of IT compliance?",
+    "answer": "Monitoring of control mechanisms, proof of compliance, and reporting."
+  },
+  {
+    "question": "Why is deriving IT compliance requirements from stakeholders preferred over deriving them directly from laws and regulations?",
+    "answer": "Stakeholders provide organization-specific expertise, translate vague regulations into clear requirements, and increase acceptance of the compliance program."
+  },
+  {
+    "question": "Which frameworks can support IT compliance implementation?",
+    "answer": "COBIT, IT-Grundschutz (BSI), and the Unified Compliance Framework (UCF)."
+  },
+  {
+    "question": "What analysis should be performed before implementing compliance measures?",
+    "answer": "Risk analysis or cost-benefit analysis."
+  },
+  {
+    "question": "What is the purpose of monitoring control mechanisms in IT compliance?",
+    "answer": "To evaluate efficiency and effectiveness of controls, identify deviations or gaps, and ensure continuous improvement."
+  },
+  {
+    "question": "What are the three types of IT compliance reports?",
+    "answer": "Annual compliance report, quarterly compliance report, and ad hoc compliance report."
+  },
+  {
+    "question": "How is reputational loss after a data breach measured?",
+    "answer": "Decrease in share price, loss of market share, customer loss, and reduced sales."
+  }
 
 ];
