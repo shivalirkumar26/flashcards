@@ -303,6 +303,11 @@ const unit3Deck = [
     "tag":"3.3",
     "question": "How is reputational loss after a data breach measured?",
     "answer": "Decrease in share price, loss of market share, customer loss, and reduced sales."
-  }
+  },
+  {
+"tag": "3.3",
+"question": "To whom are the different IT compliance reports addressed?",
+"answer": "Annual compliance report: IT management, executive management, and the board of directors. Quarterly compliance report: IT management. Ad hoc compliance report: IT management."
+}
 
 ];
