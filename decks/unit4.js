@@ -158,7 +158,7 @@ const unit4Deck = [
 {
 "tag": "4.1",
 "question": "What sections appear in the IT-Grundschutz Compendium after introductory descriptions?",
-"answer": "Role definition, glossary, elemental threats, and components."
+"answer": "Role definition, glossary, elemental threats, components, process components and system components."
 },
 {
 "tag": "4.1",
