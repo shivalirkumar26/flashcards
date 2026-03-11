@@ -224,6 +224,106 @@ const unit4Deck = [
 "tag": "4.1",
 "question": "Name the system components used in IT-Grundschutz.",
 "answer": "INF (Infrastructure), NET (Networks and Communication), SYS (IT Systems), APP (Applications), and IND (Industrial IT)."
+},
+{
+"tag": "4.2",
+"question": "Why must IT security be planned and organized in an organization?",
+"answer": "Because effective IT security requires planned and controlled processes to implement and monitor protective measures."
+},
+{
+"tag": "4.2",
+"question": "What must be done before creating an IT security concept according to IT-Grundschutz?",
+"answer": "The IT security process must be initiated, IT security guidelines must be created, and the organizational structure and resources for IT security must be defined."
+},
+{
+"tag": "4.2",
+"question": "What is the purpose of the IT security concept in IT-Grundschutz?",
+"answer": "To define and implement structured security measures that ensure adequate protection of IT systems and information."
+},
+{
+"tag": "4.2",
+"question": "How many main steps are involved in creating a security concept for standard protection according to IT-Grundschutz?",
+"answer": "Six steps."
+},
+{
+"tag": "4.2",
+"question": "What is the first step in the IT-Grundschutz security concept process?",
+"answer": "Structural analysis."
+},
+{
+"tag": "4.2",
+"question": "What is the purpose of structural analysis in IT-Grundschutz?",
+"answer": "To identify the main components of the IT network such as applications, IT systems, rooms, buildings, and their relationships."
+},
+{
+"tag": "4.2",
+"question": "What is the second step in the IT-Grundschutz approach?",
+"answer": "Determination of protection requirements."
+},
+{
+"tag": "4.2",
+"question": "Which three security objectives are used to determine protection requirements?",
+"answer": "Confidentiality, Integrity, and Availability."
+},
+{
+"tag": "4.2",
+"question": "What protection requirement levels are used in IT-Grundschutz?",
+"answer": "Normal, high, and very high."
+},
+{
+"tag": "4.2",
+"question": "What is the third step in the IT-Grundschutz method?",
+"answer": "Modeling (selection of security requirements)."
+},
+{
+"tag": "4.2",
+"question": "What happens during the modeling phase in IT-Grundschutz?",
+"answer": "Relevant components and security requirements are selected based on structural analysis and protection requirements."
+},
+{
+"tag": "4.2",
+"question": "What is the fourth step in the IT-Grundschutz security process?",
+"answer": "IT-Grundschutz check."
+},
+{
+"tag": "4.2",
+"question": "What is the purpose of the IT-Grundschutz check?",
+"answer": "To compare the required security measures with the current implementation using a should-be vs is comparison."
+},
+{
+"tag": "4.2",
+"question": "What is the fifth step in the IT-Grundschutz process?",
+"answer": "Risk analysis."
+},
+{
+"tag": "4.2",
+"question": "When is a risk analysis performed in the IT-Grundschutz methodology?",
+"answer": "When components have high or very high protection requirements."
+},
+{
+"tag": "4.2",
+"question": "Why may risk analysis lead to additional security measures?",
+"answer": "Because high protection requirements may reveal risks that require stronger security controls."
+},
+{
+"tag": "4.2",
+"question": "What is the sixth step in the IT-Grundschutz process?",
+"answer": "Implementation of the measures."
+},
+{
+"tag": "4.2",
+"question": "What happens during the implementation phase in IT-Grundschutz?",
+"answer": "The required security measures identified during the analysis and modeling phases are implemented."
+},
+{
+"tag": "4.2",
+"question": "What activity follows the implementation of IT security measures in IT-Grundschutz?",
+"answer": "Maintenance and continuous improvement."
+},
+{
+"tag": "4.2",
+"question": "Why is continuous improvement necessary in IT security management?",
+"answer": "Because threats and technologies change, requiring regular updates and monitoring of security measures."
 }
 
 ];
