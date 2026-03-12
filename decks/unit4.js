@@ -324,6 +324,117 @@ const unit4Deck = [
 "tag": "4.2",
 "question": "Why is continuous improvement necessary in IT security management?",
 "answer": "Because threats and technologies change, requiring regular updates and monitoring of security measures."
+},
+
+{
+"tag": "4.3",
+"question": "What is the purpose of the IT-Grundschutz usage example in Section 4.3?",
+"answer": "To demonstrate how the IT-Grundschutz methodology can be applied in practice using the example of a medical practice."
+},
+{
+"tag": "4.3",
+"question": "What is the first step when applying IT-Grundschutz in the example of the medical practice?",
+"answer": "Structural analysis of the IT environment."
+},
+{
+"tag": "4.3",
+"question": "What information is identified during the structural analysis phase?",
+"answer": "Applications, IT systems, network components, users, and physical locations such as rooms."
+},
+{
+"tag": "4.3",
+"question": "Why is it important to document the rooms where IT systems are located?",
+"answer": "To assess physical security risks and understand where systems and data carriers are installed."
+},
+{
+"tag": "4.3",
+"question": "Why must dependencies between applications and IT systems be identified?",
+"answer": "To understand which systems support which applications and how failures could affect multiple services."
+},
+{
+"tag": "4.3",
+"question": "What is protection needs assessment in IT-Grundschutz?",
+"answer": "The evaluation of the potential damage that may occur if confidentiality, integrity, or availability of information is compromised."
+},
+{
+"tag": "4.3",
+"question": "What three categories are used to classify protection requirements in IT-Grundschutz?",
+"answer": "Normal, high, and very high."
+},
+{
+"tag": "4.3",
+"question": "Does protection needs assessment consider the probability of damage occurring?",
+"answer": "No. It focuses only on the potential impact of damage."
+},
+{
+"tag": "4.3",
+"question": "What types of damage scenarios are used to assess protection requirements?",
+"answer": "Violation of laws or regulations, data protection violations, danger to life and health, disruption of task performance, reputational damage, and financial losses."
+},
+{
+"tag": "4.3",
+"question": "Why must organizations define their own thresholds for normal, high, and very high protection requirements?",
+"answer": "Because the impact of damage differs depending on the size, context, and financial capacity of the organization."
+},
+{
+"tag": "4.3",
+"question": "How are protection requirements of IT systems determined?",
+"answer": "They are derived from the protection requirements of the applications running on those systems."
+},
+{
+"tag": "4.3",
+"question": "What is the maximum principle in determining protection requirements?",
+"answer": "The IT system adopts the highest protection requirement among all applications running on it."
+},
+{
+"tag": "4.3",
+"question": "What is the accumulation effect?",
+"answer": "An IT system may require higher protection because many applications depend on it."
+},
+{
+"tag": "4.3",
+"question": "What is the distribution effect?",
+"answer": "Protection requirements may be lower if an application is distributed across several systems or only partial functionality is handled by the system."
+},
+{
+"tag": "4.3",
+"question": "What is modeling in the IT-Grundschutz process?",
+"answer": "Selecting appropriate security requirements and modules from the IT-Grundschutz Compendium based on system components and protection requirements."
+},
+{
+"tag": "4.3",
+"question": "Give examples of security requirements selected during modeling.",
+"answer": "User authentication, restrictive access rights, role separation, patch management, data backups, antivirus protection, and logging."
+},
+{
+"tag": "4.3",
+"question": "What is the purpose of the IT-Grundschutz check (Part 1)?",
+"answer": "To determine which required security measures have already been implemented and identify security gaps."
+},
+{
+"tag": "4.3",
+"question": "Why was an external service provider used to perform the IT-Grundschutz check in the example?",
+"answer": "Because internal staff lacked IT security expertise and the system administrator should not audit their own work."
+},
+{
+"tag": "4.3",
+"question": "When is a risk analysis required in the IT-Grundschutz process?",
+"answer": "When components have high or very high protection requirements."
+},
+{
+"tag": "4.3",
+"question": "What happens after the risk analysis in the IT-Grundschutz process?",
+"answer": "Additional security requirements may be identified and consolidated with previous results."
+},
+{
+"tag": "4.3",
+"question": "What is the purpose of the IT-Grundschutz check (Part 2)?",
+"answer": "To verify whether the updated requirements are fulfilled and identify remaining gaps."
+},
+{
+"tag": "4.3",
+"question": "What is the final step in the IT-Grundschutz implementation example?",
+"answer": "Implementing prioritized security measures to close identified security gaps."
 }
 
 ];
