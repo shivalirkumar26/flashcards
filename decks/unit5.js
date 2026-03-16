@@ -373,6 +373,126 @@ const unit5Deck = [
 "tag": "5.2",
 "question": "What are the responsibilities of the IT Service Manager?",
 "answer": "Managing IT services, coordinating certification activities, maintaining documentation, and overseeing ITIL implementation."
+},
+{
+"tag": "5.3",
+"question": "What is ISO/IEC 20000-1:2018?",
+"answer": "The global standard for IT Service Management (ITSM) assessments that defines mandatory requirements for service management systems."
+},
+{
+"tag": "5.3",
+"question": "Is ISO 20000-1 a standard or a best practices framework?",
+"answer": "It is a formal standard with mandatory requirements."
+},
+{
+"tag": "5.3",
+"question": "Which framework complements ISO 20000 by providing best practices for IT service management?",
+"answer": "ITIL."
+},
+{
+"tag": "5.3",
+"question": "What does ISO stand for?",
+"answer": "International Organization for Standardization."
+},
+{
+"tag": "5.3",
+"question": "What is ISO?",
+"answer": "An independent, non-governmental international organization that develops international standards."
+},
+{
+"tag": "5.3",
+"question": "How many national standards bodies are members of ISO?",
+"answer": "165."
+},
+{
+"tag": "5.3",
+"question": "From which Greek word is the name ISO derived?",
+"answer": "Isos, meaning 'equal'."
+},
+{
+"tag": "5.3",
+"question": "What model does ISO 20000-1 use to structure IT service management?",
+"answer": "The Service Management System (SMS) model."
+},
+{
+"tag": "5.3",
+"question": "How many clauses does ISO 20000-1:2018 contain?",
+"answer": "10."
+},
+{
+"tag": "5.3",
+"question": "How many processes are defined in ISO 20000-1:2018?",
+"answer": "59."
+},
+{
+"tag": "5.3",
+"question": "Which clauses define the Service Management System (SMS)?",
+"answer": "Clauses 4 to 10."
+},
+{
+"tag": "5.3",
+"question": "What does Clause 1 of ISO 20000-1 define?",
+"answer": "The scope of the Service Management System."
+},
+{
+"tag": "5.3",
+"question": "What does Clause 2 of ISO 20000-1 describe?",
+"answer": "Normative references, stating that there are no mandatory external references."
+},
+{
+"tag": "5.3",
+"question": "What does Clause 3 of ISO 20000-1 contain?",
+"answer": "Terms and definitions used within the standard."
+},
+{
+"tag": "5.3",
+"question": "What is the purpose of Clause 4 in ISO 20000-1?",
+"answer": "To define the context of the organization and stakeholder needs for the Service Management System."
+},
+{
+"tag": "5.3",
+"question": "What does Clause 5 of ISO 20000-1 address?",
+"answer": "Leadership, including leadership commitment, policies, and organizational roles and responsibilities."
+},
+{
+"tag": "5.3",
+"question": "What does Clause 6 of ISO 20000-1 focus on?",
+"answer": "Planning actions to address risks and opportunities and defining service management objectives."
+},
+{
+"tag": "5.3",
+"question": "What is the focus of Clause 7 in ISO 20000-1?",
+"answer": "Support of the Service Management System, including resources, competence, communication, and documented information."
+},
+{
+"tag": "5.3",
+"question": "What does Clause 8 of ISO 20000-1 cover?",
+"answer": "Operation of the Service Management System and delivery of IT services."
+},
+{
+"tag": "5.3",
+"question": "What does Clause 9 of ISO 20000-1 evaluate?",
+"answer": "Performance evaluation, including monitoring, internal audits, management reviews, and service reporting."
+},
+{
+"tag": "5.3",
+"question": "What is the purpose of Clause 10 of ISO 20000-1?",
+"answer": "Improvement of the Service Management System through corrective actions and continual improvement."
+},
+{
+"tag": "5.3",
+"question": "What type of documentation must organizations provide for ISO 20000-1 assessments?",
+"answer": "Written evidence demonstrating compliance with clauses and processes."
+},
+{
+"tag": "5.3",
+"question": "Give examples of evidence required for ISO 20000-1 certification.",
+"answer": "Audit reports, compliance reports, personnel qualifications, incident records, customer complaints, monitoring reports, and BCP testing evidence."
+},
+{
+"tag": "5.3",
+"question": "How often should BCP (Business Continuity Plan) testing generally be performed?",
+"answer": "Annually."
 }
 
 ];
