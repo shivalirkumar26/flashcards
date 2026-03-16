@@ -493,6 +493,106 @@ const unit5Deck = [
 "tag": "5.3",
 "question": "How often should BCP (Business Continuity Plan) testing generally be performed?",
 "answer": "Annually."
+},
+{
+"tag": "5.4",
+"question": "Name some ITSM frameworks other than ITIL and ISO 20000.",
+"answer": "TOGAF, MOF, FitSM, and Six Sigma."
+},
+{
+"tag": "5.4",
+"question": "What does TOGAF stand for?",
+"answer": "The Open Group Architecture Framework."
+},
+{
+"tag": "5.4",
+"question": "What does the TOGAF framework focus on?",
+"answer": "Enterprise architecture and enterprise-level IT workflows."
+},
+{
+"tag": "5.4",
+"question": "From which type of framework was TOGAF derived?",
+"answer": "A U.S. Department of Defense IT management framework."
+},
+{
+"tag": "5.4",
+"question": "What does MOF stand for?",
+"answer": "Microsoft Operations Framework."
+},
+{
+"tag": "5.4",
+"question": "Which company created MOF?",
+"answer": "Microsoft."
+},
+{
+"tag": "5.4",
+"question": "Which framework is MOF similar to?",
+"answer": "ITIL."
+},
+{
+"tag": "5.4",
+"question": "What does MOF focus on?",
+"answer": "The entire IT service lifecycle using Microsoft best practices."
+},
+{
+"tag": "5.4",
+"question": "What is FitSM?",
+"answer": "An open-source IT service management standard created through a grant from the European Commission."
+},
+{
+"tag": "5.4",
+"question": "What is the main focus of FitSM?",
+"answer": "Improving IT service management effectiveness."
+},
+{
+"tag": "5.4",
+"question": "Which company created Six Sigma?",
+"answer": "Motorola."
+},
+{
+"tag": "5.4",
+"question": "What is the primary goal of Six Sigma?",
+"answer": "Improving quality and minimizing defects in products or services."
+},
+{
+"tag": "5.4",
+"question": "Which organizations most commonly use Six Sigma?",
+"answer": "Large organizations and Fortune 500 companies."
+},
+{
+"tag": "5.4",
+"question": "In the Lombardia ASL case study, who should be appointed before performing an ITSM assessment?",
+"answer": "A Service Manager."
+},
+{
+"tag": "5.4",
+"question": "What is the main responsibility of the Service Manager in an ITSM assessment?",
+"answer": "To document issues, assist assessors, provide documentation, and act as a liaison between management and assessors."
+},
+{
+"tag": "5.4",
+"question": "What is the biggest risk facing Lombardia ASL?",
+"answer": "Unauthorized access to patient data."
+},
+{
+"tag": "5.4",
+"question": "Which regulation protects the patient data handled by Lombardia ASL?",
+"answer": "GDPR."
+},
+{
+"tag": "5.4",
+"question": "What is one major weakness in Lombardia ASL's ITSM program?",
+"answer": "Previous recommendations were not implemented due to budget cuts."
+},
+{
+"tag": "5.4",
+"question": "Why is the helpdesk situation a risk for Lombardia ASL?",
+"answer": "Overworked helpdesk employees may miss security issues."
+},
+{
+"tag": "5.4",
+"question": "How can ITIL V4 help Lombardia ASL?",
+"answer": "By identifying service weaknesses through structured assessment and producing improvement recommendations."
 }
 
 ];
