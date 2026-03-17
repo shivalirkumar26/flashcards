@@ -98,5 +98,95 @@ const unit6Deck = [
 "tag": "6.1",
 "question": "What are the two core elements of cybersecurity mentioned in the law?",
 "answer": "Data privacy and data security."
+},
+{
+"tag": "6.2",
+"question": "What does patent law protect?",
+"answer": "Inventions or discoveries that are novel, useful, and non-obvious."
+},
+{
+"tag": "6.2",
+"question": "What must an inventor do to obtain a patent?",
+"answer": "Apply for a patent, disclose the invention, and pay required fees."
+},
+{
+"tag": "6.2",
+"question": "How long does patent protection typically last?",
+"answer": "20 years from the filing date."
+},
+{
+"tag": "6.2",
+"question": "What happens if a patent is violated?",
+"answer": "The patent holder can sue and receive damages or royalties."
+},
+{
+"tag": "6.2",
+"question": "What are the three types of patents in the U.S.?",
+"answer": "Utility, plant, and design patents."
+},
+{
+"tag": "6.2",
+"question": "What is a utility model in German patent law?",
+"answer": "A simplified patent for technical inventions that provides protection for 10 years."
+},
+{
+"tag": "6.2",
+"question": "Which organization grants European patents?",
+"answer": "The European Patent Office (EPO)."
+},
+{
+"tag": "6.2",
+"question": "What does copyright protect?",
+"answer": "The expression of an idea, not the idea itself."
+},
+{
+"tag": "6.2",
+"question": "How long does copyright protection last?",
+"answer": "The creator’s lifetime plus 70 years."
+},
+{
+"tag": "6.2",
+"question": "What does copyright protect in software?",
+"answer": "Source code, object code, and related documentation."
+},
+{
+"tag": "6.2",
+"question": "What is copyright infringement commonly called?",
+"answer": "Piracy."
+},
+{
+"tag": "6.2",
+"question": "What is fair use?",
+"answer": "A limited exception allowing use of copyrighted material under specific conditions such as education or research."
+},
+{
+"tag": "6.2",
+"question": "What is Creative Commons?",
+"answer": "A licensing system that allows sharing of creative works with certain usage rights while giving credit to the creator."
+},
+{
+"tag": "6.2",
+"question": "What is the purpose of Creative Commons licenses?",
+"answer": "To allow free sharing and use of creative works while maintaining some rights for the creator."
+},
+{
+"tag": "6.2",
+"question": "How many standard Creative Commons licenses exist?",
+"answer": "Six."
+},
+{
+"tag": "6.2",
+"question": "What is CC0 in Creative Commons?",
+"answer": "A license where the creator waives all rights and places the work in the public domain."
+},
+{
+"tag": "6.2",
+"question": "Do Creative Commons licenses provide full legal protection like copyright?",
+"answer": "No, they do not provide full legal protection."
+},
+{
+"tag": "6.2",
+"question": "What is the key difference between patents and copyright?",
+"answer": "Patents protect inventions, while copyright protects expressions of ideas."
 }
 ];
