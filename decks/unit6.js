@@ -1,6 +1,11 @@
 const unit6Deck = [
 {
 "tag": "6.1",
+"question": "List all the IT related laws?",
+"answer": "IIICEDDGL: IT Contract law; Intellectual Property protection (IP); IT Security/Breach notification law; Competition law; E-commerce law; Domain law; Data protection, protection of minors and general criminal regulations; German Telemedia Act (TMG); Legal requirements for handling emails"
+},
+{
+"tag": "6.1",
 "question": "What does e-commerce law regulate?",
 "answer": "The buying and selling of goods and services over the internet."
 },
