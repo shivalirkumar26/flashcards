@@ -388,5 +388,10 @@ const unit6Deck = [
 "tag": "6.4",
 "question": "What is the maximum GDPR fine?",
 "answer": "4% of global revenue or 20 million euros, whichever is higher."
+},
+{
+"tag": "6.4",
+"question": "What are GDPR derogations?",
+"answer": "GDPR derogations are country-specific laws or exceptions that supplement or modify GDPR rules. GDPR serves as the base framework, but it is not fully identical across all countries. Individual countries can introduce additional rules, stricter requirements, or clarifications based on their legal and regulatory needs. For example, in Germany, the BDSG and in Bavaria the BayDSG act as GDPR derogations. These do not replace GDPR but must be applied alongside it. In some contexts, derogations can also refer to specific exceptions where standard GDPR rules are relaxed. Overall, organizations must comply with both GDPR and any applicable national derogations, especially in areas like data processing and breach responsibilities."
 }
 ];
