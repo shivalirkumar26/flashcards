@@ -288,5 +288,105 @@ const unit6Deck = [
 "tag": "6.3",
 "question": "Why is continuous vendor monitoring important?",
 "answer": "To ensure compliance, performance, and security throughout the contract period."
+},
+{
+"tag": "6.4",
+"question": "What is personal data?",
+"answer": "Any data that can identify a person, such as name, email, IP address, or biometric data."
+},
+{
+"tag": "6.4",
+"question": "What is the role of a data controller?",
+"answer": "The controller determines the purpose and means of processing personal data and holds primary responsibility."
+},
+{
+"tag": "6.4",
+"question": "What is the role of a data processor?",
+"answer": "The processor processes personal data on behalf of the controller."
+},
+{
+"tag": "6.4",
+"question": "Who is primarily responsible in case of a data breach under GDPR?",
+"answer": "The data controller."
+},
+{
+"tag": "6.4",
+"question": "What is pseudonymization?",
+"answer": "A reversible method of de-identifying data where the original identity can be restored."
+},
+{
+"tag": "6.4",
+"question": "What is anonymization?",
+"answer": "An irreversible method of de-identifying data where the individual cannot be identified."
+},
+{
+"tag": "6.4",
+"question": "Which type of data is not subject to GDPR?",
+"answer": "Anonymized data."
+},
+{
+"tag": "6.4",
+"question": "List the different Data Protection principles.",
+"answer": "PPORIEAC: Purpose; Original Purpose; Data portability; Right to erasure; Right to be informed; Right to rectification; Data Amount (Data minimization); Right to file a complaint."
+},
+{
+"tag": "6.4",
+"question": "What is the purpose principle in GDPR?",
+"answer": "Personal data must be collected for a lawful and specific purpose."
+},
+{
+"tag": "6.4",
+"question": "What is data minimization?",
+"answer": "Collecting only the minimum amount of data necessary."
+},
+{
+"tag": "6.4",
+"question": "What is data portability?",
+"answer": "The ability to transfer data in a usable and accessible format."
+},
+{
+"tag": "6.4",
+"question": "What is the right to be forgotten?",
+"answer": "The right of a data subject to request deletion of their personal data."
+},
+{
+"tag": "6.4",
+"question": "What is the right to rectification?",
+"answer": "The right to have inaccurate or outdated personal data corrected."
+},
+{
+"tag": "6.4",
+"question": "What is a Subject Access Request (SAR)?",
+"answer": "A request by a data subject to access their personal data held by an organization."
+},
+{
+"tag": "6.4",
+"question": "What is a Data Protection Officer (DPO)?",
+"answer": "A person responsible for overseeing data protection strategy and compliance."
+},
+{
+"tag": "6.4",
+"question": "What is a Data Protection Authority (DPA)?",
+"answer": "A regulatory body responsible for enforcing data protection laws."
+},
+{
+"tag": "6.4",
+"question": "What are GDPR derogations?",
+"answer": "Country-specific rules that supplement or modify GDPR provisions."
+},
+{
+"tag": "6.4",
+"question": "What is privacy by design?",
+"answer": "Incorporating data protection measures from the beginning of system development."
+},
+{
+"tag": "6.4",
+"question": "What is privacy by default?",
+"answer": "Ensuring that systems are configured with the highest level of privacy by default."
+},
+{
+"tag": "6.4",
+"question": "What is the maximum GDPR fine?",
+"answer": "4% of global revenue or 20 million euros, whichever is higher."
 }
 ];
