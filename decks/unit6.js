@@ -193,5 +193,100 @@ const unit6Deck = [
 "tag": "6.2",
 "question": "What is the key difference between patents and copyright?",
 "answer": "Patents protect inventions, while copyright protects expressions of ideas."
+},
+{
+"tag": "6.3",
+"question": "What is an IT contract?",
+"answer": "An agreement between a customer and vendor defining responsibilities, services, and conditions for IT services."
+},
+{
+"tag": "6.3",
+"question": "What is an SLA?",
+"answer": "A Service Level Agreement that defines service expectations, responsibilities, and performance standards."
+},
+{
+"tag": "6.3",
+"question": "Why are IT contracts important?",
+"answer": "They define security, privacy, availability, and responsibilities, especially in case of failures or breaches."
+},
+{
+"tag": "6.3",
+"question": "What should security breach clauses in contracts define?",
+"answer": "Who is responsible and what actions must be taken when a breach occurs."
+},
+{
+"tag": "6.3",
+"question": "List the different types of contracts.",
+"answer": "CCAOWST/PAOWWST: Contractual Penalties; Acceptance of Software; Outsourcing contract; Contract for work and services; Warranty and guarantee; Software contracts; Terms and conditions."
+},
+{
+"tag": "6.3",
+"question": "What is included in software contracts?",
+"answer": "Definitions, contract terms, support clauses, security clauses, availability, fees, licensing, and audit rights."
+},
+{
+"tag": "6.3",
+"question": "What is a contract for work and services?",
+"answer": "A contract defining tasks performed by a vendor, including scope, fees, and data protection requirements."
+},
+{
+"tag": "6.3",
+"question": "What is superuser access?",
+"answer": "High-level system access with full control over systems, which must be restricted and monitored."
+},
+{
+"tag": "6.3",
+"question": "What is an MSP?",
+"answer": "A Managed Service Provider that delivers IT services, often through cloud access."
+},
+{
+"tag": "6.3",
+"question": "What must MSP contracts include?",
+"answer": "Responsibilities, access rights, security requirements, and audit provisions."
+},
+{
+"tag": "6.3",
+"question": "What does a warranty ensure in software contracts?",
+"answer": "That software works properly and is free from defects and malicious code."
+},
+{
+"tag": "6.3",
+"question": "Who owns the software in a leasing contract?",
+"answer": "The vendor."
+},
+{
+"tag": "6.3",
+"question": "What are terms and conditions (T&C)?",
+"answer": "Rules that users must accept to use a website or service."
+},
+{
+"tag": "6.3",
+"question": "What do contractual penalties address?",
+"answer": "Damages for non-performance, late performance, or defective performance."
+},
+{
+"tag": "6.3",
+"question": "What is acceptance testing?",
+"answer": "Testing software to ensure it meets user requirements and performs correctly."
+},
+{
+"tag": "6.3",
+"question": "What is outsourcing?",
+"answer": "Hiring external vendors to perform services the organization cannot handle internally."
+},
+{
+"tag": "6.3",
+"question": "What must be done before outsourcing to a vendor?",
+"answer": "Due diligence and investigation of the vendor."
+},
+{
+"tag": "6.3",
+"question": "What should outsourcing contracts include regarding security?",
+"answer": "Incident reporting requirements, downtime limits, and confidentiality agreements."
+},
+{
+"tag": "6.3",
+"question": "Why is continuous vendor monitoring important?",
+"answer": "To ensure compliance, performance, and security throughout the contract period."
 }
 ];
