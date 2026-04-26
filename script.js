@@ -26,6 +26,10 @@ function loadDeck() {
     sourceDeck = unit5Deck;
   } else if (currentUnit === "unit6") {
     sourceDeck = unit6Deck;
+  } else if (currentUnit === "unit7") {
+    sourceDeck = unit7Deck;
+  } else if (currentUnit === "unit8") {
+    sourceDeck = unit8Deck;
   }
 
   // Create unique IDs per unit
