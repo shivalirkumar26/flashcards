@@ -1,397 +1,58 @@
 const unit6Deck = [
-{
-"tag": "6.1",
-"question": "List all the IT related laws?",
-"answer": "IIICEDDGL: IT Contract law; Intellectual Property protection (IP); IT Security/Breach notification law; Competition law; E-commerce law; Domain law; Data protection, protection of minors and general criminal regulations; German Telemedia Act (TMG); Legal requirements for handling emails"
-},
-{
-"tag": "6.1",
-"question": "What does e-commerce law regulate?",
-"answer": "The buying and selling of goods and services over the internet."
-},
-{
-"tag": "6.1",
-"question": "What is an Impressum?",
-"answer": "A legal notice on a website that includes the organization’s name, address, and contact details."
-},
-{
-"tag": "6.1",
-"question": "What is the right of withdrawal?",
-"answer": "The right of a customer to cancel a purchase without giving a reason within a specified time."
-},
-{
-"tag": "6.1",
-"question": "What are Service Level Agreements (SLAs)?",
-"answer": "Contracts between a client and vendor defining service expectations, performance, and responsibilities."
-},
-{
-"tag": "6.1",
-"question": "What does intellectual property (IP) law protect?",
-"answer": "Patents, trademarks, copyrights, and innovations such as software and AI."
-},
-{
-"tag": "6.1",
-"question": "What is competition law (antitrust law)?",
-"answer": "A law designed to prevent monopolies and promote fair competition."
-},
-{
-"tag": "6.1",
-"question": "What is the main goal of data protection laws for minors?",
-"answer": "To protect children's personal data and restrict data collection without consent."
-},
-{
-"tag": "6.1",
-"question": "What is cybersquatting?",
-"answer": "Registering or using a domain name identical to a trademarked name in bad faith."
-},
-{
-"tag": "6.1",
-"question": "What is typosquatting?",
-"answer": "Creating a domain name similar to a well-known site to trick users into visiting it."
-},
-{
-"tag": "6.1",
-"question": "What does the German Telemedia Act (TMG) require?",
-"answer": "Websites must include legal information such as contact details and monitor content for illegal activities."
-},
-{
-"tag": "6.1",
-"question": "What is the purpose of email archiving laws?",
-"answer": "To preserve emails as evidence, especially in regulated industries."
-},
-{
-"tag": "6.1",
-"question": "Which law governs email marketing in Germany?",
-"answer": "The Unfair Competition Law (UWG)."
-},
-{
-"tag": "6.1",
-"question": "What is required before sending marketing emails?",
-"answer": "Explicit user consent."
-},
-{
-"tag": "6.1",
-"question": "What is breach notification law?",
-"answer": "A law requiring organizations to report data breaches and protect personal data."
-},
-{
-"tag": "6.1",
-"question": "Within how many hours must a data breach be reported under GDPR?",
-"answer": "72 hours."
-},
-{
-"tag": "6.1",
-"question": "Who are the two parties in a data processing agreement?",
-"answer": "The controller and the processor."
-},
-{
-"tag": "6.1",
-"question": "What is the role of a controller?",
-"answer": "The entity that owns and determines how data is used."
-},
-{
-"tag": "6.1",
-"question": "What is the role of a processor?",
-"answer": "The entity that processes data on behalf of the controller."
-},
-{
-"tag": "6.1",
-"question": "How can encryption affect breach notification requirements?",
-"answer": "It can reduce the severity or notification requirements if data remains secure."
-},
-{
-"tag": "6.1",
-"question": "What are the two core elements of cybersecurity mentioned in the law?",
-"answer": "Data privacy and data security."
-},
-{
-"tag": "6.2",
-"question": "What does patent law protect?",
-"answer": "Inventions or discoveries that are novel, useful, and non-obvious."
-},
-{
-"tag": "6.2",
-"question": "What must an inventor do to obtain a patent?",
-"answer": "Apply for a patent, disclose the invention, and pay required fees."
-},
-{
-"tag": "6.2",
-"question": "How long does patent protection typically last?",
-"answer": "20 years from the filing date."
-},
-{
-"tag": "6.2",
-"question": "What happens if a patent is violated?",
-"answer": "The patent holder can sue and receive damages or royalties."
-},
-{
-"tag": "6.2",
-"question": "What are the three types of patents in the U.S.?",
-"answer": "Utility, plant, and design patents."
-},
-{
-"tag": "6.2",
-"question": "What is a utility model in German patent law?",
-"answer": "A simplified patent for technical inventions that provides protection for 10 years."
-},
-{
-"tag": "6.2",
-"question": "Which organization grants European patents?",
-"answer": "The European Patent Office (EPO)."
-},
-{
-"tag": "6.2",
-"question": "What does copyright protect?",
-"answer": "The expression of an idea, not the idea itself."
-},
-{
-"tag": "6.2",
-"question": "How long does copyright protection last?",
-"answer": "The creator’s lifetime plus 70 years."
-},
-{
-"tag": "6.2",
-"question": "What does copyright protect in software?",
-"answer": "Source code, object code, and related documentation."
-},
-{
-"tag": "6.2",
-"question": "What is copyright infringement commonly called?",
-"answer": "Piracy."
-},
-{
-"tag": "6.2",
-"question": "What is fair use?",
-"answer": "A limited exception allowing use of copyrighted material under specific conditions such as education or research."
-},
-{
-"tag": "6.2",
-"question": "What is Creative Commons?",
-"answer": "A licensing system that allows sharing of creative works with certain usage rights while giving credit to the creator."
-},
-{
-"tag": "6.2",
-"question": "What is the purpose of Creative Commons licenses?",
-"answer": "To allow free sharing and use of creative works while maintaining some rights for the creator."
-},
-{
-"tag": "6.2",
-"question": "How many standard Creative Commons licenses exist?",
-"answer": "Six."
-},
-{
-"tag": "6.2",
-"question": "What is CC0 in Creative Commons?",
-"answer": "A license where the creator waives all rights and places the work in the public domain."
-},
-{
-"tag": "6.2",
-"question": "Do Creative Commons licenses provide full legal protection like copyright?",
-"answer": "No, they do not provide full legal protection."
-},
-{
-"tag": "6.2",
-"question": "What is the key difference between patents and copyright?",
-"answer": "Patents protect inventions, while copyright protects expressions of ideas."
-},
-{
-"tag": "6.3",
-"question": "What is an IT contract?",
-"answer": "An agreement between a customer and vendor defining responsibilities, services, and conditions for IT services."
-},
-{
-"tag": "6.3",
-"question": "What is an SLA?",
-"answer": "A Service Level Agreement that defines service expectations, responsibilities, and performance standards."
-},
-{
-"tag": "6.3",
-"question": "Why are IT contracts important?",
-"answer": "They define security, privacy, availability, and responsibilities, especially in case of failures or breaches."
-},
-{
-"tag": "6.3",
-"question": "What should security breach clauses in contracts define?",
-"answer": "Who is responsible and what actions must be taken when a breach occurs."
-},
-{
-"tag": "6.3",
-"question": "List the different types of contracts.",
-"answer": "CCAOWST/PAOWWST: Contractual Penalties; Acceptance of Software; Outsourcing contract; Contract for work and services; Warranty and guarantee; Software contracts; Terms and conditions."
-},
-{
-"tag": "6.3",
-"question": "What is included in software contracts?",
-"answer": "Definitions, contract terms, support clauses, security clauses, availability, fees, licensing, and audit rights."
-},
-{
-"tag": "6.3",
-"question": "What is a contract for work and services?",
-"answer": "A contract defining tasks performed by a vendor, including scope, fees, and data protection requirements."
-},
-{
-"tag": "6.3",
-"question": "What is superuser access?",
-"answer": "High-level system access with full control over systems, which must be restricted and monitored."
-},
-{
-"tag": "6.3",
-"question": "What is an MSP?",
-"answer": "A Managed Service Provider that delivers IT services, often through cloud access."
-},
-{
-"tag": "6.3",
-"question": "What must MSP contracts include?",
-"answer": "Responsibilities, access rights, security requirements, and audit provisions."
-},
-{
-"tag": "6.3",
-"question": "What does a warranty ensure in software contracts?",
-"answer": "That software works properly and is free from defects and malicious code."
-},
-{
-"tag": "6.3",
-"question": "Who owns the software in a leasing contract?",
-"answer": "The vendor."
-},
-{
-"tag": "6.3",
-"question": "What are terms and conditions (T&C)?",
-"answer": "Rules that users must accept to use a website or service."
-},
-{
-"tag": "6.3",
-"question": "What do contractual penalties address?",
-"answer": "Damages for non-performance, late performance, or defective performance."
-},
-{
-"tag": "6.3",
-"question": "What is acceptance testing?",
-"answer": "Testing software to ensure it meets user requirements and performs correctly."
-},
-{
-"tag": "6.3",
-"question": "What is outsourcing?",
-"answer": "Hiring external vendors to perform services the organization cannot handle internally."
-},
-{
-"tag": "6.3",
-"question": "What must be done before outsourcing to a vendor?",
-"answer": "Due diligence and investigation of the vendor."
-},
-{
-"tag": "6.3",
-"question": "What should outsourcing contracts include regarding security?",
-"answer": "Incident reporting requirements, downtime limits, and confidentiality agreements."
-},
-{
-"tag": "6.3",
-"question": "Why is continuous vendor monitoring important?",
-"answer": "To ensure compliance, performance, and security throughout the contract period."
-},
-{
-"tag": "6.4",
-"question": "What is personal data?",
-"answer": "Any data that can identify a person, such as name, email, IP address, or biometric data."
-},
-{
-"tag": "6.4",
-"question": "What is the role of a data controller?",
-"answer": "The controller determines the purpose and means of processing personal data and holds primary responsibility."
-},
-{
-"tag": "6.4",
-"question": "What is the role of a data processor?",
-"answer": "The processor processes personal data on behalf of the controller."
-},
-{
-"tag": "6.4",
-"question": "Who is primarily responsible in case of a data breach under GDPR?",
-"answer": "The data controller."
-},
-{
-"tag": "6.4",
-"question": "What is pseudonymization?",
-"answer": "A reversible method of de-identifying data where the original identity can be restored."
-},
-{
-"tag": "6.4",
-"question": "What is anonymization?",
-"answer": "An irreversible method of de-identifying data where the individual cannot be identified."
-},
-{
-"tag": "6.4",
-"question": "Which type of data is not subject to GDPR?",
-"answer": "Anonymized data."
-},
-{
-"tag": "6.4",
-"question": "List the different Data Protection principles.",
-"answer": "PPORIEAC: Purpose; Original Purpose; Data portability; Right to erasure; Right to be informed; Right to rectification; Data Amount (Data minimization); Right to file a complaint."
-},
-{
-"tag": "6.4",
-"question": "What is the purpose principle in GDPR?",
-"answer": "Personal data must be collected for a lawful and specific purpose."
-},
-{
-"tag": "6.4",
-"question": "What is data minimization?",
-"answer": "Collecting only the minimum amount of data necessary."
-},
-{
-"tag": "6.4",
-"question": "What is data portability?",
-"answer": "The ability to transfer data in a usable and accessible format."
-},
-{
-"tag": "6.4",
-"question": "What is the right to be forgotten?",
-"answer": "The right of a data subject to request deletion of their personal data."
-},
-{
-"tag": "6.4",
-"question": "What is the right to rectification?",
-"answer": "The right to have inaccurate or outdated personal data corrected."
-},
-{
-"tag": "6.4",
-"question": "What is a Subject Access Request (SAR)?",
-"answer": "A request by a data subject to access their personal data held by an organization."
-},
-{
-"tag": "6.4",
-"question": "What is a Data Protection Officer (DPO)?",
-"answer": "A person responsible for overseeing data protection strategy and compliance."
-},
-{
-"tag": "6.4",
-"question": "What is a Data Protection Authority (DPA)?",
-"answer": "A regulatory body responsible for enforcing data protection laws."
-},
-{
-"tag": "6.4",
-"question": "What are GDPR derogations?",
-"answer": "Country-specific rules that supplement or modify GDPR provisions."
-},
-{
-"tag": "6.4",
-"question": "What is privacy by design?",
-"answer": "Incorporating data protection measures from the beginning of system development."
-},
-{
-"tag": "6.4",
-"question": "What is privacy by default?",
-"answer": "Ensuring that systems are configured with the highest level of privacy by default."
-},
-{
-"tag": "6.4",
-"question": "What is the maximum GDPR fine?",
-"answer": "4% of global revenue or 20 million euros, whichever is higher."
-},
-{
-"tag": "6.4",
-"question": "What are GDPR derogations?",
-"answer": "GDPR derogations are country-specific laws or exceptions that supplement or modify GDPR rules. GDPR serves as the base framework, but it is not fully identical across all countries. Individual countries can introduce additional rules, stricter requirements, or clarifications based on their legal and regulatory needs. For example, in Germany, the BDSG and in Bavaria the BayDSG act as GDPR derogations. These do not replace GDPR but must be applied alongside it. In some contexts, derogations can also refer to specific exceptions where standard GDPR rules are relaxed. Overall, organizations must comply with both GDPR and any applicable national derogations, especially in areas like data processing and breach responsibilities."
-}
-];
+
+  {
+    "tag": "6.1",
+    "question": "MCQ: Companies can have several reasons to go international. Which of the following refers to the formation of free trade zones? A) Standardization B) Customs and tax agreements C) Unifications D) Local agreements",
+    "answer": "C) Unifications. The coursebook states that the increase in the formation of free trade zones between various countries — such as the EU and NAFTA — are called unifications. These allow free trade between countries within the union and lead to the standardization of trade regulations. This is confirmed directly in the master solutions file."
+  },
+  {
+    "tag": "6.1",
+    "question": "MCQ: Companies can have several reasons to go international. Which of the following refers to the fact that organizations can decide where they want certain processes performed? A) Infrastructure B) The internet C) Unifications D) Local differences",
+    "answer": "D) Local differences. The coursebook explains that improvements in infrastructure allow organizations to transport goods cheaply across the globe, so they can decide where they want certain processes performed. For example, most textiles are made in Asia because production costs are lower, while design and marketing remain in home countries. This is confirmed directly in the master solutions file."
+  },
+  {
+    "tag": "6.1",
+    "question": "MCQ: How many reasons does the coursebook list for the increase in international exposure of companies? A) Five B) Six C) Seven D) Eight",
+    "answer": "D) Eight. The coursebook lists eight reasons: trade agreements, unification, economies of scale, infrastructure, local differences, the world growing closer together, standardization, and global marketing."
+  },
+  {
+    "tag": "6.1",
+    "question": "MCQ: What is a free trade zone, according to the coursebook? A) A geographic area with no import taxes on specific product categories B) An area that allows the free traffic of goods and services between the countries included in the union C) A trade agreement that eliminates customs duties for more than 800 products D) A government subsidy for companies that export products internationally",
+    "answer": "B) An area that allows the free traffic of goods and services between the countries included in the union. The coursebook defines a free trade zone as allowing the free traffic of goods and services between the countries included in the union."
+  },
+  {
+    "tag": "6.1",
+    "question": "MCQ: According to the coursebook, what is an advantage of unifications such as the EU for companies? A) They allow companies to avoid paying corporate taxes in member countries B) They lead to the standardization of trade regulations, allowing companies to register patents and brand names once for the entire union rather than in each individual country C) They give companies automatic access to government subsidies in member countries D) They eliminate the need for a global strategy",
+    "answer": "B) They lead to the standardization of trade regulations, allowing companies to register patents and brand names once for the entire union rather than in each individual country. The coursebook states that common quality standards in the EU allow companies to offer one product for all countries in the union, and patents, brand names, etc. do not have to be registered in each individual country."
+  },
+  {
+    "tag": "6.1",
+    "question": "MCQ: What is 'global sourcing' according to the coursebook? A) Hiring employees from multiple countries to work in the home country B) The opportunity to purchase products worldwide at the lowest prices while taking advantage of location benefits such as low-wage countries or local specializations C) A marketing strategy that uses the same advertising in all international markets D) Outsourcing all production activities to a single foreign country",
+    "answer": "B) The opportunity to purchase products worldwide at the lowest prices while taking advantage of location benefits such as low-wage countries or local specializations. The coursebook defines global sourcing in the context of standardization — uniform quality standards enable companies to purchase standardized components globally and deliver them to manufacturing plants worldwide."
+  },
+  {
+    "tag": "6.1",
+    "question": "MCQ: What is the global–local dilemma, according to the coursebook? A) The difficulty of choosing between exporting and foreign direct investment B) Companies having to decide what can be standardized globally and what has to be adapted to local standards C) The tension between growing internationally and maintaining profitability in the home market D) The challenge of registering patents in multiple countries simultaneously",
+    "answer": "B) Companies having to decide what can be standardized globally and what has to be adapted to local standards. The coursebook states that most companies expanding into international markets encounter the global–local dilemma, and that global organizations have to 'think global, act local.' Wal-Mart's failure in Germany is given as an illustration of ignoring this dilemma."
+  },
+  {
+    "tag": "6.1",
+    "question": "MCQ: What risk related to international interdependencies does the coursebook describe, using the Toyota example? A) The risk that foreign competitors copy Toyota's technology B) The risk that trade agreements between countries are suddenly cancelled C) International companies are interlinked and affected by fluctuations in remote regions — when Japan was hit by disasters in 2011, Toyota stopped production in factories in England, France, and Turkey due to delivery shortages D) The risk that local governments nationalize foreign-owned factories",
+    "answer": "C) International companies are interlinked and affected by fluctuations in remote regions — when Japan was hit by disasters in 2011, Toyota stopped production in factories in England, France, and Turkey due to delivery shortages. The coursebook uses this as an example of the dependency risk faced by international companies."
+  },
+  {
+    "tag": "6.1",
+    "question": "Short Answer: List all eight reasons why companies increasingly go international, as stated in the coursebook.",
+    "answer": "The coursebook lists the following eight reasons for the increase in international exposure of companies: (1) trade agreements, (2) unification, (3) economies of scale, (4) infrastructure, (5) local differences, (6) the world growing closer together, (7) standardization, and (8) global marketing."
+  },
+  {
+    "tag": "6.1",
+    "question": "Short Answer: What does 'think global, act local' mean according to the coursebook, and what example is given to illustrate it?",
+    "answer": "According to the coursebook, 'think global, act local' means that global organizations should have a global strategy but adapt it to local conditions. The McDonald's example illustrates this: McDonald's could design a global advertising campaign featuring soccer — which is popular in almost all countries — but then show local players in the advertisements for the respective country. The Wal-Mart case study also illustrates the failure that results from ignoring this principle — imposing American business practices on the German market without understanding local customs and consumer preferences led to failure."
+  },
+  {
+    "tag": "6.1",
+    "question": "Long Answer: Explain the reasons why companies increasingly go international, as described in the coursebook. Include all eight reasons with their definitions and examples.",
+    "answer": "The coursebook explains that the world has grown closer together thanks to improvements in infrastructure and the widespread growth of internet use, making it possible even for small organizations to go international. The reasons for the increase in international exposure are:\n\n1. Trade Agreements: An increasing number of international trade agreements have made it easier to do business across countries and regions. Example: China and Taiwan agreed on a historic trade agreement in 2010, eliminating customs duties for more than 800 products.\n\n2. Unification: The formation of free trade zones — such as the EU (European Union) or NAFTA (North American Free Trade Agreement) — allows free trade between member countries and leads to the standardization of trade regulations. This lowers costs: for example, common quality standards in the EU allow companies to offer one product for all member countries, and patents and brand names can be registered once for the entire union.\n\n3. Economies of Scale: Offering one product to various countries without major adaptations allows companies to benefit from economies of scale and increases efficiency. Companies with high investment or development costs particularly benefit from selling in many countries.\n\n4. Infrastructure: The infrastructure of worldwide trade has improved tremendously. International container shipping has become highly cost-efficient due to new technologies, reducing time and costs for transporting goods.\n\n5. Local Differences: Improvements in infrastructure allow organizations to decide where they want certain processes performed. Most textiles are made in Asia because production costs are lower, while design and marketing remain in home countries.\n\n6. The World Growing Closer Together: The Internet revolution of the 1990s brought the world even closer together. Consumers can now access and compare products worldwide. Trade coordinators such as eBay enable cross-border transactions.\n\n7. Standardization: Uniform quality standards and quality systems enable companies to save costs. A Japanese car manufacturer, for example, can purchase a standardized component from an Italian manufacturer and deliver it to all its manufacturing plants worldwide — known as global sourcing.\n\n8. Global Marketing: Globalization makes standardized marketing possible. McDonald's and Coca-Cola are global brands recognized worldwide. However, companies face the global–local dilemma: they must decide what can be standardized and what must be adapted to local conditions. Global organizations must 'think global, act local.'\n\nHowever, international companies also face risks: dependencies (e.g., Toyota stopped production in Europe due to Japan's 2011 disasters) and global competition (large international companies have enormous financial resources, but as the Wal-Mart Germany case shows, even they can fail against strong local competitors)."
+  }
+]
