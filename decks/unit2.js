@@ -1,200 +1,170 @@
 const unit2Deck = [
-  {
-    "tag": "2.1",
-    "question": "MCQ: Which of the following tools can be used to analyze the macroenvironment of a company? A) SWAT analysis B) SWOT analysis C) PESTEL analysis D) PASTEL analysis",
-    "answer": "C) PESTEL analysis. The coursebook states that the PESTEL analysis can be used to analyze the macroenvironment of an organization. PESTEL is an acronym of the first letters of all the factors in the macroenvironment: political, economic, social, technological, environmental or ecological, and legislative or legal factors."
-  },
-  {
-    "tag": "2.1",
-    "question": "MCQ: According to the coursebook, what does PESTEL stand for? A) Political, Economic, Social, Technological, Ecological, Legal B) Political, Environmental, Social, Technological, Economic, Legal C) Performance, Economic, Social, Technological, Ecological, Legal D) Political, Economic, Strategic, Technological, Environmental, Legal",
-    "answer": "A) Political, Economic, Social, Technological, Ecological, Legal. The coursebook lists the six factors as: political factors, economic factors, social factors, technological factors, environmental or ecological factors, and legislative or legal factors."
-  },
-  {
-    "tag": "2.1",
-    "question": "MCQ: Which of the following categories in the PESTEL method would analyze changes in market prices? A) Social factors B) Technological factors C) Political factors D) Economic factors",
-    "answer": "D) Economic factors. The coursebook states that economic factors involve an analysis and forecast of economic developments and trends. An example given is changes in the price of oil influencing aviation gasoline prices, which in turn affects airline profitability and strategy."
-  },
-  {
-    "tag": "2.1",
-    "question": "MCQ: An aging population that leads airlines to provide wheelchair and luggage services for elderly travelers is an example of which PESTEL factor? A) Political factors B) Ecological factors C) Social factors D) Legal factors",
-    "answer": "C) Social factors. The coursebook states that social factors involve an analysis and forecast of sociocultural developments such as trends in demography or changes in customer values. The aging population in the Western world is given as a specific example, with airlines needing to cater to the specific needs of elderly travelers."
-  },
-  {
-    "tag": "2.1",
-    "question": "MCQ: Airlines being forced to reroute planes due to flight restrictions over certain areas is an example of which PESTEL factor? A) Legal factors B) Ecological factors C) Political factors D) Technological factors",
-    "answer": "B) Ecological factors. The coursebook states that ecological factors involve an analysis and forecast of ecological developments and trends. The example given is that the airline industry faces flight restrictions over certain areas such as larger cities and nuclear power plants, forcing them to reroute planes and invest more in planning."
-  },
-  {
-    "tag": "2.1",
-    "question": "MCQ: Domestic airlines being given preference in airport access, which forces smaller airlines to use remote airports, is an example of which PESTEL factor? A) Political factors B) Economic factors C) Ecological factors D) Legal factors",
-    "answer": "D) Legal factors. The coursebook states that legal factors involve an analysis and forecast of legal developments regionally, domestically, or internationally. The example given is that domestic airlines are often given preference in airport access, forcing smaller airlines to resort to smaller, more remote airports."
-  },
-  {
-    "tag": "2.1",
-    "question": "MCQ: According to the coursebook, what type of method is the PESTEL analysis? A) A quantitative and financial method B) A strategic and qualitative method C) A competitive and operational method D) A demographic and social method",
-    "answer": "B) A strategic and qualitative method. The coursebook explicitly states: 'The PESTEL analysis is a strategic and qualitative method that helps to align the organization with its environment or with developments in the environment.'"
-  },
-  {
-    "tag": "2.1",
-    "question": "MCQ: According to the coursebook, which of the following best describes the relationship between an organization and its environment? A) Organizations control their environment through strategic decisions B) Organizations exist in isolation from their environment C) Organizations do not exist in isolation — they exist within the environment in which they operate, and the environment influences the corporate strategy D) The environment only affects organizations in the macroenvironment, not those in the microenvironment",
-    "answer": "C) Organizations do not exist in isolation — they exist within the environment in which they operate, and the environment influences the corporate strategy. The coursebook uses the analogy of the solar system, with the organization at the center and various factors orbiting around it like planets around the sun."
-  },
-  {
-    "tag": "2.1",
-    "question": "MCQ: Which of the following is part of the microenvironment, NOT the macroenvironment? A) Political factors B) Technological trends C) Competitors and suppliers D) Ecological developments",
-    "answer": "C) Competitors and suppliers. The coursebook states that the factors closer to the organization — namely competitors, substitute products, suppliers, and buyers — are in the microenvironment. The macroenvironment consists of political, economic, social, technological, environmental, and legal factors."
-  },
-  {
-    "tag": "2.1",
-    "question": "Short Answer: Name all six factors in the PESTEL framework as listed in the coursebook.",
-    "answer": "The six factors in the PESTEL framework are: (1) political factors, (2) economic factors, (3) social factors, (4) technological factors, (5) environmental or ecological factors, and (6) legislative or legal factors. PESTEL is an acronym of the first letters of all the factors in the macroenvironment of an organization."
-  },
-  {
-    "tag": "2.1",
-    "question": "Short Answer: According to the coursebook, for what types of decisions can the PESTEL analysis be used?",
-    "answer": "The coursebook states that the PESTEL analysis is comprehensive and extensive, and its usage is not limited to one organization or one competitive situation — it can also be applied to a team or a department within the organization. It can be used for location decisions as well as for strategic decisions, such as product portfolio or technological innovations. A brainstorming session often forms part of a PESTEL analysis."
-  },
-  {
-    "tag": "2.1",
-    "question": "Long Answer: Explain the PESTEL analysis as described in the coursebook. Define what it is, what each factor covers, and provide the airline example used in the coursebook for each factor.",
-    "answer": "The PESTEL analysis is a strategic and qualitative method that helps to align the organization with its environment or with developments in the environment. It also looks at changes in the environment that may influence the future success or failure of the organization. It is used to analyze the macroenvironment — the wider environment that influences how business is conducted — as opposed to the microenvironment, which consists of closer factors such as competitors, substitute products, suppliers, and buyers.\n\nPESTEL is an acronym for the following six factors:\n\n1. Political factors — This involves an analysis and forecast of political developments and trends. Example: If the government enforces higher security standards in the airline industry, the company will have to invest more in security measures, reducing investments in other projects and directly impacting the company strategy.\n\n2. Economic factors — This involves an analysis and forecast of economic developments and trends. Example: Changes in the price of oil will influence the price of aviation gasoline. Since gasoline is critical for airline profitability, rising oil prices force airlines to increase ticket prices, potentially leading to a decline in air travel.\n\n3. Social factors — This involves an analysis and forecast of sociocultural developments such as trends in demography or changes in customer values. Example: In the Western world, the population is aging and many retire earlier. Airlines must accommodate elderly travelers by providing wheelchairs and luggage services.\n\n4. Technological factors — This involves an analysis and forecast of technological developments and trends. Example: The widespread use of the internet has changed the check-in process. Airlines now offer online check-in, requiring investment in the necessary technology, which influences the strategic plan.\n\n5. Ecological factors — This involves an analysis and forecast of ecological developments and trends. Example: The airline industry faces flight restrictions over certain areas such as larger cities and nuclear power plants, forcing airlines to reroute planes and invest more heavily in planning.\n\n6. Legal factors — This involves an analysis and forecast of legal developments regionally, domestically, or internationally. Example: Domestic airlines are often given preference in airport access, forcing smaller airlines to use smaller, more remote airports. Cheaper charter airlines like Ryanair build this factor into their strategy.\n\nThe PESTEL analysis is comprehensive and can be applied to an organization, a team, or a department. It is used for location decisions as well as strategic decisions such as product portfolios or technological innovations."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: What does the microenvironment of an organization consist of, according to the coursebook? A) Political, economic, social, technological, ecological, and legal factors B) Buyers or customers, competitors, possible substitute products, and suppliers C) Corporate level, SBU level, and product level D) Vision, mission, values, and goals",
-    "answer": "B) Buyers or customers, competitors, possible substitute products, and suppliers. The coursebook states that the direct environment in the market place impacting an organization is called the microenvironment, and it includes the buyers or customers, the competitors, possible substitute products, and the suppliers."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: Which of the following methods allows for a 'static' analysis of market attractiveness? A) PESTEL analysis and the Five Forces model B) The Five Forces model only C) None of the models D) POST analysis",
-    "answer": "B) The Five Forces model only. The coursebook notes that the Five Forces model is based on a stable and static market structure, whereas the PESTEL analysis looks at dynamic trends and developments. The Five Forces model therefore allows for a static analysis."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: According to the coursebook, what are the three assumptions on which the Five Forces model is built? A) Markets are dynamic, structure defines behavior, and competition determines success B) The market's attractiveness is defined by its structure; the structure impacts the strategic behavior of organizations; and since the market structure is defined by competition, competitive strategy is decisive for success C) Organizations must weaken buyer power, minimize new entrants, and reduce supplier power D) Buyers, competitors, and suppliers together define the attractiveness of a business",
-    "answer": "B) The market's attractiveness is defined by its structure; the structure of the market impacts the strategic behavior of an organization operating in this market; and since the market structure is defined by the competition, the competitive strategy of an organization is decisive for its success. These are the three explicit assumptions listed in the coursebook."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: Name the five forces in Porter's Five Forces model as listed in the coursebook. A) Buyers, suppliers, government, substitutes, and technology B) Buyers, competitors, new market entrants, substitutes, and suppliers C) Customers, rivals, new entrants, complementors, and distributors D) Buyers, competitors, partners, substitutes, and regulators",
-    "answer": "B) Buyers, competitors, new market entrants, substitutes, and suppliers. The coursebook lists the five forces as: (1) Buyers/customers — analysis of their buying power; (2) Competitors — analysis of the degree of rivalry among existing competitors; (3) New market entrants — analysis of threats from new competitors; (4) Substitutes — analysis of threats from substitute products; (5) Suppliers — analysis of their negotiating power."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: According to the coursebook, what is the general impact of the five forces being stronger? A) The more attractive the business becomes B) The easier it is to maintain a competitive advantage C) The less attractive the business is and the more difficult it is to build and maintain a competitive advantage D) The stronger the organization's market position becomes",
-    "answer": "C) The less attractive the business is and the more difficult it is to build and maintain a competitive advantage. The coursebook explicitly states: 'The stronger these five forces are, the less attractive the business is and the more difficult it is for an organization to build and maintain a competitive advantage.'"
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: Which of the following gives buyers purchasing power over an organization, according to the coursebook? A) The product is highly differentiated and has no substitutes B) Switching costs to an alternative product are high C) The product is undifferentiated and can easily be replaced by substitute products D) The organization has high profit margins",
-    "answer": "C) The product is undifferentiated and can easily be replaced by substitute products. This is one of the nine conditions listed in the coursebook under which buyers have purchasing power over an organization."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: What is 'backward integration' as defined in the coursebook? A) When a supplier buys the company it supplies to B) When a customer produces the product or service themselves by buying the company or developing it C) When an organization expands into new international markets D) When a company acquires a distributor to control its distribution channel",
-    "answer": "B) When a customer produces the product or service themselves by buying the company or developing it. The coursebook defines backward integration as a situation where customers could produce the product or service themselves, which gives them purchasing power over the organization."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: According to the coursebook, when is the competitive pressure in a business high? A) When there are few companies of varying sizes in the market B) When products are highly differentiated C) When there are numerous companies of similar size and similar strategies, little sector growth, undifferentiated products, and high exit barriers D) When the switching costs for customers are low",
-    "answer": "C) When there are numerous companies of similar size and similar strategies, little sector growth, undifferentiated products, and high exit barriers. The coursebook lists these as the conditions under which competitive pressure in a business is high."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: What is 'forward integration' by a supplier, according to the coursebook? A) When a supplier expands its product line into new markets B) When a supplier buys the company to whom it supplies C) When a supplier reduces prices to attract more buyers D) When a supplier forms a strategic alliance with its buyer",
-    "answer": "B) When a supplier buys the company to whom it supplies. The coursebook defines forward integration as feasible for the supplier when the supplier could buy the company to whom it supplies. The example given is charter airlines that sell directly to travelers via the internet, bypassing travel agents."
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: According to the coursebook, when is the threat of substitute products critical? A) When the substitute is more expensive than the existing product B) When the substitute is cheaper or more effective than the current product C) When customer loyalty to the existing product is very high D) When switching costs for the customer are very high",
-    "answer": "B) When the substitute is cheaper or more effective than the current product. The coursebook states: 'The threat of substitute products is critical if the substitute is cheaper or more effective than the current product. These may then replace a large portion of the sales volume of the existing product and thus reduce sales and profit of existing organizations.'"
-  },
-  {
-    "tag": "2.2",
-    "question": "MCQ: Which of the following is listed as a market entry barrier that makes it difficult for new competitors to enter a market? A) Low initial costs and low fixed costs B) Undifferentiated products with no brand loyalty C) Patents and licenses which protect the intellectual property of organizations D) High switching costs for suppliers",
-    "answer": "C) Patents and licenses which protect the intellectual property of organizations. The coursebook lists patents and licenses as one of several market entry barriers that make it difficult for new competitors to enter a market."
-  },
-  {
-    "tag": "2.2",
-    "question": "Short Answer: What are the conditions under which suppliers are powerful, according to the coursebook? List all six.",
-    "answer": "According to the coursebook, suppliers are powerful if: (1) the market is dominated by few large suppliers; (2) the product supplied is highly specialized or rare; (3) the company that buys from the supplier is small and insignificant to the supplier; (4) there are no substitutes for this specific input; (5) the switching costs to a new supplier are high; and (6) a forward integration is feasible for the supplier, meaning that the supplier could buy the company to whom it supplies."
-  },
-  {
-    "tag": "2.2",
-    "question": "Short Answer: List all nine conditions under which buyers have purchasing power over an organization, as stated in the coursebook.",
-    "answer": "According to the coursebook, buyers have purchasing power over an organization when: (1) they buy large quantities; (2) the producer has high fixed costs and little flexibility in lowering the price for the product or service; (3) the product is undifferentiated and can easily be replaced by substitute products; (4) the switch to an alternative product is simple and inexpensive; (5) the margins are relatively small; (6) the customers could produce the product or service themselves; (7) the product or service is not of high value to the customer; (8) the customer knows the production cost of the product; and (9) a backward integration is possible for the customer."
-  },
-  {
-    "tag": "2.2",
-    "question": "Long Answer: Explain Porter's Five Forces model as described in the coursebook. Include the model's assumptions, all five forces with their key conditions, and what the model helps organizations achieve.",
-    "answer": "Porter's Five Forces model, developed by Michael Porter (1979), analyzes the microenvironment and helps analyze various strategies for the strategic planning process. The microenvironment includes buyers or customers, competitors, possible substitute products, and suppliers.\n\nThe model is built on three assumptions: (1) the market's attractiveness is defined by its structure; (2) the structure of the market impacts the strategic behavior of an organization operating in it; and (3) since the market structure is defined by competition, the competitive strategy of an organization is decisive for its success.\n\nThe stronger the five forces are, the less attractive the business is and the more difficult it is to build and maintain a competitive advantage. The five forces are:\n\n1. Buyers/Customers — Buyers are powerful when: they buy large quantities; the producer has high fixed costs and little flexibility in lowering prices; the product is undifferentiated and easily replaced; switching to an alternative is simple and inexpensive; margins are small; customers could produce the product themselves; the product is not of high value to the customer; the customer knows the production cost; or backward integration is possible (i.e., the customer produces the product themselves by buying the company).\n\n2. Competitors — Competitive pressure is high when: there are numerous companies of similar size; they have similar strategies; the sector shows little growth (so sales growth requires taking business from competitors); products are undifferentiated, leading to price competition; and exit barriers are very high (e.g., highly specialized machines or personnel).\n\n3. New Market Entrants — Market entry barriers are high when there are: economies of scale; high initial and fixed costs; cost advantages of existing organizations through experience or depreciated equipment; brand-loyal customers; patents and licenses; scarce resources; controlled resources or distribution channels; close customer relationships through service contracts; and high switching costs for customers.\n\n4. Substitutes — The threat is critical if the substitute is cheaper or more effective than the current product. The threat depends on the degree of customer loyalty, the intensity of the customer relationship, and how high the switching costs are for the customer.\n\n5. Suppliers — Suppliers are powerful when: the market is dominated by few large suppliers; the product is highly specialized or rare; the buying company is small and insignificant; there are no substitutes for the input; switching costs to a new supplier are high; or forward integration is feasible for the supplier (i.e., the supplier could buy the company to whom it supplies).\n\nA thorough analysis of the five forces allows organizations to evaluate the attractiveness of the market and define strategic possibilities. The goal is to weaken suppliers' and customers' power over the organization, minimize the threat from new market entrants and substitutes, and minimize the pressure from existing competitors."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: According to the coursebook, for how many areas of a strategic plan can the Five Forces analysis be used? A) Two B) Three C) Four D) Five",
-    "answer": "B) Three. The coursebook states that the analysis of Porter's Five Forces in business can be used for three areas of a strategic plan: (1) analysis of the market attractiveness (static), (2) analysis of the development of the market attractiveness (dynamic), and (3) analysis of the strategic possibilities."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: Which of the following correctly describes the first area in which the Five Forces model can be used, according to the coursebook? A) A dynamic trend analysis of how PESTEL factors influence the five forces B) A static analysis of market attractiveness that helps with decisions about entering or remaining in a specific market segment C) An analysis of internal resources and capabilities of the organization D) A brainstorming session to identify strategic alliances",
-    "answer": "B) A static analysis of market attractiveness that helps with decisions about entering or remaining in a specific market segment. The coursebook describes the first area as the analysis of market attractiveness (static) — the model helps to define the market attractiveness of a business and assists with decisions concerning entering or remaining in a specific market segment."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: How does the Five Forces model work together with the PESTEL analysis, according to the coursebook? A) PESTEL replaces the Five Forces model in dynamic markets B) Together, they allow a dynamic trend analysis showing how political, economic, social, technological, ecological, and legal developments can influence the five forces C) The PESTEL analysis is used first to determine market attractiveness, then the Five Forces model is used to identify competitors D) They are used independently and address separate strategic questions",
-    "answer": "B) Together, they allow a dynamic trend analysis showing how political, economic, social, technological, ecological, and legal developments can influence the five forces. The coursebook states that together with the PESTEL analysis, the Five Forces model can show developments and changes in a business, and this trend analysis can be used to look at the attractiveness of the business in the future."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: According to the coursebook, what is the strategic goal when an organization uses the Five Forces model to analyze strategic possibilities? A) To exit all unattractive markets immediately B) To weaken suppliers' and customers' power, minimize the threat from new entrants and substitutes, and minimize pressure from existing competitors C) To acquire competitors and form vertical integrations D) To increase prices and reduce dependence on buyers",
-    "answer": "B) To weaken suppliers' and customers' power, minimize the threat from new entrants and substitutes, and minimize pressure from existing competitors. The coursebook explicitly states this as the goal when an organization analyzes its strategic possibilities using the Five Forces model."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: According to the coursebook, what is the main weakness of Porter's Five Forces model? A) It focuses too much on the macroenvironment and ignores the microenvironment B) It is based on a stable and static market structure, making it difficult to apply to today's dynamic markets C) It only applies to large multinational organizations D) It does not consider the power of buyers or suppliers",
-    "answer": "B) It is based on a stable and static market structure, making it difficult to apply to today's dynamic markets. The coursebook states that the model's main weakness is a result of the historic context in which it was created — at the beginning of the 1980s, the world economy was shaped by strong competition and cyclical growth patterns. Today's market is much more dynamic and less stable and predictable."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: According to the coursebook, the Five Forces model is best used to analyze which type of markets? A) Highly regulated markets B) International markets C) Simply-structured markets D) Dynamic and rapidly changing markets",
-    "answer": "C) Simply-structured markets. The coursebook states: 'The Five Forces model is best used to analyze simply-structured markets. It is difficult to analyze complex businesses with many intertwined structures and networks, products, and distribution structures using this model.'"
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: Which of the following strategies is listed in the coursebook as a way to reduce the power of suppliers? A) Increasing prices to customers to offset supplier costs B) Forming partnerships with companies that use the same supplier to enable higher quantity purchases at lower prices C) Acquiring substitute product manufacturers D) Focusing on niche markets to avoid supplier pressure",
-    "answer": "B) Forming partnerships with companies that use the same supplier to enable higher quantity purchases at lower prices. The coursebook gives the example of Edeka, a buying partnership of several supermarkets in Germany, as an illustration of this strategy."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: According to the coursebook, which of the following is listed as a strategy to reduce the power of buyers? A) Forming partnerships with competing suppliers B) Increasing the switching costs for customers C) Reducing the price of products to attract more buyers D) Exiting the market and entering a new segment",
-    "answer": "B) Increasing the switching costs for customers. The coursebook lists increasing switching costs as a strategy to reduce the power of buyers — the higher the switching costs, the less power buyers have to move to alternative suppliers."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: What is 'systems integration' as described in the coursebook in relation to reducing supplier power? A) When an organization acquires its supplier B) When organizations integrate their computer systems and ordering processes with their supplier, streamlining the process and making it more costly for the supplier to switch customers C) When an organization develops its own supply chain from scratch D) When multiple organizations form a joint venture to replace a common supplier",
-    "answer": "B) When organizations integrate their computer systems and ordering processes with their supplier, streamlining the process and making it more costly for the supplier to switch customers. The coursebook gives the example of Wal-Mart, which required its 100 largest suppliers to use RFID technology, automating the reordering process and consolidating the relationship between companies."
-  },
-  {
-    "tag": "2.3",
-    "question": "MCQ: Which of the following is listed in the coursebook as a strategy to reduce the pressure from existing competitors? A) Increasing production volume to lower unit costs B) Differentiating products from competitive products, as Apple has done C) Forming buying partnerships with other companies D) Integrating systems with suppliers",
-    "answer": "B) Differentiating products from competitive products, as Apple has done. The coursebook lists this as one of several strategies to reduce competitive pressure, noting that differentiation avoids direct competition."
-  },
-  {
-    "tag": "2.3",
-    "question": "Short Answer: List the three areas in which the Five Forces analysis can be used, as described in the coursebook.",
-    "answer": "According to the coursebook, the analysis of Porter's Five Forces can be used for three areas of a strategic plan: (1) Analysis of the market attractiveness (static) — the model helps define the attractiveness of a business and assists with decisions about entering or remaining in a specific market segment; (2) Analysis of the development of the market attractiveness (dynamic) — together with the PESTEL analysis, the Five Forces model can show developments and changes in a business, with PESTEL factors influencing one or several of the five forces; and (3) Analysis of the strategic possibilities — the analysis of the intensity of the different forces provides insight into opportunities to influence or use the forces to the organization's advantage, potentially leading to a new strategic orientation."
-  },
-  {
-    "tag": "2.3",
-    "question": "Short Answer: What are the three criticisms of Porter's Five Forces model listed in the coursebook?",
-    "answer": "The coursebook lists three criticisms of the Five Forces model: (1) The model is based on a stable and static market structure — it is difficult to apply to today's dynamic markets, where technological advances and aggressive new market entries constantly change the market. The internet, for example, has put many established brick-and-mortar companies completely out of business. (2) The Five Forces model is best used to analyze simply-structured markets — it is difficult to analyze complex businesses with many intertwined structures, networks, products, and distribution structures. (3) The model is also based on the classic free market — the stronger a business is regulated, the less effectively the model can be used to design sound strategies."
-  },
-  {
-    "tag": "2.3",
-    "question": "Long Answer: Explain the three areas in which the Five Forces model can be applied, the strategies available to reduce each force, and the key criticisms of the model, as described in the coursebook.",
-    "answer": "According to the coursebook, the analysis of Porter's Five Forces can be used for three areas of a strategic plan:\n\n1. Analysis of the market attractiveness (static): The model helps to define the market attractiveness of a business and assists with decisions concerning entering or remaining in a specific market segment. It allows the analysis of the influence of the forces on the individual organization and its competitors, helping to determine the organization's position in the market.\n\n2. Analysis of the development of the market attractiveness (dynamic): Together with the PESTEL analysis, the Five Forces model can show developments and changes in a business. Political, economic, social, technological, ecological, and legal developments can influence one or several of the five forces, significantly influencing the distribution of power. This trend analysis can be used to look at the attractiveness of the business in the future.\n\n3. Analysis of the strategic possibilities: The analysis of the intensity of the different forces provides insight into opportunities to influence or use the forces to the organization's advantage. This might lead to a new strategic orientation, influencing the position of the organization in the market place, the differentiation of products or services, or the decision to form strategic partnerships.\n\nAfter analyzing the five forces, organizations can develop strategies to influence them. The coursebook outlines the following strategies:\n\n- Reducing supplier power: Forming buying partnerships (e.g., Edeka in Germany) to purchase in higher quantities at lower prices; or systems integration — integrating computer systems and ordering processes with the supplier to consolidate the relationship and make it more costly for the supplier to switch customers (e.g., Wal-Mart's RFID initiative).\n\n- Reducing buyer power: Increasing the switching costs for customers, so it becomes more difficult and expensive for them to move to alternative suppliers.\n\n- Reducing the threat of new market entrants: Building high entry barriers such as brand loyalty, patents, economies of scale, and close customer relationships.\n\n- Reducing the threat of substitutes: Strengthening customer loyalty and intensifying customer relationships.\n\n- Reducing pressure from existing competitors: Avoiding price competition; differentiating products (as Apple has done); taking over a competitor; focusing on specific market segments (niche marketing); and communicating with competitors to establish better relationships and avoid fierce competition.\n\nCriticisms of the Five Forces model:\nThe model's main weakness results from the historic context in which it was created — at the beginning of the 1980s, the world economy was shaped by strong competition and cyclical growth patterns. The three key criticisms are: (1) The model is based on a stable and static market structure and is difficult to apply to today's dynamic markets; (2) It is best used to analyze simply-structured markets and cannot effectively analyze complex businesses with intertwined structures and networks; and (3) It is based on the classic free market — the more regulated a business is, the less effectively the model can be used."
-  }
   
-
+  {
+    "tag": "2.1",
+    "question": "What basic distinction differentiates single-layer, two-layer, and three-layer DWH architectures?",
+    "answer": "The names of the layer-based architectures indicate the number of layers used in the DWH architecture. They differentiate between DWH architectures with one single layer that holds all the data, two separate data layers, or three separate data layers."
+  },
+  {
+    "tag": "2.1",
+    "question": "Describe the single-layer architecture: what data does it share, where is it stored, and why is it regarded as a real-time system?",
+    "answer": "A single-layer architecture shares identical data with an operational source system. The idea is to store all datasets only once and in the same location (hence 'single layer'), so the organization's databases are used simultaneously for business operations and data analytics. It can therefore be regarded as a real-time system, where the analytic data are updated in real time with the operational data."
+  },
+  {
+    "tag": "2.1",
+    "question": "Define 'real-time system' using the coursebook's exact definition.",
+    "answer": "A real-time system is a system that is updated continuously and at the time when the transactions occur."
+  },
+  {
+    "tag": "2.1",
+    "question": "What problem can arise from the single-layer architecture's design?",
+    "answer": "Because the same databases are used simultaneously for business operations and data analytics, this could lead to problems if data analysis impacts the performance of the operational transactions negatively, or vice versa."
+  },
+  {
+    "tag": "2.1",
+    "question": "MCQ: Which layer-based architecture shares identical data with an operational source system, storing all datasets only once in the same location? A) Two-layer architecture B) Single-layer architecture C) Three-layer architecture D) Five-layer architecture",
+    "answer": "B) Single-layer architecture."
+  },
+  {
+    "tag": "2.1",
+    "question": "How does a two-layer architecture differ from a single-layer architecture in terms of data and processing separation?",
+    "answer": "A two-layer architecture can be implemented in cases where it is required to separate source (operational) data from analytical (historical) data. With a two-layer architecture, the databases are not used concurrently for business operations and data analytics; therefore, an organization's operational and analytical processing are done apart from each other."
+  },
+  {
+    "tag": "2.1",
+    "question": "MCQ: Which layer-based architecture is implemented when source (operational) data must be separated from analytical (historical) data, so operational and analytical processing are done apart from each other? A) Single-layer architecture B) Two-layer architecture C) Three-layer architecture D) Five-layer architecture",
+    "answer": "B) Two-layer architecture."
+  },
+  {
+    "tag": "2.1",
+    "question": "Describe each of the three layers in a three-layer architecture, as introduced in Section 2.1.",
+    "answer": "The first layer stores operational (e.g., real-time) data from production and transactional systems. The second layer is the reconciled data layer, containing data being migrated from the operational to the analytical databases to enable cleaning and transformation, resembling the staging area in a reference DWH. The third layer is the derived data layer, storing data that have been thoroughly cleansed and integrated and that are ready to be used by business users for analysis purposes."
+  },
+  {
+    "tag": "2.1",
+    "question": "MCQ: In a three-layer architecture, which layer contains data being migrated from operational to analytical databases to enable cleaning and transformation, resembling a staging area? A) The operational data layer B) The reconciled data layer C) The derived data layer D) The presentation layer",
+    "answer": "B) The reconciled data layer."
+  },
+  {
+    "tag": "2.1",
+    "question": "MCQ: In a three-layer architecture, which layer stores data that have been thoroughly cleansed and integrated, ready for use by business users for analysis purposes? A) The reconciled data layer B) The operational data layer C) The derived data layer D) The staging layer",
+    "answer": "C) The derived data layer."
+  },
+  {
+    "tag": "2.1",
+    "question": "What does the five-layer DWH reference architecture (Winseman et al., 2012) add, compared to the three-layer model?",
+    "answer": "The five-layer model extends to accommodate data analysis in the base database, in addition to analyses that occur within the data mart level. Furthermore, data transformation can take place in other areas (other than the staging area) of the DWH."
+  },
+  {
+    "tag": "2.1",
+    "question": "MCQ: According to Winseman et al. (2012), how many layers can a DWH reference architecture extend to in specific instances? A) Two B) Three C) Four D) Five",
+    "answer": "D) Five."
+  },
+  {
+    "tag": "2.1",
+    "question": "Long Answer: Give a complete account of Section 2.1, covering the single-layer, two-layer, three-layer, and five-layer DWH architectures.",
+    "answer": "Layer-based architectures are named according to the number of layers they use to hold DWH data: single-layer, two-layer, or three-layer. A single-layer architecture shares identical data with an operational source system, storing all datasets only once in the same location; the organization's databases are used simultaneously for business operations and data analytics, making it a real-time system (one updated continuously, at the time transactions occur), with analytic data updated in real time alongside operational data. This can cause problems if data analysis negatively impacts operational transaction performance, or vice versa.\n\nA two-layer architecture is more complex and can be implemented where it is necessary to separate source (operational) data from analytical (historical) data. Its databases are not used concurrently for business operations and data analytics, so operational and analytical processing are done apart from each other.\n\nA three-layer architecture consists of three distinct data layers. The first layer stores operational (e.g., real-time) data from production and transactional systems. The second layer is the reconciled data layer, containing data being migrated from operational to analytical databases to enable cleaning and transformation — resembling the staging area in a reference DWH. The third layer is the derived data layer, storing data that have been thoroughly cleansed and integrated and are ready for use by business users and for analysis.\n\nFinally, Winseman et al. (2012) describe a five-layer DWH reference architecture, which extends the model to accommodate data analysis in the base database (in addition to analyses occurring at the data mart level), and allows data transformation to take place in areas of the DWH other than the staging area."
+  },
+  
+  {
+    "tag": "2.2",
+    "question": "Which three named architectures are classified as component-based in Section 2.2, and what is each also known as / who details it?",
+    "answer": "The central DWH architecture with dependent data marts, also known as the corporate information factory (CIF), as detailed by Inmon (2006); the Data Vault (DV) architecture, as explained by Linstedt and Olschimke (2015); and the data mart bus architecture with several dimensional data marts linked to it (also referred to as a bus architecture), also known as the Kimball DWH approach, as detailed by Kimball et al. (2008) and Kimball and Ross (2013)."
+  },
+  {
+    "tag": "2.2",
+    "question": "Describe the central architecture: what is it based on, why is it also called an enterprise DWH, and in what order is it built?",
+    "answer": "The central architecture is based on the data requirements of an entire organization (an enterprise), which is why it is also known as an enterprise DWH. All the organization's data are maintained in the central DWH, so the central DWH is built first; dependent data marts for business-specific and subject areas are then developed iteratively."
+  },
+  {
+    "tag": "2.2",
+    "question": "Even though the central architecture is developed iteratively, what must be maintained throughout its life cycle, and what kind of data does the central DWH typically hold versus the dependent data marts?",
+    "answer": "A holistic and enterprise view of the data must be maintained throughout the life cycle of the DWH. The central DWH typically holds atomic (3NF) level data, while the dependent data marts can contain normalized, denormalized, aggregated, or summarized data."
+  },
+  {
+    "tag": "2.2",
+    "question": "MCQ: Why is the central architecture also referred to as a 'hub-and-spoke' design? A) Because data marts are built before the central DWH B) Because of its design of a central DWH surrounded by various dependent data marts C) Because it uses hub, link, and satellite entities D) Because it has no central repository",
+    "answer": "B) Because of its design of a central DWH that is surrounded by various dependent data marts."
+  },
+  {
+    "tag": "2.2",
+    "question": "In the data mart bus architecture, what is identified first, and how does its underlying basis differ from the central architecture's?",
+    "answer": "A single business process and its associated business requirements are identified first, and the first mart is then designed and developed for this business process only. This architecture is based on the organization's business processes (business areas) rather than the organization's data, unlike the central architecture."
+  },
+  {
+    "tag": "2.2",
+    "question": "In the data mart bus architecture, how are dimension tables and fact tables structured?",
+    "answer": "The data marts contain denormalized data in dimension tables. Tables with transaction data (fact tables) are true to a declared grain. The grain can be granular (with normalized data) or summative (with summarized or aggregated data)."
+  },
+  {
+    "tag": "2.2",
+    "question": "What are conformed dimensions, why are they needed, and how is the enterprise-wide view achieved in the data mart bus architecture?",
+    "answer": "To begin with, only dimensions (descriptive and contextual information) and measures (transaction data) associated with a given business process are used. Where the descriptive information of business processes is common and therefore shared, conformed dimensions must be developed — uniform and agreed-upon descriptions and fields — so the data are maintained in integrated (and conformed) data marts. The enterprise-wide view is achieved and maintained through the development of the Enterprise Data Warehouse Bus Matrix."
+  },
+  {
+    "tag": "2.2",
+    "question": "MCQ: In the data mart bus architecture, what ensures that descriptive information shared across multiple business processes remains consistent? A) The central 3NF schema B) Conformed dimensions C) Satellite entities D) The reconciled data layer",
+    "answer": "B) Conformed dimensions."
+  },
+  {
+    "tag": "2.2",
+    "question": "Describe the Data Vault as positioned in Section 2.2: what kind of approach is it, what modeling does it apply, and what does it keep separate?",
+    "answer": "The DV entails a hybrid approach that includes features of both the CIF and the data mart bus architecture. For example, the DV applies 3NF modeling of data, in addition to dimensional modeling principles. Accordingly, in a DV, the structural information used for the design of the DWH is kept separate from the contextual and descriptive business-related information."
+  },
+  {
+    "tag": "2.2",
+    "question": "MCQ: Which architecture is described as a hybrid approach combining features of both the CIF and the data mart bus architecture, applying 3NF modeling alongside dimensional modeling principles? A) The central architecture B) The Data Vault C) The big data architecture D) The hub-and-spoke architecture",
+    "answer": "B) The Data Vault."
+  },
+  {
+    "tag": "2.2",
+    "question": "Why have big data platforms and architectures emerged, and how does the coursebook define 'big data architecture'?",
+    "answer": "As big data cannot be effectively managed and analyzed with traditional, relational DWH approaches and systems, big data platforms and architectures have emerged. Big data architecture refers to the logical and physical structures that facilitate the proper ingestion of, processing of, storage of, management of, and access to high volumes of diverse data."
+  },
+  {
+    "tag": "2.2",
+    "question": "What does a big data architecture enable, and what can big data analytics tools subsequently do with it?",
+    "answer": "It enables the efficient processing of large volumes of semi-structured and unstructured data so that the data can be effectively stored and analyzed to be used for business purposes. Big data analytics tools are subsequently used to extract vital business information from data that would otherwise be viewed as quite ambiguous, and it can effectively analyze and report on petabyte levels of data by means of familiar SQL-like languages."
+  },
+  {
+    "tag": "2.2",
+    "question": "List the four broad levels of layers that a big data architecture typically entails.",
+    "answer": "(1) A layer of data sources; (2) layers to ingest, manage, and store data; (3) analysis and processing layers; and (4) user-facing presentation (or consumption) layers to present business users with relevant decision support information and business intelligence (BI)."
+  },
+  {
+    "tag": "2.2",
+    "question": "MCQ: Which of the following is NOT one of the four broad layers of a big data architecture? A) A layer of data sources B) Layers to ingest, manage, and store data C) A layer of conformed dimensions D) User-facing presentation (consumption) layers",
+    "answer": "C) A layer of conformed dimensions — conformed dimensions are a data mart bus architecture concept, not one of the big data architecture's four layers."
+  },
+  {
+    "tag": "2.2",
+    "question": "According to Anand (2021), what do big data sources typically include, and via what two methods can data be imported?",
+    "answer": "Big data sources typically include a mixture of open-source data and data from commercial (third-party vendor) data providers. Data can be imported in (static) batches or via (near real-time) streams, so data are managed using batch processing and/or real-time processing."
+  },
+  {
+    "tag": "2.2",
+    "question": "Where can big data be stored, according to the coursebook's description of a big data architecture?",
+    "answer": "The data are stored in either distributed storage, in a relational database management system (RDBMS) on-premise or in a cloud, or in a hybrid set-up."
+  },
+  {
+    "tag": "2.2",
+    "question": "What role does a data lake play in a big data architecture, and what data formats does it accommodate?",
+    "answer": "Big data are typically stored in data lakes to keep data from various and diverse sources in their native format. This includes structured, semi-structured, and unstructured data."
+  },
+  {
+    "tag": "2.2",
+    "question": "What is an 'analytical data store' in the context of a big data architecture, and what is the 'output dimension'?",
+    "answer": "An analytical data store generally stores prepared data in an interactive or non-structured query language (NoSQL) DWH so that the data can be analyzed and queried using big data analytics tools. The output dimension of a big data architecture provides users with a customizable user interface and BI capabilities, for example, offering query results to users."
+  },
+  {
+    "tag": "2.2",
+    "question": "MCQ: In a big data architecture, where is 'prepared data' generally stored so it can be analyzed and queried using big data analytics tools? A) In a 3NF central DWH B) In an analytical data store, typically a NoSQL DWH C) In a staging area D) In a conformed dimension table",
+    "answer": "B) In an analytical data store, typically a NoSQL DWH."
+  },
+  {
+    "tag": "2.2",
+    "question": "Long Answer: Give a complete account of Section 2.2, covering the central architecture, the data mart bus architecture, the Data Vault, and the big data architecture and data lake.",
+    "answer": "Component-based architectures are classified by their components and relationships. Section 2.2 positions three traditional approaches plus a newer one. The central architecture is based on the data requirements of an entire organization, making it an enterprise DWH; the central DWH is built first, with dependent data marts for business-specific/subject areas developed iteratively, while a holistic, enterprise view is maintained throughout. The central DWH holds atomic (3NF) data, while dependent data marts can be normalized, denormalized, aggregated, or summarized — and because a central DWH sits surrounded by dependent data marts, this design is also called hub-and-spoke.\n\nThe data mart bus architecture (the Kimball approach) instead identifies a single business process first and builds the first data mart for it alone, making it business-process-based rather than data-based. Its data marts hold denormalized dimension tables, while fact tables are true to a declared grain — either granular (normalized) or summative (summarized/aggregated). Initially only the dimensions and measures relevant to that one business process are used; where descriptive information is shared across business processes, conformed dimensions (uniform, agreed-upon descriptions and fields) are developed so data marts stay integrated. The enterprise-wide view is achieved and maintained via the Enterprise Data Warehouse Bus Matrix.\n\nThe Data Vault is a hybrid approach combining features of both the CIF and the data mart bus architecture — applying 3NF modeling alongside dimensional modeling principles — and keeps structural design information separate from contextual/descriptive business information.\n\nFinally, because big data cannot be effectively managed by traditional relational DWH approaches, big data platforms and architectures have emerged. Big data architecture refers to the logical and physical structures enabling ingestion, processing, storage, management, and access for high volumes of diverse data, allowing efficient processing of semi-structured and unstructured data and, via big data analytics tools, the extraction of business information and SQL-like reporting at petabyte scale. It typically comprises four layers: data sources; ingest/manage/store layers; analysis and processing layers; and user-facing presentation/consumption layers. Data sources mix open-source and commercial data, imported as batches or near-real-time streams, and managed via batch and/or real-time processing; storage can be distributed, RDBMS (on-premise or cloud), or hybrid. Data lakes store this data in its native structured, semi-structured, or unstructured format; an analytical data store (typically a NoSQL DWH) holds prepared data for querying by analytics tools; and the output dimension provides a customizable user interface and BI capabilities, such as delivering query results to users."
+  }
 
 ]
