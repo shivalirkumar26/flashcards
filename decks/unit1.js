@@ -99,5 +99,460 @@ const unit1Deck = [
     "tag": "1.1",
     "question": "Long Answer: Give a complete account of Section 1.1. Define big data; define and explain all five characteristics of big data; and define each of the three data classifications (structured, semi-structured, unstructured), giving the defining features and at least one coursebook example of each.",
     "answer": "Big data refers to datasets that are extremely large, complex, and diverse; they inundate organizations daily and grow exponentially over time, which is why they are difficult to analyze, manage, and maintain. Big data encompass five characteristics (Gordon, 2014): volume (the amount of data to store and analyze is so large that it requires special considerations), variety (the data consist of multiple types of data and/or data from multiple sources, so structured, semi-structured, and unstructured forms must be considered), velocity (new data are produced rapidly, so operating on stale data is not sufficiently valuable), value (the data have a perceived or quantifiable benefit for an organization), and veracity (the data's correctness and truthfulness can be assessed).\n\nBig data are classified as structured, semi-structured, and unstructured. Structured data are organized into a formatted repository; a traditional relational SQL database is the typical example. The format is predictable since patterns occur regularly, and records are stored in tables made up of rows and columns containing attributes, keys, and indexes. Structured data have well-defined metadata, so they are easily managed by an RDBMS — though RDBMSs do not scale easily and are therefore not suitable for managing big data in general.\n\nSemi-structured data exhibit some form of structure but do not necessarily explicitly conform to a data model. The coursebook's example is an email: the message content is structureless text, but the email itself has structure — a sender, recipient, subject, message header, and message. Semi-structured data are described as repetitive unstructured data, since the same structure or embodiment repeats many times. Examples include computer-generated reports and machine-interaction files such as energy meter readings, typically in XML, JSON, or CSV format. The coursebook illustrates this with a CSV file of customer countries and sales territories identified by customer ID, and a JSON file of customer details linked to an order via an order number. Metadata such as tags and elements help group and store semi-structured data, making it easier to manage than unstructured data, though this metadata remains inadequate for full automation by a conventional RDBMS.\n\nUnstructured data records differ substantially from each other; neither their form nor content repeats regularly. They are the most difficult data type to manage, since they are not organized in any predefined manner and do not conform to a predefined data model. This makes them unpredictable and essentially unrecognizable by a computer, so they are 'clumsy' to access — long strings of data must be sequentially searched and parsed to find a specific unit of data. Examples include PDF and Word documents, images, texts, media logs, audio and/or video files, photographs, recordings of call center conversations, and data gathered by the Internet of Things (IoT) and social media."
+  },
+  
+  {
+    "tag": "1.2",
+    "question": "What can unstructured data potentially offer, and what does the coursebook say makes it challenging to work with?",
+    "answer": "Unstructured data can potentially offer a wealth of information and insight using associations, comparisons, correlations, and so forth, of data gathered from various and diverse sources. However, unstructured data are very challenging to work with and resource-intensive to mine and analyze, as they are raw and unorganized and require some processing and indexing to become searchable. Specific challenges in terms of storage, analysis, and privacy are detailed in the section."
+  },
+  {
+    "tag": "1.2",
+    "question": "MCQ: Why can't unstructured data be stored cost-effectively using a commercial RDBMS? A) It requires too little storage space B) It is not associated with the typical format of tables, rows, and columns, and takes up vast amounts of storage space C) RDBMSs cannot store JSON files D) Unstructured data has no associated privacy concerns",
+    "answer": "B) It is not associated with the typical format of tables, rows, and columns, and unstructured data take up vast amounts of storage space, so they cannot be stored cost-effectively using a (commercial) RDBMS."
+  },
+  {
+    "tag": "1.2",
+    "question": "MCQ: Which two tools does the coursebook name for storing unstructured data? A) RDBMS and OLAP cubes B) NoSQL databases and data lakes C) Flat files and spreadsheets D) Data marts and bus matrices",
+    "answer": "B) NoSQL databases and data lakes. Unstructured data must be stored in alternative ways, using inexpensive or distributed storage systems, and are consequently stored using specialized tools: NoSQL databases and data lakes."
+  },
+  {
+    "tag": "1.2",
+    "question": "According to Kimball and Ross (2013), what six capabilities should big data systems have?",
+    "answer": "Big data systems should: (1) be scalable to support petabytes of data; (2) ideally store data in the same format in which it was originally captured; (3) support query and analysis applications without having to convert and/or move the data; (4) support various new and emerging data types (e.g., collections of name-value pairs, waveforms, images); (5) load data at extremely high rates so it is quickly ready for analysis; and (6) be able to effectively process complex user-defined functions (UDFs)."
+  },
+  {
+    "tag": "1.2",
+    "question": "MCQ: Which of the following is NOT one of Kimball and Ross's (2013) requirements for big data systems? A) Scalability to petabytes B) Storing data in its originally captured format C) Converting all data to a fixed relational schema before storage D) Processing complex user-defined functions (UDFs)",
+    "answer": "C) Converting all data to a fixed relational schema before storage — the actual requirement is the opposite: query and analysis should be supported without having to convert and/or move the data."
+  },
+  {
+    "tag": "1.2",
+    "question": "Define 'petabyte' using the coursebook's exact definition.",
+    "answer": "A petabyte is a multiple of a byte, where one petabyte is equal to one quadrillion bytes (10^15)."
+  },
+  {
+    "tag": "1.2",
+    "question": "Why is unstructured data difficult to analyze, according to the coursebook?",
+    "answer": "Unstructured data are difficult to analyze because the data records are not uniform in terms of shape and size. Furthermore, records composed of text are difficult to parse and, consequently, are also difficult to analyze."
+  },
+  {
+    "tag": "1.2",
+    "question": "How can Hadoop assist in analyzing unstructured data?",
+    "answer": "Hadoop can read and parse unstructured data. It can also place the output in any of several available formats: the output can remain in the form of the selected (individual) records, or it can be merged with other records."
+  },
+  {
+    "tag": "1.2",
+    "question": "MCQ: Why must text records be contextualized before they can be effectively analyzed? A) Because text records are always stored in relational tables B) Because words can have different meanings and/or interpretations depending on the context in which they are used C) Because Hadoop cannot read text records at all D) Because contextualization removes the need for any further indexing",
+    "answer": "B) Because words can have different meanings and/or interpretations depending on the context in which they are used."
+  },
+  {
+    "tag": "1.2",
+    "question": "Define 'textual disambiguation' using the coursebook's exact definition.",
+    "answer": "Textual disambiguation is an analogous process in structured processing — that is, extract, transform, and load (ETL) — that reads raw text and transforms and writes the text to a normalized analytical database while keeping it linked to the original source."
+  },
+  {
+    "tag": "1.2",
+    "question": "Which two technologies does the coursebook name as useful for contextualizing text records, and what is the caveat regarding their effectiveness?",
+    "answer": "Textual disambiguation and MapReduce. The caveat: these technologies are most effective when used with semi-structured data."
+  },
+  {
+    "tag": "1.2",
+    "question": "MCQ: Which of the following sources does the coursebook list as places from which big data (relevant to privacy concerns) are extracted? A) Only government census archives B) Social media, personal and business internet accounts, mobile phones, and healthcare systems C) Only printed paper records D) Only internal corporate financial ledgers",
+    "answer": "B) Social media, personal and business accounts used to access the internet, mobile phones, or healthcare systems."
+  },
+  {
+    "tag": "1.2",
+    "question": "Give the hospital example the coursebook uses to illustrate privacy concerns with unstructured data, and the precaution required.",
+    "answer": "Patient records can be used to optimize and digitize a hospital's healthcare system. If the personal information of a hospital patient is accessed, privacy preservation analysis of their data must be performed, and the data must be anonymized or encrypted prior to analysis."
+  },
+  {
+    "tag": "1.2",
+    "question": "What makes anonymizing unstructured data particularly challenging, according to Mehta and Rao (2016)?",
+    "answer": "Depending on the format of the data elements, it can be very challenging to identify sensitive attributes and anonymize the data."
+  },
+  {
+    "tag": "1.2",
+    "question": "MCQ: Which of the following is NOT one of the three specific challenge areas detailed in Section 1.2? A) Storing of unstructured data B) Analysis of unstructured data C) Privacy concerns D) Visualization of unstructured data",
+    "answer": "D) Visualization of unstructured data — the three areas detailed are storage, analysis, and privacy."
+  },
+  {
+    "tag": "1.2",
+    "question": "Long Answer: Give a complete account of Section 1.2, covering the storage, analysis, and privacy challenges associated with unstructured data.",
+    "answer": "Unstructured data can potentially offer a wealth of information and insight using associations, comparisons, correlations, and so forth, of data gathered from various and diverse sources. However, it is very challenging to work with: it is resource-intensive to mine and analyze, raw and unorganized, and requires processing and indexing to become searchable, demanding different and specialized skills and systems from those used for conventional, relational datasets.\n\nOn storage: relational databases and DWHs cannot store unstructured data, since it is not associated with the typical format of tables, rows, and columns, and it takes up vast amounts of storage space, making it too costly to store in a commercial RDBMS. Instead, it is stored using inexpensive or distributed storage systems — specifically NoSQL databases and data lakes. Kimball and Ross (2013) state that big data systems should be scalable to support petabytes of data, should ideally store data in its originally captured format, should support query and analysis without converting or moving the data, should support emerging data types (e.g., name-value pairs, waveforms, images), should load data at extremely high rates, and must be able to process complex user-defined functions (UDFs).\n\nOn analysis: unstructured data are difficult to analyze because records are not uniform in shape and size, and text records are difficult to parse. Hadoop can read and parse unstructured data, outputting either individual records or merged records. Text records must first be contextualized, since words can carry different meanings depending on context; textual disambiguation (an ETL-like process that reads raw text and writes it to a normalized analytical database while keeping it linked to the source) and MapReduce are used for this, though both are most effective with semi-structured data.\n\nOn privacy: big data are extracted from sources such as social media, personal and business internet accounts, mobile phones, and healthcare systems, and used for purposes such as optimizing user interactions or improving underlying systems (e.g., digitizing a hospital's healthcare system using patient records). The privacy of individuals whose data is used must always be considered, since use of such data can easily cause privacy breaches. Precautions such as anonymization or encryption must be taken before analysis — for example, accessing a hospital patient's personal information requires privacy preservation analysis and anonymization or encryption first. However, depending on the data format, identifying sensitive attributes and anonymizing the data can be very challenging (Mehta & Rao, 2016)."
+  },
+  
+  {
+    "tag": "1.3",
+    "question": "What is the core purpose of a DWH, as framed at the start of Section 1.3?",
+    "answer": "A DWH provides organizational and managerial decision support — it aims to provide a 'single version of the truth' by being 'the basis for believable corporate data' (Inmon & Linstedt, 2015, p. 98)."
+  },
+  {
+    "tag": "1.3",
+    "question": "Give Inmon et al.'s (2001) formal definition of a DWH.",
+    "answer": "A DWH is 'a subject-oriented, integrated, time-variant (temporal), and nonvolatile collection of summary and detailed data used to support the strategic decision-making process for the enterprise' (p. 8)."
+  },
+  {
+    "tag": "1.3",
+    "question": "Define each of the four terms in Inmon's DWH definition: subject-orientated, integrated, time-variant, and nonvolatile.",
+    "answer": "Subject-orientated: a DWH is organized according to a company's major entities (e.g., customers, products, vendors, orders, transactions), not by function or application — it must focus on the organization's important business measures. Integrated: the data must be physically unified and cohesively stored, with key structures, encoding/decoding structures, data definitions, data layouts, data relationships, and naming conventions commonly defined throughout the DWH; data is standardized to ensure an integrated foundation for analytics. Time-variant: records are accurate in relation to a moment in time, and the stored data are historical, so they can be analyzed and compared over time. Nonvolatile: changes are captured as time-variant snapshots — new snapshots are added to reflect changes while all original records are kept as-is, so historical records remain unchanged."
+  },
+  {
+    "tag": "1.3",
+    "question": "MCQ: Which DWH characteristic means the DWH must be organized according to a company's major entities (e.g., customers, products, vendors) rather than by function or application? A) Integrated B) Time-variant C) Subject-orientated D) Nonvolatile",
+    "answer": "C) Subject-orientated."
+  },
+  {
+    "tag": "1.3",
+    "question": "MCQ: Which DWH characteristic requires that key structures, encoding/decoding structures, data definitions, data layouts, data relationships, and naming conventions be commonly defined throughout the DWH? A) Subject-orientated B) Integrated C) Time-variant D) Nonvolatile",
+    "answer": "B) Integrated."
+  },
+  {
+    "tag": "1.3",
+    "question": "MCQ: Which DWH characteristic means that records are accurate in relation to a moment in time, with historical data stored so it can be analyzed and compared over time? A) Nonvolatile B) Integrated C) Time-variant D) Subject-orientated",
+    "answer": "C) Time-variant."
+  },
+  {
+    "tag": "1.3",
+    "question": "MCQ: Which DWH characteristic means changes are captured as time-variant snapshots, with original records kept as-is so historical records remain unchanged? A) Time-variant B) Nonvolatile C) Subject-orientated D) Integrated",
+    "answer": "B) Nonvolatile."
+  },
+  {
+    "tag": "1.3",
+    "question": "Distinguish between detailed data and summary (aggregated) data in a DWH, with the coursebook's examples.",
+    "answer": "Detailed data reflect atomic-level transactions (e.g., product usage and inventory movement). Summary data are summarized and/or calculated data (e.g., the average number of products sold per month)."
+  },
+  {
+    "tag": "1.3",
+    "question": "How does Kimball et al. (2008) define a DWH and the DWH/BI system, and what relationship does this emphasize?",
+    "answer": "Kimball et al. (2008) define a DWH as 'the queryable data in your DWH/BI system,' and define the DWH/BI system as 'the complete end-to-end data warehouse and business intelligence system' (p. 602). This links the DWH and BI together, reinforcing the dependency between the queryable data in the DWH and the value-adding analytics offered by BI applications."
+  },
+  {
+    "tag": "1.3",
+    "question": "According to Kimball and Ross (2013), what must a DWH be optimized for, and what example illustrates the standard expected?",
+    "answer": "A DWH entails a database typically constructed from multiple source databases and designed for query and analysis, so it must be optimized for high-performance user queries. Example: when a user searches through trillions of historical transactional data records, they must get the correct answer swiftly, and the answer must also be contextual yet concise."
+  },
+  {
+    "tag": "1.3",
+    "question": "Give the formal definition of a Data Vault (DV).",
+    "answer": "A Data Vault is 'a detail oriented, historical tracking and uniquely linked set of normalized tables that support one or more functional area of business' (Inmon et al., 2019, p. 141)."
+  },
+  {
+    "tag": "1.3",
+    "question": "Name the three schools of thought regarding the core aim of a DWH, and the architecture/methodology each represents.",
+    "answer": "Inmon's corporate information factory (CIF), the Kimball Lifecycle methodology, and Linstedt's Data Vault (DV). Their respective fundamental beliefs dictate how the DWH environment ought to be designed, developed, and managed."
+  },
+  {
+    "tag": "1.3",
+    "question": "Describe the Corporate Information Factory (CIF) approach: who proposed it, what design approach and data model it uses, and how it is modeled.",
+    "answer": "From Inmon's perspective, a DWH is designed and developed using a top-down approach. The CIF includes a central repository in the form of a comprehensive normalized relational database, along with departmental data marts created and supported from the central DWH. It is considered data-driven rather than business-driven, since it does not explicitly consider specific business requirements and processes prior to loading all the organization's data into a central DWH. Entity-relationship diagrams (ERDs) are used to model the data, and the CIF entails a normalized (third normal form, 3NF) data model."
+  },
+  {
+    "tag": "1.3",
+    "question": "MCQ: Why is the CIF approach considered data-driven rather than business-driven? A) Because it starts with a single business process B) Because it does not explicitly consider specific business requirements and processes before loading all organizational data into a central DWH C) Because departmental data marts are built before the central DWH D) Because it uses dimensional star schema modeling",
+    "answer": "B) Because it does not explicitly consider specific business requirements and business processes prior to loading all the organization's data into a central DWH."
+  },
+  {
+    "tag": "1.3",
+    "question": "In the CIF architecture, how are departmental data marts and dimensional OLAP cubes positioned relative to the central DWH, and what does the central DWH itself contain?",
+    "answer": "The departmental data marts and dimensional OLAP cubes are distinctly separated from the central DWH. The central DWH contains all the atomic, detailed data of the organization."
+  },
+  {
+    "tag": "1.3",
+    "question": "Describe the Kimball Lifecycle methodology: who proposed it, what design approach it uses, and what the resulting DWH is called.",
+    "answer": "Kimball et al. (2008) propose the Kimball Lifecycle methodology, which applies a bottom-up approach to design and develop a bottom-up DWH architecture. It is a framework comprising various program/project planning and management activities aimed at designing, developing, implementing, and maintaining the DWH/BI system. The DWH developed with this approach is also known as a data mart bus DWH."
+  },
+  {
+    "tag": "1.3",
+    "question": "List the activities included in the Kimball Lifecycle process.",
+    "answer": "Gathering business requirements; technical architecture design; logical design (i.e., dimensional modeling); designing the physical databases; designing and developing the extract, transform, and load (ETL) architecture and system; designing and developing BI applications; and the deployment, growth, and maintenance of the DWH/BI system."
+  },
+  {
+    "tag": "1.3",
+    "question": "MCQ: In the Kimball approach, what are the conformed, uniform descriptive entities called, and what are the entities containing the transaction records of an executed business process called? A) Dimensions and fact tables B) Fact tables and dimensions C) Hubs and satellites D) Data marts and cubes",
+    "answer": "A) Dimensions and fact tables."
+  },
+  {
+    "tag": "1.3",
+    "question": "Since the Kimball method develops the DWH incrementally, how is enterprise-wide cohesion achieved?",
+    "answer": "Enterprise-wide cohesion is achieved through a bus matrix that lists all the organizational business processes and cross-references them with the associated descriptive data, called dimensions."
+  },
+  {
+    "tag": "1.3",
+    "question": "Describe Linstedt's Data Vault architecture: what is it designed to overcome, and what makes it a 'hybrid' approach?",
+    "answer": "The DV architecture aims to overcome apparent shortcomings in the CIF and Kimball approaches. Linstedt refers to the DV as a hybrid approach that encompasses the best features of the 3NF CIF DWH and Kimball's data mart bus DWH (which follows dimensional star schema modeling). The DV follows a hybrid approach, where the DWH is designed following a bottom-up design approach while entailing a top-down DWH architecture."
+  },
+  {
+    "tag": "1.3",
+    "question": "List the advantages of the Data Vault's loading approach.",
+    "answer": "Several tables can be loaded simultaneously, so data can be loaded quickly. Dependencies between tables are decreased during the load process. The ingestion process is also simplified by leveraging inserts only, since inserts load more quickly than updates/inserts or merges."
+  },
+  {
+    "tag": "1.3",
+    "question": "Describe the flow of data through a Data Vault architecture, and explain why structural and descriptive information are kept separate.",
+    "answer": "Business-representative data are received from sources and delivered to a preparation (staging) area, then to a DV area comprising the enterprise DWH and business DWH, and lastly to data marts and cubes; metrics and metadata are collected throughout the process. A DV design separates the structural information (kept in an enterprise DWH) from the descriptive information (kept in a business DWH) to ensure flexibility in the event of organizational changes."
+  },
+  {
+    "tag": "1.3",
+    "question": "MCQ: Why does a Data Vault allow data sources to be traced and historical data to remain intact? A) Because data are heavily transformed before storage B) Because the data are not processed in a DV C) Because it uses a single-tier architecture D) Because it only stores summarized data",
+    "answer": "B) Because the data are not processed in a DV."
+  },
+  {
+    "tag": "1.3",
+    "question": "Describe the three-tier architecture of the Data Vault.",
+    "answer": "The DV employs a three-tier architecture that separates the (raw, unprocessed) DWH from end-users and the data mining layers."
+  },
+  {
+    "tag": "1.3",
+    "question": "List the features of an 'efficacious' DWH, according to Kimball and Ross (2013).",
+    "answer": "An efficacious DWH brings together data from various business sources and transforms it to give users easy, timely, and consistent access to credible (cleansed and quality-assured) information. It should be adaptable, gracefully adapting when business needs, business conditions, data, and/or underlying technologies change. It must keep information safe and secure, ensuring access is effectively controlled. It should be an authoritative, trustworthy foundation that an organization can use to make informed and improved decisions, and business users must accept the DWH/BI system for it to be deemed successful. It must remain flexible and scalable, and consistently meet the needs of the organization."
+  },
+  {
+    "tag": "1.3",
+    "question": "Long Answer: Give a complete account of Section 1.3, covering both definitions of a DWH, all of its characteristics, the three modeling approaches (CIF, Kimball Lifecycle, Data Vault), and the features of an efficacious DWH.",
+    "answer": "A DWH provides organizational and managerial decision support, aiming to be a 'single version of the truth' and 'the basis for believable corporate data.' Inmon et al. (2001) define a DWH as a subject-oriented, integrated, time-variant, and nonvolatile collection of summary and detailed data used to support strategic decision-making. Subject-orientated means the DWH is organized around major business entities (customers, products, vendors, orders, transactions) rather than functions or applications. Integrated means data is physically unified and cohesively stored, with key structures, encoding/decoding rules, definitions, layouts, relationships, and naming conventions commonly defined and standardized throughout. Time-variant means records are accurate relative to a moment in time and historical data is retained for analysis and comparison over time. Nonvolatile means changes are captured as time-variant snapshots, with new snapshots added while original records remain unchanged. The DWH also holds both detailed data (atomic-level transactions, e.g., product usage and inventory movement) and summary data (calculated/summarized data, e.g., average monthly product sales).\n\nKimball et al. (2008) offer a second definition: a DWH is 'the queryable data in your DWH/BI system,' with the DWH/BI system being 'the complete end-to-end data warehouse and business intelligence system' — linking the DWH's queryable data to the value-adding analytics BI applications provide. Kimball and Ross (2013) add that a DWH is typically built from multiple source databases and must be optimized for high-performance user queries, such as returning a swift, contextual, yet concise answer when a user searches trillions of historical records.\n\nThree schools of thought shape how a DWH should be designed: Inmon's corporate information factory (CIF), the Kimball Lifecycle methodology, and Linstedt's Data Vault (DV). The CIF uses a top-down, data-driven approach: a central, normalized (3NF) relational database is built first, modeled with ERDs, and departmental data marts and dimensional OLAP cubes are created from it but kept separate from it; it is data-driven because it does not explicitly consider specific business requirements before loading all organizational data into the central DWH. The Kimball Lifecycle methodology takes the opposite, bottom-up, business-oriented approach, producing what's known as a data mart bus DWH; its process includes gathering business requirements, technical architecture design, logical (dimensional) design, physical database design, ETL architecture design, BI application design, and deployment/growth/maintenance. Data is modeled using dimensions (conformed descriptive entities) and fact tables (transaction records), with enterprise-wide cohesion achieved incrementally through a bus matrix cross-referencing business processes with dimensions.\n\nLinstedt's Data Vault is a hybrid approach designed to overcome shortcomings in both the CIF and Kimball methods, combining the best features of 3NF CIF modeling and Kimball's dimensional star schema modeling — it follows a bottom-up design approach while entailing a top-down DWH architecture. Its loading approach allows several tables to be loaded simultaneously (fast loading), reduces table dependencies during load, and simplifies ingestion by using inserts only. Data flows from sources to a staging area, then to a DV area (comprising an enterprise DWH and business DWH), and finally to data marts and cubes, with structural information kept separate from descriptive information to preserve flexibility under organizational change. Because data is not processed within the DV, sources remain traceable and historical data stays intact; the DV uses a three-tier architecture separating the raw DWH from end-users and data mining layers.\n\nFinally, an efficacious DWH (Kimball & Ross, 2013) brings together data from various business sources to give users easy, timely, consistent access to credible, cleansed, quality-assured information. It must be adaptable to changing business needs, conditions, data, and technologies; keep information safe and secure with effectively controlled access; serve as an authoritative, trustworthy foundation for decision-making that business users accept as successful; and remain flexible, scalable, and consistently aligned with the organization's needs."
+  },
+  
+  {
+    "tag": "1.4",
+    "question": "Define an RDBMS, and name three examples of RDBMS-based DWH platforms.",
+    "answer": "An RDBMS entails a set of programs that facilitates the management of a relational database. It enables the definition of data elements and the manipulation of data, and ensures secure access to the data and supporting systems. Relational database structures have been a leading database approach since the 1970s. Examples of RDBMS-based DWH platforms are Oracle, Microsoft SQL Server, and IBM Db2."
+  },
+  {
+    "tag": "1.4",
+    "question": "List and define the four ACID properties that RDBMS-based DWHs fulfill.",
+    "answer": "Atomicity: preserves the comprehensiveness of a business process — if some instructions of a transaction fail, the entire transaction is discarded as if none of the instructions happened. Consistency: ensures that all the data in the database are accurate; the state of the data must be considered before and after a transaction occurs. Isolation: a locking mechanism is used so that transactions run in parallel but appear as if only one transaction is running at a time, so concurrent transactions have no visibility of uncommitted modifications. Durability: ensures that data can survive failures — the state of the data is not impacted by an outage or an abrupt, abnormal transaction termination."
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: Which ACID property means that if some instructions of a transaction fail, the entire transaction is discarded as if none of it happened? A) Consistency B) Atomicity C) Isolation D) Durability",
+    "answer": "B) Atomicity."
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: Which ACID property ensures that all the data in the database are accurate, considering the state of the data before and after a transaction occurs? A) Atomicity B) Isolation C) Consistency D) Durability",
+    "answer": "C) Consistency."
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: Which ACID property uses a locking mechanism so transactions run in parallel but appear as if only one is running at a time, with no visibility of uncommitted changes? A) Durability B) Consistency C) Atomicity D) Isolation",
+    "answer": "D) Isolation."
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: Which ACID property ensures that data can survive failures, so the state of the data is not impacted by an outage or an abnormal transaction termination? A) Durability B) Atomicity C) Isolation D) Consistency",
+    "answer": "A) Durability."
+  },
+  {
+    "tag": "1.4",
+    "question": "List the four data holding components a DWH can include.",
+    "answer": "The central or core DWH (C-DWH), the operational data store (ODS), data marts, and a staging area."
+  },
+  {
+    "tag": "1.4",
+    "question": "Define 'granular data' using the coursebook's exact definition.",
+    "answer": "Granular data is the lowest and most detailed level of data captured by a business process, also referred to as atomic data."
+  },
+  {
+    "tag": "1.4",
+    "question": "Describe the role of the C-DWH and the ODS, and explain how they differ.",
+    "answer": "The C-DWH and ODS consist of relational data models so they can store data at the highest level of data granularity needed by the supported business departments. The C-DWH contains all organizational data, while the ODS stores loosely integrated operational data that are being prepared for ETL, often serving as a preliminary stage for the C-DWH or other components."
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: Which DWH holding component is typically built on a multi-dimensional data model rather than a relational one, allowing simpler joins, data aggregation, and hierarchy implementation in BI tools? A) The central/core DWH B) The operational data store C) Data marts D) The staging area",
+    "answer": "C) Data marts."
+  },
+  {
+    "tag": "1.4",
+    "question": "Using the coursebook's customer example, explain how relational data modeling abstracts granular data to a meaningful level.",
+    "answer": "An organization with different types of customers (e.g., foreign, corporate, governmental) may need to differentiate between them for purposes such as marketing, legal, and reporting. An abstract entity 'customer' can be created and modeled in a table so that all relevant customer information is tied together. This table can be used in the core DWH (embedded in a 3NF schema) or as a dimension in a data mart."
+  },
+  {
+    "tag": "1.4",
+    "question": "Define an entity-relationship diagram (ERD), and state what it does and does not show.",
+    "answer": "An ERD is useful to show entities and their relationships to one another. It entails a high-level statement of all entities and their relationships, but it does not include the details contained within the entities."
+  },
+  {
+    "tag": "1.4",
+    "question": "What is normalization, and which technique is used to achieve it?",
+    "answer": "When data redundancies have been eliminated in a data model, the data are normalized. The technique used to remove data redundancies is known as 3NF (third normal form) modeling."
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: What does normalization (3NF modeling) ensure? A) Faster visual representation of data B) Entity and referential integrity C) Fewer joins between tables D) That data is denormalized for BI reporting",
+    "answer": "B) Entity and referential integrity."
+  },
+  {
+    "tag": "1.4",
+    "question": "What is the main drawback of 3NF modeling for a DWH with many logical entities, and how should a DWH ERD model address it?",
+    "answer": "3NF models capture all the micro-relationships between data elements, which can result in too many tables linked together in a 'perplexing spider web of joins' — an organization's hundreds or thousands of logical entities results in a very complex data model. A DWH ERD model must therefore be structured around major subject areas, so the model indicates the relationships between these subject areas; the DWH can then serve various perspectives using only its atomic, granular data."
+  },
+  {
+    "tag": "1.4",
+    "question": "List the benefits of dimensional modeling for designing relational DWHs.",
+    "answer": "Dimensional modeling simplifies the visual representation of data models, making them more intuitive for business users and easier to understand. It also enhances query performance: a dimensional model contains fewer tables and fewer interactions between tables than a typical ERD model, so queries execute faster, and the denormalization of dimension tables makes it easier to find information quickly."
+  },
+  {
+    "tag": "1.4",
+    "question": "Define 'fact table' and 'dimension table' as used in dimensional modeling.",
+    "answer": "The many-to-many relationships in normalized models that contain numeric and additive non-key metrics are called 'fact tables.' The entities that contain descriptive information are called 'dimension tables.'"
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: Which of the following best describes a dimension table? A) It contains numeric, additive non-key metrics derived from many-to-many relationships B) It is denormalized, modeled using a flat structure, generally resembles 2NF, contains many low-cardinality descriptors, and has single-part keys connecting it to fact tables C) It cannot be part of an ERD D) It must always be normalized to 3NF",
+    "answer": "B) It is denormalized, modeled using a flat structure, generally resembles 2NF, contains many low-cardinality descriptors, and has single-part keys connecting it directly to fact tables."
+  },
+  {
+    "tag": "1.4",
+    "question": "Is a dimensional model normalized? Explain.",
+    "answer": "No. A dimensional model is also a type of ERD — it models various data entities and their relationships — but it is not normalized, unlike a typical 3NF relational model."
+  },
+  {
+    "tag": "1.4",
+    "question": "What are MERMs used for, and what three core elements does a MERM contain?",
+    "answer": "Multidimensional entity-relationship models (MERMs) are useful to model OLAP cubes. They enforce simplicity, make the model easy to understand, and ensure that databases can be queried quickly. A MERM contains logical cubes, measures, and dimensions."
+  },
+  {
+    "tag": "1.4",
+    "question": "In a MERM, how are measures organized into logical cubes, and why should the time dimension typically be included?",
+    "answer": "Measures with the same shape — meaning they have identical dimensions — are organized into logical cubes. The time dimension should typically be one of the dimensions included in a cube to meaningfully qualify the measures being analyzed through the cube."
+  },
+  {
+    "tag": "1.4",
+    "question": "Explain the difference between 'drilling down' and 'rolling up' within a MERM hierarchy.",
+    "answer": "Hierarchies entail different levels of detail of the metric data of business events. Analysts can drill down to lower levels to see more detail, or roll up to higher levels of detail to see less (more summarized) information."
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: In a MERM, how are aggregate data calculated, and what are the tables that store these aggregates called? A) Calculated from logical attributes; stored in dimension tables B) Calculated using the hierarchical relationships defined in dimension tables; stored in summary tables or materialized views C) Calculated from hub entities; stored in satellite entities D) Calculated from business keys; stored in fact tables",
+    "answer": "B) Calculated using the hierarchical relationships defined in dimension tables; stored in summary tables or materialized views."
+  },
+  {
+    "tag": "1.4",
+    "question": "Why do materialized views enable faster querying?",
+    "answer": "Materialized views enable fast querying of data because it is not necessary to search through all the detailed data to obtain answers."
+  },
+  {
+    "tag": "1.4",
+    "question": "What three entity types are required to model a Data Vault using Visual Data Vault, and what does each store?",
+    "answer": "Hub entities, link entities, and satellite entities. Hub entities separate business keys to identify business objects (e.g., a customer number, invoice number) and also store metadata. Link entities model relationships between hubs, linking business objects and/or data received from business processes. Satellite entities store the attributes that belong to hubs and links."
+  },
+  {
+    "tag": "1.4",
+    "question": "Distinguish between a composite key and a smart key in Data Vault modeling.",
+    "answer": "Composite keys are made up of different columns — a unique combination of columns makes up a composite key. A smart key consists of a single column, formed by combining the individual parts of a business key."
+  },
+  {
+    "tag": "1.4",
+    "question": "MCQ: Why do DWHs typically use integer-based surrogate keys instead of business keys? A) Surrogate keys contain more business meaning B) It makes it easier to search through various and diverse tables and answer queries faster C) Business keys cannot be stored in a relational database D) Surrogate keys are required for ACID compliance",
+    "answer": "B) It makes it easier to search through various and diverse tables and answer queries faster."
+  },
+  {
+    "tag": "1.4",
+    "question": "What is Mermaid, as given in the coursebook's example of a diagramming tool?",
+    "answer": "Mermaid is a JavaScript-based tool to create and modify diagrams. It uses text definitions inspired by Markdown — a lightweight markup language used to create formatted text with a plain-text editor and a renderer."
+  },
+  {
+    "tag": "1.4",
+    "question": "Long Answer: Give a complete account of Section 1.4, covering RDBMS fundamentals and ACID, DWH holding components, relational data modeling and normalization, dimensional modeling, MERMs, Data Vault modeling, and key types.",
+    "answer": "An RDBMS is a set of programs that facilitates the management of a relational database, enabling the definition and manipulation of data elements and ensuring secure access; relational structures have led database design since the 1970s. RDBMS-based DWHs (e.g., Oracle, Microsoft SQL Server, IBM Db2) fulfill the ACID requirements: atomicity (a failed transaction is discarded entirely), consistency (data accuracy is maintained before and after a transaction), isolation (a locking mechanism makes parallel transactions appear sequential, hiding uncommitted changes), and durability (data survives outages or abnormal terminations).\n\nA DWH can include up to four data holding components: the central/core DWH (C-DWH), the operational data store (ODS), data marts, and a staging area. The C-DWH and ODS use relational data models to store data at the highest needed granularity — granular data being the lowest, most detailed (atomic) level of data captured by a business process. The C-DWH holds all organizational data, while the ODS holds loosely integrated operational data being prepared for ETL, often as a preliminary stage. A staging area may also use relational models if useful for integration/transformation, while data marts are typically built on multi-dimensional models, allowing simpler joins, data aggregation, and hierarchy implementation in BI tools.\n\nRelational data modeling abstracts an organization's granular data to a meaningful level — for example, abstracting different customer types (foreign, corporate, governmental) into a single 'customer' entity usable in the core DWH's 3NF schema or as a data mart dimension. Entity-relationship diagrams (ERDs) show entities and their relationships at a high level, without entity-internal detail. Normalization (achieved via 3NF modeling) eliminates data redundancies and ensures entity and referential integrity, which benefits transaction processing speed — but capturing all micro-relationships can create a 'perplexing spider web of joins' once an organization has hundreds or thousands of logical entities. A DWH ERD model must therefore be structured around major subject areas so the DWH can serve various perspectives using only its atomic, granular data.\n\nDimensional modeling addresses this by simplifying visual representation, making models more intuitive for business users, and enhancing query performance through fewer tables, fewer table interactions, and denormalized dimension tables. A dimensional model is a type of ERD but is not normalized: many-to-many relationships containing numeric, additive, non-key metrics become 'fact tables,' while entities containing descriptive information become 'dimension tables' — denormalized, flat-structured, resembling 2NF, with many low-cardinality descriptors and single-part keys linking to fact tables.\n\nMultidimensional entity-relationship models (MERMs) are used to model OLAP cubes, enforcing simplicity and fast querying. A MERM contains logical cubes, measures, and dimensions; measures of identical shape (dimensions) are grouped into logical cubes, with a time dimension typically included to qualify the measures. Different aggregation levels form hierarchies, letting analysts drill down for detail or roll up for summary views, while logical attributes (e.g., color, size) support more specific queries. Aggregate data, calculated via dimension table hierarchies, are stored in summary tables or materialized views, which speed up querying by avoiding a full scan of detailed data.\n\nData Vaults are modeled using the Visual Data Vault technique, requiring three entity types: hub entities (separating business keys like customer or invoice numbers, and storing metadata), link entities (modeling relationships between hubs), and satellite entities (storing the attributes belonging to hubs and links). Business keys carry business meaning and are used for unique identification, but are usually altered before inclusion in a DWH — DV modeling distinguishes composite keys (a unique combination of columns) from smart keys (a single column combining the parts of a business key). DWHs generally favor integer-based surrogate keys over business keys, since they make searching diverse tables and answering queries faster.\n\nFinally, the section notes diagramming and charting tools as useful for visualizing these models — for example, Mermaid, a JavaScript-based tool that uses Markdown-inspired text definitions to create and modify diagrams."
+  },
+  
+  {
+    "tag": "1.5",
+    "question": "What prompted the emergence of NoSQL, and how does the coursebook define it?",
+    "answer": "Existing RDBMS vendors initially attempted to include new data types required by big data and store complex structures, unstructured text, images, video, and name-value pairs. However, merely hosting these new data types in RDBMS structures was insufficient — they also had to be processed and analyzed. Consequently, alternative architectures such as Hadoop and Hive emerged. NoSQL (also referred to as Not Only SQL) is defined as 'a family of non-relational database approaches that are designed for managing large datasets' (Foster & Godbole, 2016, p. 9). NoSQL offers an alternative storage model to a traditional relational model and seeks to abolish some of the restrictions posed by relational databases."
+  },
+  {
+    "tag": "1.5",
+    "question": "List the advantages of a NoSQL approach.",
+    "answer": "Improved scalability and distributed processing; more flexibility; and better availability at lower costs."
+  },
+  {
+    "tag": "1.5",
+    "question": "List the disadvantages of NoSQL compared to RDBMS.",
+    "answer": "Some of the regular reliabilities associated with RDBMS are lacking — since a schema is not applied at the data entry point, NoSQL databases are more difficult to query. It is also more difficult to maintain data consistency and establish relationships between datasets. NoSQL databases do not typically adhere to ACID principles. Relationships between individual records are not established, so aggregated data in one record cannot relate to those in another, and it may also be necessary to update an entire record when adding an attribute."
+  },
+  {
+    "tag": "1.5",
+    "question": "MCQ: Why are NoSQL databases generally more difficult to query than RDBMS? A) Because they use only graph structures B) Because a schema is not applied at the data entry point C) Because they cannot store any text data D) Because they always require integer-based surrogate keys",
+    "answer": "B) Because a schema is not applied at the data entry point."
+  },
+  {
+    "tag": "1.5",
+    "question": "MCQ: Which of the following is a disadvantage of NoSQL databases? A) They scale horizontally easily B) They typically do not adhere to ACID principles C) They are well suited for large volumes of fast-searchable data D) They support distributed, redundant data storage",
+    "answer": "B) They typically do not adhere to ACID principles."
+  },
+  {
+    "tag": "1.5",
+    "question": "How do NoSQL implementations achieve horizontal scalability and protect data availability?",
+    "answer": "NoSQL implementations support distributed databases and provide redundant data storage on various servers, so they can easily scale horizontally — performance and storage can be increased by adding additional nodes (servers) to the server cluster, enabling distributed processing, and multiple nodes in a cluster can be spanned. Multiple replicas of a record are kept across several servers or racks, so the non-availability of a single server is avoided and hardware failure does not affect the availability of data."
+  },
+  {
+    "tag": "1.5",
+    "question": "For what kind of data needs is NoSQL well suited, and for what kind is it less suited?",
+    "answer": "Large volumes of unstructured data are stored directly to achieve faster throughput and read/write speeds, so NoSQL databases are well suited for large volumes of data that must be searched quickly. However, since it is challenging to establish links with other datasets, NoSQL is less suited for data that must be associated with other data at a later point."
+  },
+  {
+    "tag": "1.5",
+    "question": "In what forms is data typically stored across NoSQL databases?",
+    "answer": "Key-value pairs, graphs, wide-column tables, or JSON documents."
+  },
+  {
+    "tag": "1.5",
+    "question": "Define a key-value store, and name the examples given in the coursebook.",
+    "answer": "In key-value stores, data are stored in a schema-less manner, containing 'key-value' relationships that include a unique key and a value. The key is typically a string; the value contains the data of interest, and the actual data can be a datatype or an object. Examples: Oracle NoSQL, Aerospike, Riak, and Redis."
+  },
+  {
+    "tag": "1.5",
+    "question": "MCQ: Which NoSQL database type stores data in a schema-less manner as a unique key paired with a value, where the value can be a datatype or an object? A) Document store B) Key-value store C) Wide-column store D) Graph database",
+    "answer": "B) Key-value store."
+  },
+  {
+    "tag": "1.5",
+    "question": "Define a document store, and name the examples given in the coursebook.",
+    "answer": "A document store is also a type of key-value store; however, the data values consist of native documents (e.g., Microsoft Office, PDF, JSON, or XML documents), which can contain different types of data items. Examples: MongoDB and CouchDB."
+  },
+  {
+    "tag": "1.5",
+    "question": "MCQ: Which NoSQL database type is a type of key-value store whose data values consist of native documents such as Microsoft Office, PDF, JSON, or XML files? A) Key-value store B) Document store C) Wide-column store D) Graph database",
+    "answer": "B) Document store."
+  },
+  {
+    "tag": "1.5",
+    "question": "Define a wide-column (extensible record) store, including its terminology for tables and columns, and name the examples given in the coursebook.",
+    "answer": "Wide-column stores consist of 'tables' referred to as super column families. The tables contain columns referred to as super columns. Each of these columns can contain a mixture of various attributes, as in key-value stores; column-based solutions are useful for event-driven data. Hadoop is given as an example of a wide-column store; Cassandra, HBase, Amazon DynamoDB, and Clickhouse are also popular column-based solutions."
+  },
+  {
+    "tag": "1.5",
+    "question": "MCQ: In a wide-column store, what are the 'tables' and 'columns' respectively referred to as? A) Hubs and satellites B) Logical cubes and measures C) Super column families and super columns D) Nodes and edges",
+    "answer": "C) Super column families and super columns."
+  },
+  {
+    "tag": "1.5",
+    "question": "MCQ: Which of the following is given as an example of a wide-column store? A) MongoDB B) Redis C) Hadoop D) Neo4j",
+    "answer": "C) Hadoop."
+  },
+  {
+    "tag": "1.5",
+    "question": "Define a graph database, what kind of data it is useful for storing, and name the examples given in the coursebook.",
+    "answer": "Graph databases consist of elements (nodes) connected with an undetermined number of relationships, referred to as edges and properties. Data that represent, for example, social relationships, road maps, or network topologies are stored in a graph database. Examples: Neo4j, JanusGraph, and RedisGraphs."
+  },
+  {
+    "tag": "1.5",
+    "question": "MCQ: Which NoSQL database type consists of nodes connected by an undetermined number of relationships (edges and properties), used to store data such as social relationships or road maps? A) Key-value store B) Document store C) Wide-column store D) Graph database",
+    "answer": "D) Graph database."
+  },
+  {
+    "tag": "1.5",
+    "question": "According to the Unit 1 summary, why have NoSQL data management and NoSQL data warehousing rapidly emerged?",
+    "answer": "Traditional approaches, such as the CIF, Kimball Lifecycle methodology, and Data Vault model, cannot effectively manage unstructured data. Hence, alternative approaches such as NoSQL data management and NoSQL data warehousing are rapidly emerging. The NoSQL model provides improved scalability and distributed processing and is more suitable for unstructured data."
+  },
+  {
+    "tag": "1.5",
+    "question": "Long Answer: Give a complete account of Section 1.5, covering NoSQL's origin and definition, its advantages and disadvantages, how it achieves scalability and availability, what kind of data needs it suits, and all four NoSQL database types with their examples.",
+    "answer": "Existing RDBMS vendors initially tried to host new big-data-required data types (complex structures, unstructured text, images, video, name-value pairs), but merely hosting them was insufficient — they also needed processing and analysis, so alternative architectures such as Hadoop and Hive emerged. NoSQL (Not Only SQL) is defined as 'a family of non-relational database approaches that are designed for managing large datasets,' offering an alternative storage model to the traditional relational model and seeking to abolish some of its restrictions.\n\nNoSQL's advantages are improved scalability and distributed processing, greater flexibility, and better availability at lower cost. Its disadvantages stem from lacking the reliabilities of RDBMS: because no schema is applied at the data entry point, NoSQL databases are harder to query, harder to keep consistent, and harder to relate across datasets; they typically do not adhere to ACID principles; relationships between individual records aren't established, so data in one record can't relate to another; and adding an attribute may require updating an entire record.\n\nNoSQL achieves scalability and availability through distributed, redundant storage: databases scale horizontally by adding nodes to a server cluster, enabling distributed processing and the spanning of multiple cluster nodes, while multiple replicas of each record are kept across servers or racks so that a single server's unavailability or hardware failure doesn't affect data availability. Because large volumes of unstructured data are stored directly for faster throughput and read/write speeds, NoSQL suits large volumes of data that must be searched quickly, but is less suited to data that must later be linked to other datasets.\n\nNoSQL data is typically stored as key-value pairs, graphs, wide-column tables, or JSON documents. Key-value stores hold schema-less unique key/value pairs (key typically a string, value a datatype or object) — examples include Oracle NoSQL, Aerospike, Riak, and Redis. Document stores are a type of key-value store whose values are native documents (Microsoft Office, PDF, JSON, or XML) — examples include MongoDB and CouchDB. Wide-column (extensible record) stores use 'tables' called super column families containing columns called super columns, useful for event-driven data — Hadoop is the coursebook's example, alongside Cassandra, HBase, Amazon DynamoDB, and Clickhouse. Graph databases consist of nodes connected by an undetermined number of relationships (edges and properties), used for data like social relationships, road maps, or network topologies — examples include Neo4j, JanusGraph, and RedisGraphs.\n\nAs the Unit 1 summary notes, traditional relational modeling approaches (CIF, Kimball Lifecycle, Data Vault) cannot effectively manage unstructured data, which is why NoSQL data management and NoSQL data warehousing have rapidly emerged — the NoSQL model's improved scalability and distributed processing make it better suited to unstructured data than relational alternatives."
   }
+
 ]
