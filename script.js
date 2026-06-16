@@ -28,9 +28,7 @@ function loadDeck() {
     sourceDeck = unit6Deck;
   } else if (currentUnit === "unit7") {
     sourceDeck = unit7Deck;
-  } else if (currentUnit === "unit8") {
-    sourceDeck = unit8Deck;
-  }
+  } 
 
   // Create unique IDs per unit
   fullDeck = sourceDeck.map((card, index) => ({
