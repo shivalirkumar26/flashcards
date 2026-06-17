@@ -8,7 +8,7 @@ const unit1Deck = [
   {
     "tag": "1.1",
     "question": "List and define the five characteristics of big data (Gordon, 2014).",
-    "answer": "Volume: the amount of data to store and analyze is so large that it requires special considerations. Variety: the data consist of multiple types of data and/or data from multiple sources; structured, semi-structured, and unstructured forms must be considered. Velocity: new data are produced rapidly, so operating on 'old' (stale) data will not be sufficiently valuable. Value: the data have a perceived or quantifiable benefit for an organization. Veracity: the data's correctness (and truthfulness) can be assessed."
+    "answer": "Val-Var-Vel-Ver-Vol. Volume: the amount of data to store and analyze is so large that it requires special considerations. Variety: the data consist of multiple types of data and/or data from multiple sources; structured, semi-structured, and unstructured forms must be considered. Velocity: new data are produced rapidly, so operating on 'old' (stale) data will not be sufficiently valuable. Value: the data have a perceived or quantifiable benefit for an organization. Veracity: the data's correctness (and truthfulness) can be assessed."
   },
   {
     "tag": "1.1",
@@ -190,12 +190,12 @@ const unit1Deck = [
   {
     "tag": "1.3",
     "question": "Give Inmon et al.'s (2001) formal definition of a DWH.",
-    "answer": "A DWH is 'a subject-oriented, integrated, time-variant (temporal), and nonvolatile collection of summary and detailed data used to support the strategic decision-making process for the enterprise' (p. 8)."
+    "answer": "SAINT. A DWH is 'a subject-oriented, integrated, time-variant (temporal), and nonvolatile collection of summary and detailed data used to support the strategic decision-making process for the enterprise' (p. 8)."
   },
   {
     "tag": "1.3",
     "question": "Define each of the four terms in Inmon's DWH definition: subject-orientated, integrated, time-variant, and nonvolatile.",
-    "answer": "Subject-orientated: a DWH is organized according to a company's major entities (e.g., customers, products, vendors, orders, transactions), not by function or application — it must focus on the organization's important business measures. Integrated: the data must be physically unified and cohesively stored, with key structures, encoding/decoding structures, data definitions, data layouts, data relationships, and naming conventions commonly defined throughout the DWH; data is standardized to ensure an integrated foundation for analytics. Time-variant: records are accurate in relation to a moment in time, and the stored data are historical, so they can be analyzed and compared over time. Nonvolatile: changes are captured as time-variant snapshots — new snapshots are added to reflect changes while all original records are kept as-is, so historical records remain unchanged."
+    "answer": "SAINT. Subject-orientated: a DWH is organized according to a company's major entities (e.g., customers, products, vendors, orders, transactions), not by function or application — it must focus on the organization's important business measures. Integrated: the data must be physically unified and cohesively stored, with key structures, encoding/decoding structures, data definitions, data layouts, data relationships, and naming conventions commonly defined throughout the DWH; data is standardized to ensure an integrated foundation for analytics. Time-variant: records are accurate in relation to a moment in time, and the stored data are historical, so they can be analyzed and compared over time. Nonvolatile: changes are captured as time-variant snapshots — new snapshots are added to reflect changes while all original records are kept as-is, so historical records remain unchanged."
   },
   {
     "tag": "1.3",
