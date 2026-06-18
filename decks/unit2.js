@@ -65,6 +65,46 @@ const unit2Deck = [
     "question": "Long Answer: Give a complete account of Section 2.1, covering the single-layer, two-layer, three-layer, and five-layer DWH architectures.",
     "answer": "Layer-based architectures are named according to the number of layers they use to hold DWH data: single-layer, two-layer, or three-layer. A single-layer architecture shares identical data with an operational source system, storing all datasets only once in the same location; the organization's databases are used simultaneously for business operations and data analytics, making it a real-time system (one updated continuously, at the time transactions occur), with analytic data updated in real time alongside operational data. This can cause problems if data analysis negatively impacts operational transaction performance, or vice versa.\n\nA two-layer architecture is more complex and can be implemented where it is necessary to separate source (operational) data from analytical (historical) data. Its databases are not used concurrently for business operations and data analytics, so operational and analytical processing are done apart from each other.\n\nA three-layer architecture consists of three distinct data layers. The first layer stores operational (e.g., real-time) data from production and transactional systems. The second layer is the reconciled data layer, containing data being migrated from operational to analytical databases to enable cleaning and transformation — resembling the staging area in a reference DWH. The third layer is the derived data layer, storing data that have been thoroughly cleansed and integrated and are ready for use by business users and for analysis.\n\nFinally, Winseman et al. (2012) describe a five-layer DWH reference architecture, which extends the model to accommodate data analysis in the base database (in addition to analyses occurring at the data mart level), and allows data transformation to take place in areas of the DWH other than the staging area."
   },
+  {
+    "tag": "2.1",
+    "question": "MCQ: In the five-layer DWH reference architecture (Winseman et al., 2012), which layer is the only one that does NOT include a designated area for data transformation?\nA) The quality and harmonization layer\nB) The data propagation layer\nC) The business transformation layer\nD) The data acquisition layer",
+    "answer": "D) The data acquisition layer — it only stores the data (temporarily) in the exact same format in which it has been extracted from the source systems."
+  },
+  {
+    "tag": "2.1",
+    "question": "MCQ: Which layer of the five-layer DWH reference architecture is described as being used 'to transform data according to the needs of business users'?\nA) Data propagation layer\nB) Quality and harmonization layer\nC) Business transformation layer\nD) Data acquisition layer",
+    "answer": "C) The business transformation layer."
+  },
+  {
+    "tag": "2.1",
+    "question": "What is the purpose of the quality and harmonization layer in the five-layer DWH reference architecture?",
+    "answer": "It is used to integrate the data."
+  },
+  {
+    "tag": "2.1",
+    "question": "What does the data propagation layer store in the five-layer DWH reference architecture?",
+    "answer": "It stores the integrated, granular data."
+  },
+  {
+    "tag": "2.1",
+    "question": "What unique reading capability does the fifth layer of the five-layer DWH reference architecture have, compared to a typical layered model?",
+    "answer": "In this model, data can be read from all the preceding layers, and not only from the layer directly below it."
+  },
+  {
+    "tag": "2.1",
+    "question": "Besides its five core layers, what additional component does the five-layer DWH reference architecture include, and what kind of data does it hold?",
+    "answer": "It includes an operational data store that contains near real-time data."
+  },
+  {
+    "tag": "2.1",
+    "question": "Who is credited with outlining the five-layer DWH reference architecture, and which organization proposed the scalable version of it?",
+    "answer": "The five-layer DWH reference architecture is outlined by Winseman et al. (2012). A scalable five-layer architecture has been proposed by Systems, Applications, and Products (SAP)."
+  },
+  {
+    "tag": "2.1",
+    "question": "Long Answer: Describe the five-layer DWH reference architecture in full — why it extends beyond the traditional three-layer model, name each of the five layers in order with its purpose, and explain its unique cross-layer reading property plus its additional component.",
+    "answer": "The five-layer DWH reference architecture is outlined by Winseman et al. (2012). It extends the traditional model to accommodate data analysis in the base database, in addition to analyses that occur within the data mart level; data transformation can also take place in areas other than the staging area. A scalable five-layer architecture has been proposed by Systems, Applications, and Products (SAP). Four of the five layers include a designated area for suitable data transformations. The lowest layer is the data acquisition layer, which stores the data (temporarily) in the exact same format in which it has been extracted from the source systems. The second layer, the quality and harmonization layer, is used to integrate the data. The third layer, the data propagation layer, stores the integrated, granular data. The fourth layer, the business transformation layer, is used to transform data according to the needs of business users. The fifth layer provides the data in a format that is ready to be used for reporting and analysis; uniquely, data in this model can be read from all the preceding layers, not only from the layer directly below it. The architecture also includes an operational data store that contains near real-time data."
+  },
   
   {
     "tag": "2.2",
