@@ -260,6 +260,168 @@ const unit4Deck = [
     "tag": "4.2",
     "question": "Long Answer: Explain Section 4.2 in full — what ETL is, how Inmon's I&T layer works, how Kimball's ETL approach differs, all four major Kimball ETL components with their subcomponents (including all five CDC methods, the three cleansing subcomponents, and the concept of survivorship), and the role and benefits of ETL tools.",
     "answer": "ETL stands for extract, transform, and load. It involves extracting data from various source systems, transforming data into a unified format, and loading data into a DWH for analysis. The ETL process is executed in a staging area before loading data into the presentation server, which is a platform where users can query data directly. Inmon's CIF model applies an integration and transformation (I&T) layer — an architectural component made up of programs and applications that capture, transform, and move data from transactional environments to the ODS and DWH, turning raw data into corporate assets. It uses a logical data model as a blueprint, generates metadata as a reference guide, and is unstable because programs constantly change as the DWH is built incrementally and iteratively. ETL in the Inmon model loads all organizational data into a giant DWH. In contrast, Kimball's ETL loads data into smaller data marts. Before building the ETL architecture, requirements must be gathered across nine critical areas: business needs, compliance, data quality, security, data integration, data latency, archiving and lineage, user delivery interfaces, available skills, and legacy licenses. The Kimball ETL approach has four major components: (1) Extracting: aims to understand source data and transfer it correctly into the DWH without affecting operational systems. Raw data are written to a staging environment without significant restructuring. Subcomponents include data profiling (analyzing content, consistency, and structure to determine which sources to include and identify quality issues), a CDC system (isolating the most recent source data using audit columns, timed extracts, full 'diff compare,' database log scraping, or message queue monitoring), and data extraction itself (as a file or as a stream). (2) Cleansing and conforming: aims to improve data quality, merge source data, and create conformed dimensions and metrics. Metadata are created throughout. Subcomponents include data cleansing (with visual diagnostic filters, error event schema, and audit assembler), error event schema and audit assembler (capturing and resolving ETL errors), and data deduplication and conforming (survivorship — combining conflicting records into a unified conformed row using priority business rules; and alignment of shared dimension tables across departments to be structurally identical, deduplicated, and standardized via domain mappings). (3) Delivering: data are physically structured, loaded, and delivered into target dimensional tables, producing a DWH with a combination of granular and OLAP data; ETL routines append new data while maintaining integrity and avoiding redundancy. (4) Managing: ensures ETL systems run reliably and consistently, the DWH meets service levels, and a backup/recovery process, version control system, and robust job scheduler are in place. ETL is complex and resource-intensive, so appropriate tools are required. ETL systems must read from OLE DB, ODBC, flat files, and native database drivers. Commercial ETL tools provide metadata capture, version control, advanced transformation logic, improved performance, and self-documentation via graphical tools."
-  }
+  },
+
+  {
+    "tag": "4.3",
+    "question": "What is the formal definition of a data mart?",
+    "answer": "Data marts are 'customized subsets of data from the data warehouse tailored to support the specified analytical requirements of a given business unit' (Inmon et al., 2001, p. 8)."
+  },
+  {
+    "tag": "4.3",
+    "question": "Why are data marts needed if a DWH already holds all the organization's data?",
+    "answer": "The granular data in a DWH must be summarized and/or aggregated before they can be effectively analyzed. Different departments need to see the same data from different perspectives — for example, a marketing department likely requires a different perspective than an accounting department. Data marts serve the diverse and unique needs of various organizational departments."
+  },
+  {
+    "tag": "4.3",
+    "question": "What does each data mart typically reflect, and can data marts be shared?",
+    "answer": "Each data mart shows a unique and business process-oriented perspective of the granular data. It typically reflects departmental business process KPIs. Data marts can also be shared among departments when they have similar analytical needs."
+  },
+  {
+    "tag": "4.3",
+    "question": "Can data in a data mart be reconciled back to the DWH? Can the views be updated?",
+    "answer": "Yes — all the data contained in individual data marts can be reconciled again with the central DWH. The views within a data mart can also be easily updated if any of the KPIs change."
+  },
+  {
+    "tag": "4.3",
+    "question": "What are first-order data and second-order data in a data mart?",
+    "answer": "First-order data are received directly from a DWH — they are detailed, granular data. Second-order data are first-order data that have been manipulated — they entail summarized or aggregated data."
+  },
+  {
+    "tag": "4.3",
+    "question": "MCQ: Which of the following best describes second-order data in a data mart?\nA) Raw, atomic-level data received directly from the DWH\nB) Data extracted from OLTP systems before cleansing\nC) First-order data that have been manipulated into summarized or aggregated data\nD) Metadata created during the ETL process",
+    "answer": "C) Second-order data are first-order data that have been manipulated — they entail summarized or aggregated data."
+  },
+  {
+    "tag": "4.3",
+    "question": "How are data in data marts typically described in terms of their structure?",
+    "answer": "Data in data marts are typically denormalized, pruned, and summarized."
+  },
+  {
+    "tag": "4.3",
+    "question": "What are the three advantages of data marts?",
+    "answer": "(1) Control: the data and processing that occur in a data mart are fully controlled at the departmental level. (2) Cost: it is less expensive to store and process data on a local (departmental) machine than in the bigger DWH. (3) Customization: data are customized according to the needs of the department it serves — keys can be restructured; data can be resequenced, merged, pruned, summarized, edited, and converted."
+  },
+  {
+    "tag": "4.3",
+    "question": "MCQ: Which advantage of data marts refers to the ability to resequence, merge, prune, summarize, edit, and convert data according to departmental needs?\nA) Control\nB) Cost\nC) Customization\nD) Cohesion",
+    "answer": "C) Customization — data are customized in the data mart according to the needs of the department it serves; keys can be restructured and data can be resequenced, merged, pruned, summarized, edited, and converted."
+  },
+  {
+    "tag": "4.3",
+    "question": "What is dimensional modeling, and how is it defined in the coursebook?",
+    "answer": "Dimensional modeling is a logical design technique for structuring data so that it is intuitive to business users and delivers fast query performance (Kimball et al., 2008). It is widely used to visualize a logical DWH design, and data marts are effectively modeled by means of dimensional models."
+  },
+  {
+    "tag": "4.3",
+    "question": "What are the two types of tables in a dimensional model, and what does each hold?",
+    "answer": "Fact tables hold transactional or measurement data — the metrics collected by source systems to support business processes. Dimension tables hold the contextual data that describe relatively static business entities, such as a customer or a product — they represent the 'who, what, when, where, why, and how.'"
+  },
+  {
+    "tag": "4.3",
+    "question": "MCQ: In a dimensional model, which table holds the measurements (metrics) collected by source systems to support business processes?\nA) Dimension table\nB) Surrogate key table\nC) Fact table\nD) Conformed table",
+    "answer": "C) Fact table — it holds transactional or measurement data, which are the metrics collected by source systems to support the business processes."
+  },
+  {
+    "tag": "4.3",
+    "question": "What is a star schema, and why is it also called a star join?",
+    "answer": "A star schema is the structure formed when a fact table is surrounded by a number of dimension tables — it resembles a star-shaped structure. It is also known as a star join because, in order to access the data using SQL, a join needs to be performed."
+  },
+  {
+    "tag": "4.3",
+    "question": "What are the four steps of the dimensional modeling design process?",
+    "answer": "(1) Select the business process to model. (2) Declare the grain of the business process. (3) Choose applicable dimensions. (4) Identify the facts — that is, the metrics."
+  },
+  {
+    "tag": "4.3",
+    "question": "MCQ: What is the correct order of the four-step dimensional modeling design process?\nA) Identify facts → choose dimensions → declare grain → select business process\nB) Select business process → declare grain → choose dimensions → identify facts\nC) Choose dimensions → select business process → identify facts → declare grain\nD) Declare grain → select business process → choose dimensions → identify facts",
+    "answer": "B) Select business process → declare grain → choose dimensions → identify facts."
+  },
+  {
+    "tag": "4.3",
+    "question": "How is the primary key of a fact table formed?",
+    "answer": "The primary keys (PK) of the dimension tables are included as foreign keys (FK) in the fact table. The fact table does not contain its own unique identifier in the form of a primary key. Instead, the combination of the foreign keys makes up a surrogate key that represents the primary key of the fact table."
+  },
+  {
+    "tag": "4.3",
+    "question": "What is a degenerate dimension (DD)?",
+    "answer": "A fact table can also contain unique identifiers for each business event it captures. These are called degenerate dimensions. They are unique identifiers that live directly in the fact table without needing their own separate dimension table."
+  },
+  {
+    "tag": "4.3",
+    "question": "MCQ: Which of the following best describes a degenerate dimension?\nA) A dimension table that is shared across multiple fact tables\nB) A surrogate key formed by combining all foreign keys in the fact table\nC) A unique identifier for each business event captured, stored directly in the fact table\nD) A dimension table that holds summarized rather than granular data",
+    "answer": "C) A degenerate dimension is a unique identifier for each business event captured — it is stored directly in the fact table without its own separate dimension table."
+  },
+  {
+    "tag": "4.3",
+    "question": "What is a role-playing dimension?",
+    "answer": "When a dimension table contains multiple valid relationships between itself and other tables, it is called a role-playing dimension. Date dimensions are often role-playing dimensions because they are used by multiple facts — the table will have a different meaning in each fact that uses the dimension data."
+  },
+  {
+    "tag": "4.3",
+    "question": "MCQ: Which type of dimension is frequently a role-playing dimension, and why?\nA) Product dimension, because products appear in many departments\nB) Customer dimension, because customers make multiple purchases\nC) Date dimension, because it is used by multiple facts and has a different meaning in each\nD) Employee dimension, because employees work across multiple business processes",
+    "answer": "C) Date dimensions are often role-playing dimensions because they are used by multiple facts — the table will have a different meaning in each fact that uses the dimension data."
+  },
+  {
+    "tag": "4.3",
+    "question": "Long Answer: Explain Section 4.3 in full — why data marts are needed, what they contain (including first- and second-order data), their three advantages, how dimensional modeling works (including fact and dimension tables, star schema, the four design steps, surrogate keys, degenerate dimensions, and role-playing dimensions).",
+    "answer": "A DWH is built on granular data, but granular data must be summarized and/or aggregated before it can be effectively analyzed. Different departments need different perspectives of the same data, so data marts are used — they are 'customized subsets of data from the data warehouse tailored to support the specified analytical requirements of a given business unit' (Inmon et al., 2001). Each data mart reflects a unique, business process-oriented perspective of the granular data, typically representing departmental KPIs. Data marts can be shared between departments with similar needs, and all data mart data can be reconciled back to the central DWH. A data mart contains two types of data: first-order data (detailed, granular data received directly from the DWH) and second-order data (first-order data that have been manipulated into summarized or aggregated data). Data in data marts are typically denormalized, pruned, and summarized. Data marts offer three advantages: control (data and processing are managed at the departmental level), cost (cheaper to process on a local machine than in the larger DWH), and customization (data can be resequenced, merged, pruned, summarized, edited, and converted to suit departmental needs). Data marts are modeled using dimensional models — a logical design technique that structures data to be intuitive to business users and deliver fast query performance. A dimensional model consists of fact tables (holding transactional or measurement data — the metrics) and dimension tables (holding contextual data describing the who, what, when, where, why, and how). A fact table surrounded by its dimension tables forms a star schema (also called a star join, because SQL requires a join to retrieve data). The four-step design process is: (1) select the business process to model, (2) declare the grain, (3) choose applicable dimensions, and (4) identify the facts/metrics. The primary keys of dimension tables are included as foreign keys in the fact table; the combination of these foreign keys forms the surrogate key, which acts as the fact table's primary key. Unique identifiers for individual business events stored directly in the fact table are called degenerate dimensions. A dimension table that has multiple valid relationships with other tables is called a role-playing dimension — the date dimension is a common example, as it is used by multiple facts with a different meaning in each."
+  },
+  
+ {
+   "tag": "4.4",
+   "question": "What does the Kimball methodology propose the bus matrix be used for?",
+   "answer": "The Kimball methodology proposes the use of a bus matrix to get an overview of the architecture and to prioritize business processes to implement first."
+ },
+ {
+   "tag": "4.4",
+   "question": "What does the high-level enterprise DWH bus matrix consist of, and what do its rows and columns represent?",
+   "answer": "The high-level enterprise DWH bus matrix consists of a matrix with rows and columns. The rows list the organization's business processes, while the columns resemble business entities (reference data) that can be used to model the dimensions."
+ },
+ {
+   "tag": "4.4",
+   "question": "MCQ: In a bus matrix, what do the rows and columns respectively represent?\nA) Rows = dimensions; columns = business processes\nB) Rows = business processes; columns = business entities (reference data) used to model dimensions\nC) Rows = fact tables; columns = dimension tables\nD) Rows = data marts; columns = conformed dimensions",
+   "answer": "B) Rows = the organization's business processes; columns = business entities (reference data) that can be used to model the dimensions."
+ },
+ {
+   "tag": "4.4",
+   "question": "What is indicated in the intersections of a bus matrix?",
+   "answer": "Entities and business processes that relate to each other are indicated in the bus matrix."
+ },
+ {
+   "tag": "4.4",
+   "question": "What are conformed dimensions?",
+   "answer": "Conformed dimensions entail uniform and agreed-upon descriptions and fields that are shared across business processes."
+ },
+ {
+   "tag": "4.4",
+   "question": "MCQ: What type of bus matrix perfectly matches the overall data architecture of the DWH?\nA) A bus matrix that contains only fact tables\nB) A bus matrix that contains only normalized dimensions\nC) A bus matrix that contains only conformed dimensions\nD) A bus matrix that contains all organizational KPIs",
+   "answer": "C) A bus matrix that contains only conformed dimensions perfectly matches the overall data architecture of the DWH."
+ },
+ {
+   "tag": "4.4",
+   "question": "What four things does a bus matrix do simultaneously?",
+   "answer": "(1) It provides an overall perspective of the entire DWH architecture. (2) It shows how each business process, when implemented, can incrementally build out the overall architecture. (3) It establishes an architectural framework to guide the design of the overall architecture. (4) It divides the work into bite-sized implementation sections."
+ },
+ {
+   "tag": "4.4",
+   "question": "How is enterprise-wide cohesion achieved in a data mart bus DWH?",
+   "answer": "Enterprise-wide cohesion is achieved through the central bus matrix that indicates all the business processes and conformed dimensions. The bus matrix with the conformed dimensional tables ensures enterprise-wide consistency because the conformed dimensions include detailed descriptors and metrics that are commonly shared among business processes. It therefore gives an enterprise view of a company's data and ensures that the data marts are logically integrated."
+ },
+ {
+   "tag": "4.4",
+   "question": "MCQ: Which of the following best explains why conformed dimensions ensure enterprise-wide consistency in a data mart bus DWH?\nA) They normalize all data into 3NF across the entire DWH\nB) They include detailed descriptors and metrics that are commonly shared among business processes\nC) They eliminate the need for a central DWH by merging all data marts\nD) They replace the bus matrix as the primary architectural framework",
+   "answer": "B) The conformed dimensions include detailed descriptors and metrics that are commonly shared among business processes, ensuring enterprise-wide consistency and giving an enterprise view of the company's data."
+ },
+ {
+   "tag": "4.4",
+   "question": "Why is the bus matrix considered accessible to non-technical business users?",
+   "answer": "The bus matrix is relatively easy to understand from the perspective of non-technical business users — they may find it easier to interpret than a comparatively more complex ERD."
+ },
+ {
+   "tag": "4.4",
+   "question": "Long Answer: Explain Section 4.4 in full — what the bus matrix is, what its rows and columns represent, what conformed dimensions are, the four things the bus matrix simultaneously achieves, how it ensures enterprise-wide cohesion in a data mart bus DWH, and why it is accessible to non-technical users.",
+   "answer": "The Kimball methodology proposes the use of a bus matrix to get an overview of the architecture and to prioritize business processes to implement first. The high-level enterprise DWH bus matrix consists of a matrix with rows and columns — the rows list the organization's business processes, while the columns resemble business entities (reference data) that can be used to model the dimensions. Entities and business processes that relate to each other are indicated in the bus matrix. A bus matrix that contains only conformed dimensions perfectly matches the overall data architecture of the DWH. Conformed dimensions entail uniform and agreed-upon descriptions and fields shared across business processes. The bus matrix simultaneously: (1) provides an overall perspective of the entire DWH architecture; (2) shows how each business process, when implemented, can incrementally build out the overall architecture; (3) establishes an architectural framework to guide the design of the overall architecture; and (4) divides the work into bite-sized implementation sections. Enterprise-wide cohesion is achieved through the central bus matrix that indicates all business processes and conformed dimensions. The conformed dimensional tables ensure enterprise-wide consistency because the conformed dimensions include detailed descriptors and metrics that are commonly shared among business processes — this gives an enterprise view of the company's data and ensures that the data marts are logically integrated. Finally, the bus matrix is relatively easy to understand from the perspective of non-technical business users, who may find it easier to interpret than a comparatively more complex ERD."
+ }
 
 ]
