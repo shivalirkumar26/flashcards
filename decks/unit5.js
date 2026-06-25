@@ -260,6 +260,193 @@ const unit5Deck = [
     "tag": "5.2",
     "question": "Long Answer: Explain Section 5.2 in full — what Hive is, its five objectives, its key features, how users connect and query (including HiveQL and its extensions), the tools used for speedy query retrieval, HPL SQL, and the two main components HCatalog and WebHCat.",
     "answer": "Apache Hive is a data warehousing software that enables the reading, writing, and management of large and diverse datasets that reside in distributed storage. Data are queried using a typical SQL syntax. The five objectives of Hive are to maximize scalability, performance, extensibility, fault tolerance, and loose-coupling with input formats — loose-coupling means Hive handles different data input formats without tightly integrating with or depending on the specifics of each format. Hive provides easy access to large sets of data via SQL, enabling ETL, reporting, and analysis; a mechanism to impose structure on unstructured data formats; access to files in distributed storage systems such as HDFS or HBase; and execution of queries using tools such as Tez, Spark, or MapReduce. Hive is an interactive platform with typical RDBMS-type features such as indexes and transactions, but data does not need to be stored in a standardized format — built-in connectors handle CSV, TSV, Apache ORC, Apache Parquet, and other formats. Users connect via a command line tool and a JDBC driver. Data are queried using HiveQL — a SQL-type syntax using standard SQL functionalities — which is extendable through user code to include user-defined functions (UDFs), user-defined table functions (UDTFs), and user-defined aggregate functions (UDAFs). Hive ensures speedy query retrieval using Hive LLAP (Live Long And Process), YARN, and Slider (an application for creating and running heterogeneous long-running applications). It also enables the implementation of HPL SQL (Hive Hybrid Procedural SQL). Hive's two main components are: HCatalog — a table and storage management layer that abstracts tables to present users with a relational view of HDFS data regardless of format, and supports tools like Pig and MapReduce; and WebHCat (formerly Templeton) — which offers HCatalog a REST API, enables running of MapReduce/YARN, Pig, or Hive jobs, and performs Hive metadata operations through a REST HTTP interface so that HTTP requests from any application can access MapReduce/YARN, Pig, Hive, and HCatalog DDL while data and code are maintained in HDFS."
+  },
+  
+  {
+    "tag": "5.3",
+    "question": "Why did data lakes emerge?",
+    "answer": "Big data exceeds the capabilities of traditional DWH systems. A hierarchical RDBMS-type DWH cannot effectively collect, store, and process big data within reasonable time frames. As a result, organizations may fail to fully utilize the opportunities big data brings. Data lakes emerged to overcome these challenges."
+  },
+  {
+    "tag": "5.3",
+    "question": "Who introduced the concept of a data lake, and how did he define it?",
+    "answer": "James Dixon (2010) introduced the concept. He contrasted a data lake with a data mart — which contains cleansed, packaged, and structured data where a subset of attributes are examined and aggregated to answer pre-determined questions. Dixon argued that a data lake holds data from various sources in its 'natural state' and serves various and diverse users."
+  },
+  {
+    "tag": "5.3",
+    "question": "How do Sawadogo and Darmont (2021) define a data lake?",
+    "answer": "Sawadogo and Darmont (2021) define a data lake as 'a very large data storage, management, and analysis system that handles any data format.'"
+  },
+  {
+    "tag": "5.3",
+    "question": "Why is metadata a significant component of data lakes?",
+    "answer": "Data must be stored with metadata tags and unique identifiers. Metadata are used to locate and retrieve data from various and diverse locations."
+  },
+  {
+    "tag": "5.3",
+    "question": "What are the advantages of data lakes?",
+    "answer": "Open object storage is inexpensive. Various users and applications can make use of the data. Data lakes are implemented using a flat architecture, so different data types can be stored as-is. An organization's data can be conveniently consolidated in the original format without having to impose a rigid schema."
+  },
+  {
+    "tag": "5.3",
+    "question": "MCQ: Which of the following best describes how data lakes store data differently from traditional DWHs?\nA) Data lakes store only structured data in normalized tables\nB) Data lakes store data in its original format using a flat architecture without imposing a rigid schema\nC) Data lakes store only semi-structured data in distributed RDBMS systems\nD) Data lakes store only cleansed and packaged data ready for pre-determined queries",
+    "answer": "B) Data lakes store data in its original format using a flat architecture — different data types can be stored as-is, and data can be consolidated without imposing a rigid schema."
+  },
+  {
+    "tag": "5.3",
+    "question": "Using the mnemonic 2I2DPU, expand the six layers of the data lake architecture in order.",
+    "answer": "(1) Ingestion layer, (2) Insights layer, (3) Distributed data storage layer, (4) Distillation layer, (5) Processing layer, (6) Unified operations layer."
+  },
+  {
+    "tag": "5.3",
+    "question": "MCQ: Using the mnemonic 2I2DPU, which layer of the data lake architecture is described as governing and monitoring systems — managing availability, usability, security, and integrity of the organization's data?\nA) Distillation layer\nB) Processing layer\nC) Insights layer\nD) Unified operations layer",
+    "answer": "D) Unified operations layer — it is implemented to govern and monitor systems and involves managing aspects such as the availability, usability, security, and integrity of the organization's data."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the purpose of the ingestion layer in the data lake architecture?",
+    "answer": "The ingestion layer links to data sources and enables the loading of data into the data lake. Data can be loaded (ingested) in batches, real-time, and/or using one-time loads."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the purpose of the distillation layer in the data lake architecture?",
+    "answer": "The distillation layer is required to provide some structure for the unstructured data, to facilitate easier analysis."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the purpose of the insights layer in the data lake architecture?",
+    "answer": "The insights layer offers insights to facilitate the application of data analysis techniques."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the purpose of the distributed data storage layer in the data lake architecture?",
+    "answer": "The distributed data storage layer (such as an HDFS layer) must be implemented to provide scalable and cost-effective storage for data."
+  },
+  {
+    "tag": "5.3",
+    "question": "Long Answer: Using the mnemonic 2I2DPU, describe all six layers of the data lake architecture in full.",
+    "answer": "According to Taylor (2023b), the six-layer data lake architecture consists of: (1) Ingestion layer — links to data sources and enables loading of data in batches, real-time, and/or one-time loads. (2) Insights layer — offers insights to facilitate the application of data analysis techniques. (3) Distributed data storage layer (e.g., HDFS) — provides scalable and cost-effective storage. (4) Distillation layer — provides some structure for unstructured data to facilitate easier analysis. (5) Processing layer — runs algorithms and queries. (6) Unified operations layer — governs and monitors systems, managing aspects such as availability, usability, security, and integrity of the organization's data."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the difference between a pond architecture and a zone architecture in a data lake?",
+    "answer": "In a pond architecture, data are divided into different data ponds, each associated with a specialized storage system, specific data processing and conditioning, and an appropriate analysis service. In a zone architecture, data are assigned to a zone based on the degree of refinement of the data."
+  },
+  {
+    "tag": "5.3",
+    "question": "Using the mnemonic RAATA, expand the five data pond types in order.",
+    "answer": "(1) Raw data pond, (2) Analog data pond, (3) Application data pond, (4) Textual data pond, (5) Archival data pond."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the raw data pond?",
+    "answer": "The raw data pond contains raw data that have been newly ingested. The data are conditioned and then transferred from the raw data pond into another pond. A raw data pond is not associated with a metadata system."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the analog data pond?",
+    "answer": "The analog data pond usually processes semi-structured data. Data enter this pond with a high velocity — for example, data from social media and the Internet of Things (IoT)."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the application data pond?",
+    "answer": "The application data pond contains data that correspond with the data in a DWH — it comprises data that were previously ingested from various other systems such as production and operational applications. The data managed in the application data pond are generally structured, as they come from RDBMSs."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the textual data pond?",
+    "answer": "The textual data pond manages unstructured, textual data from big data sources such as call center transcripts. It contains a textual disambiguation process to simplify textual data analysis."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the archival data pond?",
+    "answer": "The archival data pond saves data that are not actively being used but may be needed in the future. Data may enter the archival pond from the analog, application, or textual data ponds."
+  },
+  {
+    "tag": "5.3",
+    "question": "MCQ: Using the mnemonic RAATA, which data pond is not associated with a metadata system?\nA) Analog data pond\nB) Application data pond\nC) Raw data pond\nD) Archival data pond",
+    "answer": "C) Raw data pond — it contains newly ingested raw data that are conditioned and transferred to another pond, and it is not associated with a metadata system."
+  },
+  {
+    "tag": "5.3",
+    "question": "Long Answer: Using the mnemonic RAATA, describe all five data pond types in full.",
+    "answer": "Inmon (2016) identifies five data pond types: (1) Raw data pond — contains newly ingested raw data; data are conditioned and transferred to another pond; not associated with a metadata system. (2) Analog data pond — usually processes semi-structured data entering at high velocity, such as from social media and IoT. (3) Application data pond — contains data corresponding to DWH data; comprises structured data from RDBMSs previously ingested from production and operational applications. (4) Textual data pond — manages unstructured, textual data from big data sources such as call center transcripts; contains a textual disambiguation process to simplify analysis. (5) Archival data pond — saves data not actively used but potentially needed in future; data may enter from the analog, application, or textual ponds."
+  },
+  {
+    "tag": "5.3",
+    "question": "Using the mnemonic TRTDCG, expand the six zones of Zaloni's zone architecture in order.",
+    "answer": "(1) Transient loading zone, (2) Raw data zone, (3) Trusted zone, (4) Discovery sandbox, (5) Consumption zone, (6) Governance zone."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the transient loading zone?",
+    "answer": "The transient loading zone contains the raw data that are being ingested and performs basic data quality assessments."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the trusted zone?",
+    "answer": "The trusted zone is where standardized and cleansed data are transferred. The data stored in this zone are ready to be moved to the next zone."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the discovery sandbox?",
+    "answer": "In the discovery sandbox, data are moved from the trusted zone. The data are accessible to data scientists who may apply data wrangling or data discovery operations to access the data."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the consumption zone?",
+    "answer": "In the consumption zone, business users can access the data for decision support. Data are accessible through dashboard tools and can be used to run 'what-if' scenarios."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the governance zone?",
+    "answer": "The governance zone facilitates management, monitoring, and governance of metadata, and ensures the quality of the data. This zone also maintains a data catalog and ensures the security of the data."
+  },
+  {
+    "tag": "5.3",
+    "question": "MCQ: Using the mnemonic TRTDCG, which zone is accessible to data scientists who may apply data wrangling or data discovery operations?\nA) Trusted zone\nB) Consumption zone\nC) Discovery sandbox\nD) Governance zone",
+    "answer": "C) Discovery sandbox — data are moved from the trusted zone into this zone, where data scientists may apply data wrangling or data discovery operations."
+  },
+  {
+    "tag": "5.3",
+    "question": "Is a transient zone included in all zone architectures?",
+    "answer": "No — zone architectures mostly differ in terms of the number of zones incorporated and the specific characteristics of individual zones. A transient zone is not included in all zone architectures."
+  },
+  {
+    "tag": "5.3",
+    "question": "Long Answer: Using the mnemonic TRTDCG, describe all six zones of Zaloni's zone architecture in full.",
+    "answer": "In a zone architecture, data are assigned to a zone based on the degree of refinement of the data. Zaloni's data lake adopted a six-zone architecture: (1) Transient loading zone — contains raw data being ingested and performs basic data quality assessments. (2) Raw data zone — deals with nearly raw data entering from the transient zone. (3) Trusted zone — standardized and cleansed data are transferred here; data are ready to move to the next zone. (4) Discovery sandbox — data moved from the trusted zone; accessible to data scientists who may apply data wrangling or data discovery operations. (5) Consumption zone — business users access data here for decision support via dashboard tools and 'what-if' scenarios. (6) Governance zone — facilitates management, monitoring, and governance of metadata; ensures data quality; maintains a data catalog and ensures data security. Zone architectures mostly differ in the number of zones and the specific characteristics of individual zones — a transient zone is not included in all zone architectures."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the lambda architecture, and what two processing zones does it include?",
+    "answer": "The lambda architecture is a popular zone architecture. It includes two data processing zones: a batch processing zone, where bulk data are processed, and a real-time processing zone, where high-velocity data (such as data from the IoT) are processed."
+  },
+  {
+    "tag": "5.3",
+    "question": "What are the advantages of the lambda architecture?",
+    "answer": "Lambda provides a good balance in terms of speed, reliability, and scalability. The batch layer provides fault tolerance and distributed storage, so the possibility of errors in the event of a system crash is low. Many data analysis scenarios can be covered since it provides access to both real-time and offline results. Lambda performs well because it offers access to a complete dataset in a batch window. Furthermore, lambda is simple to implement."
+  },
+  {
+    "tag": "5.3",
+    "question": "What are the disadvantages of the lambda architecture, and what emerged as a result?",
+    "answer": "Lambda results in duplicate modules and coding overhead. It is also difficult to migrate or reorganize a dataset. Because of these drawbacks, the kappa architecture emerged."
+  },
+  {
+    "tag": "5.3",
+    "question": "What is the kappa architecture, what problem does it solve, and what is its drawback?",
+    "answer": "With kappa, it is not necessary to maintain different code bases for batch and high-velocity data, resolving lambda's redundancy issues. It enables direct read and write to the message queue so batch processing is not needed during ingress. Since all data points are treated as streaming events, it provides the ability to immediately see the state of all the data in the organization, resulting in faster query results. However, kappa is more difficult to implement than lambda."
+  },
+  {
+    "tag": "5.3",
+    "question": "MCQ: Which architecture treats all data points as streaming events and provides faster query results by enabling direct read and write to the message queue?\nA) Lambda architecture\nB) Zone architecture\nC) Kappa architecture\nD) Pond architecture",
+    "answer": "C) Kappa architecture — it enables direct read and write to the message queue, treats all data points as streaming events, and provides the ability to immediately see the state of all data, resulting in faster query results."
+  },
+  {
+    "tag": "5.3",
+    "question": "Long Answer: Explain Section 5.3 in full — why data lakes emerged, Dixon's definition, advantages of data lakes, the role of metadata, the six-layer architecture (2I2DPU), pond architecture with all five pond types (RAATA), zone architecture with Zaloni's six zones (TRTDCG), and the lambda vs kappa architectures.",
+    "answer": "Big data exceeds the capabilities of traditional hierarchical RDBMS-type DWHs, which cannot effectively collect, store, and process big data within reasonable time frames. Data lakes emerged to overcome these challenges. James Dixon (2010) introduced the concept, contrasting it with a data mart — while a data mart contains cleansed, packaged, and structured data for pre-determined questions, a data lake holds data from various sources in its 'natural state' and serves various and diverse users. Sawadogo and Darmont (2021) define a data lake as 'a very large data storage, management, and analysis system that handles any data format.' Metadata is a significant component — data must be stored with metadata tags and unique identifiers to locate and retrieve data. Advantages: open object storage is inexpensive; various users and applications can use the data; a flat architecture allows different data types to be stored as-is; and data can be consolidated in original format without a rigid schema. The six-layer data lake architecture (2I2DPU): (1) Ingestion — loads data in batches, real-time, or one-time; (2) Insights — facilitates data analysis techniques; (3) Distributed data storage (e.g., HDFS) — scalable, cost-effective storage; (4) Distillation — provides structure for unstructured data; (5) Processing — runs algorithms and queries; (6) Unified operations — governs and monitors systems, managing availability, usability, security, and integrity. Pond architecture (RAATA — Inmon, 2016): (1) Raw data pond — newly ingested raw data; not associated with metadata; (2) Analog data pond — high-velocity semi-structured data (e.g., IoT, social media); (3) Application data pond — structured data from RDBMSs; (4) Textual data pond — unstructured textual data with disambiguation process; (5) Archival data pond — inactive data for future use. Zone architecture (TRTDCG — Zaloni): (1) Transient loading — raw data ingestion with basic quality assessment; (2) Raw data — nearly raw data from transient zone; (3) Trusted — standardized and cleansed data; (4) Discovery sandbox — accessible to data scientists for wrangling/discovery; (5) Consumption — business users access data for decision support; (6) Governance — manages metadata, data catalog, quality, and security. Lambda architecture has two zones (batch and real-time): it is simple, provides fault tolerance and access to both real-time and offline results, but creates duplicate modules, coding overhead, and is difficult to migrate. Kappa resolves lambda's redundancy by treating all data as streaming events and enabling direct read/write to the message queue for faster results, but is more difficult to implement."
   }
+
 
 ]
