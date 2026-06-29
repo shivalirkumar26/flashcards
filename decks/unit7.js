@@ -1,222 +1,305 @@
 const unit7Deck = [
-  {
-    "tag": "7.1",
-    "question": "MCQ: What are the three options for strategic growth available to organizations, according to the coursebook? A) Exporting, licensing, and foreign direct investment B) Organic growth, mergers and acquisitions, and forming a strategic alliance C) Market penetration, product development, and diversification D) Cost leadership, differentiation, and focus",
-    "answer": "B) Organic growth, mergers and acquisitions, and forming a strategic alliance. The coursebook states: 'In order to embark on the path of strategic growth, organizations have three different options: (1) They can decide to grow organically. (2) They can merge with or acquire another organization. (3) They can form a strategic alliance.'"
-  },
-  {
-    "tag": "7.1",
-    "question": "MCQ: What is organic growth, according to the coursebook? A) A growth strategy that involves acquiring a competitor to expand market share B) The investment into the development and growth of the company's own resources and capabilities C) A strategy where a company forms alliances to access external capabilities D) Growth achieved through licensing agreements with foreign partners",
-    "answer": "B) The investment into the development and growth of the company's own resources and capabilities. The coursebook defines organic growth as 'the investment into the development and growth of the company's own resources and capabilities.'"
-  },
-  {
-    "tag": "7.1",
-    "question": "MCQ: What are the advantages of organic growth listed in the coursebook? A) It is the fastest way to enter new markets and requires minimal financial investment B) The organization takes time to grow into new areas and builds its own experience; slow growth allows investment costs to be spread over time; and the company stays independent C) It provides immediate access to new technology and capabilities D) It eliminates the need for market research and competitor analysis",
-    "answer": "B) The organization takes time to grow into new areas and builds its own experience; slow growth allows investment costs to be spread over time; and the company stays independent. The coursebook also states that the company does not need to find a suitable partner in order to form an alliance or merge, and can continue on its strategic path."
-  },
-  {
-    "tag": "7.1",
-    "question": "MCQ: What does the Amazon Kindle example illustrate about organic growth, according to the coursebook? A) That organic growth is the fastest way to gain market leadership B) That organic growth is always less expensive than acquisitions C) That organic growth is not easy — resources to enter innovative markets are not readily available, and companies need an innovative and entrepreneurial corporate culture and must be prepared to invest heavily and wait a long time D) That organic growth should only be used by technology companies",
-    "answer": "C) That organic growth is not easy — resources to enter innovative markets are not readily available, and companies need an innovative and entrepreneurial corporate culture and must be prepared to invest heavily and wait a long time. The coursebook states this explicitly after describing Amazon's investment in the Kindle, noting that the company 'invested a great deal of money in digital offers and e-books.'"
-  },
-  {
-    "tag": "7.1",
-    "question": "MCQ: What two things must a company have in order to succeed in growing organically, according to the coursebook? A) A large financial reserve and a strong brand B) An innovative and entrepreneurial corporate culture, and the preparedness to invest heavily in new projects and wait a long time C) A clear merger strategy and access to external partners D) A global distribution network and an established product portfolio",
-    "answer": "B) An innovative and entrepreneurial corporate culture, and the preparedness to invest heavily in new projects and wait a long time. The coursebook states: 'To succeed in growing organically, companies need an innovative and entrepreneurial corporate culture. They also have to be prepared to invest heavily in these new projects and wait a long time until the product or service is ready to enter the market.'"
-  },
-  {
-    "tag": "7.1",
-    "question": "Short Answer: Define organic growth and explain its advantages and disadvantages, as described in the coursebook. Use the Amazon Kindle as your example.",
-    "answer": "Organic growth is the investment into the development and growth of the company's own resources and capabilities. Advantages: the organization takes the time to grow into new areas and builds up its own experience; slow growth allows investment costs to be spread over time, making it easier to finance; the company does not need to find a suitable partner; and it stays independent, able to continue on its strategic path. Disadvantages: organic growth is not easy — the resources to grow into innovative new markets, to diversify, or to enter international markets are often not readily available. Example: Amazon developed the Kindle e-book reader internally, using its experience from the online book business and its software competence. However, the company invested a great deal of money in digital offers and e-books, illustrating that organic growth requires an innovative and entrepreneurial corporate culture, heavy investment, and the willingness to wait a long time until the product is ready to enter the market."
-  },
-  
-  {
-    "tag": "7.2",
-    "question": "MCQ: What is a merger, according to the coursebook? A) The takeover of one company by another, always hostile in nature B) The formation of a larger organization by two companies that operate as more or less equal partners C) A contractual agreement where two companies share resources without forming a new entity D) The acquisition of a majority of shares in another company to gain control",
-    "answer": "B) The formation of a larger organization by two companies that operate as more or less equal partners. The coursebook states: 'A merger is defined as the formation of a larger organization by two companies that operate as more or less equal partners.'"
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: What is a hostile takeover, according to the coursebook? A) A merger where one company forces the other to change its brand name B) An acquisition that is not welcomed by the assumed target and happens mostly by one company acquiring a majority of the shares of the other company C) A merger that is approved by all shareholders of both companies D) An acquisition where the acquiring company immediately restructures the target's management",
-    "answer": "B) An acquisition that is not welcomed by the assumed target and happens mostly by one company acquiring a majority of the shares of the other company. The coursebook states: 'A hostile takeover is one that is not welcomed by the assumed target and happens mostly by one company acquiring a majority of the shares of the other company.'"
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: Which of the following describes a strategic motive for mergers and acquisitions, according to the coursebook? A) Tax advantages and reducing the tax burden B) The personal ambition of the CEO C) Expanding the range of products, entering new markets, expanding internationally, and benefiting from economies of scale D) Increasing the assets of the acquiring company by breaking up the acquired entity",
-    "answer": "C) Expanding the range of products, entering new markets, expanding internationally, and benefiting from economies of scale. The coursebook lists these as strategic motives. The Geely acquisition of Volvo is given as an example of strategic international expansion."
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: Which of the following describes a financial motive for mergers and acquisitions, according to the coursebook? A) Expanding the product range and entering new markets B) CEO ambition and shareholder pressure C) Tax advantages — a company operating in a high-tax country may acquire a company in a low-tax country; or hostile takeovers that break up the acquired company into parts worth more than the whole D) Benefiting from economies of scale through the combination of two organizations",
-    "answer": "C) Tax advantages — a company operating in a high-tax country may acquire a company in a low-tax country; or hostile takeovers that break up the acquired company into parts worth more than the whole. The coursebook lists these as financial motives for M&A."
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: Which of the following describes a personal/management motive for mergers and acquisitions, according to the coursebook? A) Expanding the product range to meet customer demand B) Reducing the tax burden by merging with a company in a low-tax jurisdiction C) The personal ambition of a CEO, short-term growth targets, boosting managerial reputation, and pressure from shareholders when M&A is a trend in the industry D) Achieving economies of scale through combined operations",
-    "answer": "C) The personal ambition of a CEO, short-term growth targets, boosting managerial reputation, and pressure from shareholders when M&A is a trend in the industry. The coursebook states that managers are often evaluated on short-term growth results and target share prices, and may succumb to industry trends or shareholder pressure."
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: A number of reasons can cause mergers and acquisitions to fail. Which of the following describes the risk that the organization fails to adequately explain to employees the reason for the merger? A) Lack of support B) Ignorance C) Poor communication D) Bad management",
-    "answer": "C) Poor communication. The coursebook states (from Siegenthaler, 2010) that weak communication focuses too much on strategy and fails to address employees' concerns — employees want to know why the merger is happening, how it will affect them, and what support they will receive. This is confirmed directly in the master solutions file."
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: What is the fundamental fit in M&A selection, according to the coursebook? A) The alignment of strategic goals and management competencies between the two organizations B) The compatibility of corporate cultures, communication styles, and management approaches C) The organizations' willingness and readiness to merge, checked through basic indicators such as size, history, and capabilities D) The compatibility of product portfolios and distribution networks",
-    "answer": "C) The organizations' willingness and readiness to merge, checked through basic indicators such as size, history, and capabilities. The coursebook states: 'The fundamental fit looks at the organizations' willingness and readiness to merge. Basic indicators such as size, history, and capabilities are checked for compatibility. If the company to be bought is generally opposed to the acquisition, the integration process will most likely fail.'"
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: What does the cultural fit in M&A selection analyze, according to the coursebook? A) The financial health and profitability of both organizations B) The compatibility of market positions and competitive strategies C) Corporate cultures and their management — including communication style, openness, management style, the ability to delegate and work in teams, and the mission, values, and vision D) The geographic overlap between the two organizations' markets",
-    "answer": "C) Corporate cultures and their management — including communication style, openness, management style, the ability to delegate and work in teams, and the mission, values, and vision. The coursebook states: 'The cultural fit includes questions regarding corporate cultures and their management. The areas to analyze are communication style, openness, management style, the ability to delegate and work in teams, and the mission, values, and vision of the organization.'"
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: Which integration strategy is described as the most suitable when two merging companies have little strategic interdependence and the acquired company has a high need for organizational autonomy? A) Absorption B) Symbiosis C) Holding D) Maintenance (preservation)",
-    "answer": "D) Maintenance (preservation). The coursebook states: 'If merging companies have little strategic interdependence, maintenance (also called preservation) is the strategy of choice. The acquired company has a high need for organizational autonomy, which means it is better to preserve the strategies, corporate cultures, and systems of both organizations separately.'"
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: Which integration strategy is recommended when two companies show high strategic interdependence and a marked need for organizational autonomy, according to the coursebook? A) Absorption B) Holding C) Symbiosis D) Maintenance",
-    "answer": "C) Symbiosis. The coursebook states: 'A strategy of symbiosis is recommended if the two companies show high strategic interdependence and have a marked need for organizational autonomy. The companies are mutually dependent; certain processes and systems have to be integrated to increase efficiency. The companies can learn and benefit from each other's strengths.' It is described as a long and difficult integration process."
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: Which integration strategy is described as appropriate when companies are strategically very interdependent and have little need for organizational autonomy, resulting in one company completely absorbing the other? A) Maintenance B) Holding C) Symbiosis D) Absorption",
-    "answer": "D) Absorption. The coursebook states: 'If merging companies are strategically very interdependent and have little need for organizational autonomy, one company may completely absorb the other company. The integration process may happen fast and the company that is absorbed needs to be prepared to adopt the strategy, culture, and processes of the new owner.'"
-  },
-  {
-    "tag": "7.2",
-    "question": "MCQ: Which integration strategy involves acquiring a company but making no changes to it, with the intention of selling it at a later stage? A) Symbiosis B) Absorption C) Maintenance D) Holding",
-    "answer": "D) Holding. The coursebook states: 'Holding describes a situation where the companies show little interdependence and need for organizational autonomy. In this situation, integrating the company does not bring any additional benefit or advantage. The company thus holds the new entity for a while and sells it in due course. The acquired company does not undergo any changes.'"
-  },
-  {
-    "tag": "7.2",
-    "question": "Short Answer: What are the three categories of motives for mergers and acquisitions, and what does each include, according to the coursebook?",
-    "answer": "The coursebook identifies three categories: (1) Strategic motives — expanding the range of products, entering new markets and businesses, expanding internationally, and increasing the size of the organization to benefit from economies of scale. Example: Geely's acquisition of Volvo to enter the European market. (2) Financial motives — possible tax advantages (merging with a company in a low-tax country); or hostile takeovers that break up the acquired company into parts worth more than the whole. (3) Personal/management motives — the personal ambition of the CEO; managers evaluated on short-term growth results may pursue M&A instead of organic growth; successful takeovers boost managerial reputation; and shareholders may pressure managers to follow M&A trends in the industry. As a general rule, all three factors play a role in the decision."
-  },
-  {
-    "tag": "7.2",
-    "question": "Short Answer: Describe the four integration strategies for M&A as outlined in the coursebook. For each, state when it is used and what it involves.",
-    "answer": "The coursebook describes four integration strategies: (1) Maintenance (preservation) — used when there is little strategic interdependence and the acquired company has a high need for organizational autonomy. Both companies continue to operate as separate entities with minimal integration (e.g., common financial reporting). (2) Symbiosis — used when both companies show high strategic interdependence and a marked need for organizational autonomy. Certain processes and systems are integrated to increase efficiency, and companies learn from each other's strengths. It is a long and difficult process. (3) Absorption — used when companies are strategically very interdependent and have little need for organizational autonomy. One company completely absorbs the other; the absorbed company must adopt the strategy, culture, and processes of the new owner. The process can happen fast. (4) Holding — used when companies show little interdependence and need for organizational autonomy. Integration brings no added benefit; the acquired company is held unchanged and sold at a later stage."
-  },
-  {
-    "tag": "7.2",
-    "question": "Long Answer: Explain the concept of mergers and acquisitions as described in the coursebook. Include definitions of key terms, the three categories of motives, the three fit criteria for selecting a company, the four integration strategies, and one reason from the coursebook's ten reasons why M&A fail.",
-    "answer": "The coursebook defines a merger as the formation of a larger organization by two companies that operate as more or less equal partners. An acquisition is the takeover of one company by another. If supported by both organizations, it is a 'friendly takeover'; if not welcomed by the target, it is a 'hostile takeover,' which usually involves one company acquiring a majority of shares in the other.\n\nThree Categories of Motives:\n1. Strategic motives: Expanding the range of products, entering new markets, expanding internationally, and benefiting from economies of scale. Example: Geely acquired Volvo to enter the European market immediately.\n2. Financial motives: Tax advantages (merging with a company in a low-tax country); or hostile takeovers that break up the acquired entity into parts worth more than the whole.\n3. Personal/management motives: CEO ambition, short-term growth targets, managerial reputation boosts, and shareholder pressure. As a general rule, all three factors play a role.\n\nThree Fit Criteria:\n1. Fundamental fit: The organizations' willingness and readiness to merge, checked through basic indicators such as size, history, and capabilities. If the target is opposed to the acquisition, integration will most likely fail.\n2. Strategic fit: The alignment of strategic goals and management know-how, including core competencies, market position, and competitive strategy. The strategies of both organizations must be compatible and capable of strengthening the combined market position.\n3. Cultural fit: The compatibility of corporate cultures, covering communication style, openness, management style, the ability to delegate and work in teams, and the mission, values, and vision of each organization. Very different cultures are very difficult to integrate.\n\nFour Integration Strategies:\n1. Maintenance (preservation): Little strategic interdependence; high need for autonomy. Both companies operate separately with minimal integration.\n2. Symbiosis: High strategic interdependence; high need for autonomy. Certain processes are integrated while companies learn from each other. Long and difficult process.\n3. Absorption: High strategic interdependence; little need for autonomy. One company completely absorbs the other — the absorbed company adopts the new owner's strategy, culture, and processes.\n4. Holding: Little interdependence; little need for autonomy. No integration benefit; the acquired company is held unchanged and sold at a later stage.\n\nOne Key Reason M&A Fail (from Siegenthaler, 2010):\nPoor communication: Communications often focus too much on strategy and fail to address employees' concerns. Employees want to know why the merger is happening, how it will affect them, and what support they will receive. Failing to adequately explain the reason for the merger to employees is a significant risk factor for M&A failure."
-  },
-  
-  {
-    "tag": "7.3",
-    "question": "MCQ: What is a strategic alliance, according to the coursebook? A) A merger between two companies of equal size B) A contractual agreement where one company acquires a minority stake in another C) A formation that occurs when two companies share resources or activities to reach a common goal D) An agreement where one company sells its products through another company's distribution network",
-    "answer": "C) A formation that occurs when two companies share resources or activities to reach a common goal. The coursebook states: 'A strategic alliance is formed when two companies share resources or activities to reach a common goal.'"
-  },
-  {
-    "tag": "7.3",
-    "question": "MCQ: What is an equity alliance, according to the coursebook? A) A contractual partnership that does not involve ownership of property B) A partnership where one company acquires the majority of shares in another C) The creation of a new entity that belongs to both alliance partners D) An alliance where both companies retain complete independence with no shared investment",
-    "answer": "C) The creation of a new entity that belongs to both alliance partners. The coursebook states: 'An equity alliance describes the creation of a new entity, which belongs to both alliance partners.' Example: two pharmaceutical companies investing together in a research institute."
-  },
-  {
-    "tag": "7.3",
-    "question": "MCQ: What is a non-equity alliance, according to the coursebook? A) A partnership involving the creation of a joint subsidiary B) A partnership that does not involve a claim to a property and is merely contract bound C) An alliance where one partner has majority ownership D) A long-term agreement where one company absorbs the other",
-    "answer": "B) A partnership that does not involve a claim to a property and is merely contract bound. The coursebook states: 'Non-equity alliances are partnerships that do not involve a claim to a property, such as a research institute. Non-equity alliances are merely contract bound.' The Leading Hotels of the World (LHW) is given as an example."
-  },
-  {
-    "tag": "7.3",
-    "question": "MCQ: What does The Leading Hotels of the World (LHW) example illustrate in the coursebook? A) An equity alliance between hotel chains B) A non-equity alliance — a contractual alliance of luxury hotels that share marketing, consultation, reservation, and quality inspection services C) A complementary alliance between technology and hospitality companies D) An access alliance that provides distribution channels in foreign countries",
-    "answer": "B) A non-equity alliance — a contractual alliance of luxury hotels that share marketing, consultation, reservation, and quality inspection services. The coursebook uses LHW as the primary example of a non-equity alliance, noting that the expertise of LHW is quality analyses of member hotels, which guarantee guests a specific quality standard."
-  },
-  {
-    "tag": "7.3",
-    "question": "MCQ: Which type of alliance involves individual companies each providing one component to the partnership, where all components complement each other to form a final product or service? A) Access alliance B) Economies of scale alliance C) Equity alliance D) Complementary alliance",
-    "answer": "D) Complementary alliance. The coursebook states: 'Complementary alliances consist of individual companies that provide one component each to the partnership. All components provided complement each other and form the final product or service.' The medical imaging example — ultrasound, X-ray, MRI manufacturers, and a digital hospital network provider — illustrates this."
-  },
-  {
-    "tag": "7.3",
-    "question": "MCQ: Which type of alliance offers companies distribution channels in foreign countries, avoiding the need to invest in a direct sales force, according to the coursebook? A) Equity alliance B) Complementary alliance C) Access alliance D) Economies of scale alliance",
-    "answer": "C) Access alliance. The coursebook states: 'Access alliances offer companies distribution channels in foreign countries. They can sell their products or services through distribution partners and do not have to invest in a direct sales force in these countries.' The franchise system — including McDonald's — is given as an example."
-  },
-  {
-    "tag": "7.3",
-    "question": "MCQ: What key advantage do alliances have over M&A in terms of financial commitment, according to the coursebook? A) Alliances provide more control over operations B) Alliances benefit from economies of scale more than M&A C) An alliance requires a much lower financial commitment from companies compared to M&A D) Alliances eliminate the need for cultural integration",
-    "answer": "C) An alliance requires a much lower financial commitment from companies compared to M&A. The coursebook states: 'The motives for alliances are similar to those of M&A. However, an alliance requires a much lower financial commitment from companies.'"
-  },
-  {
-    "tag": "7.3",
-    "question": "MCQ: The Roche and Genentech example in the coursebook illustrates which strategic alliance concept? A) An access alliance giving Roche distribution channels in the US B) A complementary alliance where each company provides different product components C) A long-term alliance between two companies with very different corporate cultures — Roche's conservative Swiss culture vs. Genentech's entrepreneurial Californian culture — that eventually led to an acquisition D) An equity alliance where both companies jointly invested in a new research institute",
-    "answer": "C) A long-term alliance between two companies with very different corporate cultures — Roche's conservative Swiss culture vs. Genentech's entrepreneurial Californian culture — that eventually led to an acquisition. The coursebook uses this example to illustrate that over years of partnership, Roche learned to accept Genentech's cultural differences, which made the eventual acquisition more manageable."
-  },
-  {
-    "tag": "7.3",
-    "question": "Short Answer: What are the two types of strategic alliances in terms of ownership structure, according to the coursebook? Define each and give the coursebook's example.",
-    "answer": "The coursebook identifies two types: (1) Equity alliance — the creation of a new entity that belongs to both alliance partners. Example: two pharmaceutical companies investing together in a research institute. (2) Non-equity alliance — a partnership that does not involve a claim to a property and is merely contract bound. Example: The Leading Hotels of the World (LHW) — an alliance of luxury hotels, resorts, and spas that offers member hotels centralized services such as marketing, consultation, a reservation system, and quality inspections."
-  },
-  {
-    "tag": "7.3",
-    "question": "Short Answer: What are the three motives for forming alliances described in the coursebook? Give an example for each.",
-    "answer": "The coursebook describes three motives: (1) Economies of scale — alliances reduce costs by centralizing activities. Example: LHW provides centralized marketing, consultation, reservation, and quality inspection to all member hotels, reducing the cost of printing advertising material for each individual hotel. (2) Access — alliances give companies distribution channels in foreign countries without needing to invest in a direct sales force. Example: McDonald's has expanded worldwide through a franchise system — investing directly in all countries it represents today would have been an impossible financial burden. (3) Complementary — individual companies each provide one component that complements the others to form a final product or service. Example: medical imaging companies (ultrasound, X-ray, MRI manufacturers) and a digital hospital network provider agree on a common interface to allow digital integration of all patient images."
-  },
-  {
-    "tag": "7.3",
-    "question": "Long Answer: Explain strategic alliances as described in the coursebook. Include the definition, the two types, the three motives, and when alliances are preferable to M&A or organic growth.",
-    "answer": "A strategic alliance is formed when two companies share resources or activities to reach a common goal. One example is a research and development alliance where both companies benefit from sharing the costs for R&D.\n\nTwo Types of Strategic Alliances:\n1. Equity alliances — the creation of a new entity that belongs to both alliance partners. Example: two pharmaceutical companies investing together in a research institute.\n2. Non-equity alliances — partnerships that do not involve a claim to a property and are merely contract bound. Example: The Leading Hotels of the World (LHW) — an alliance of luxury hotels offering member hotels centralized marketing, consultation, a reservation system, and quality analyses that guarantee guests a specific quality standard.\n\nThree Motives for Alliances:\n1. Economies of scale — alliances reduce costs through centralized activities. LHW reduces the cost of printing advertising material by providing a central catalog and website for all member hotels.\n2. Access — alliances provide distribution channels in foreign countries without the need to invest in a direct sales force. McDonald's used the franchise system to expand worldwide — investing directly in all countries would have been financially impossible.\n3. Complementary — individual companies each provide one component that complements the others to form a final product or service. Example: medical imaging companies (ultrasound, X-ray, MRI) and a digital hospital network provider form a complementary alliance around a common interface.\n\nAlliances are preferable to M&A or organic growth in several scenarios:\n- When financial commitment must be kept low — alliances require much lower financial commitment than M&A.\n- When uncertainty is high — in uncertain or fluctuating markets, alliances are best because risk is shared between partners. No company is solely responsible for success or failure. The Helmerich & Payne example shows that a DIY approach in Venezuela's uncertain market led to the total loss of all investments.\n- When capabilities are modular — if the required capabilities can be separated into smaller parts, alliances (or joint ventures) allow a company to combine specific required capabilities without acquiring the entire organization.\n- When cultural differences are large — the Roche and Genentech example shows that a long-term alliance can allow companies with very different cultures (conservative Swiss Roche vs. entrepreneurial Californian Genentech) to learn to work together before committing to a full acquisition."
-  },
+ {
+   "tag": "7.1",
+   "question": "What are the three main approaches to DWH design discussed in Unit 7, and who is associated with each?",
+   "answer": "The top-down approach, associated with Inmon's Corporate Information Factory (CIF); the bottom-up approach, associated with the Kimball Lifecycle methodology (Kimball and Ross, 2013); and the hybrid approach, associated with Linstedt's Data Vault (DV) methodology."
+ },
+ {
+   "tag": "7.1",
+   "question": "How is the CIF described in terms of its orientation, data model, and complexity?",
+   "answer": "The CIF is a data-oriented (rather than business-driven) method. It uses a normalized (3NF) data model that is designed first. It does not explicitly consider specific business requirements and processes before loading all the organization's data into the central DWH. Because it stores analytical data for the entire organization, it is complex and takes a long time to design and implement."
+ },
+ {
+   "tag": "7.1",
+   "question": "What does Inmon mean when he describes the CIF as a physical embodiment of the company's 'information ecosystem'?",
+   "answer": "Each CIF is uniquely dimensionally shaped by the specific company's business, culture, economics, and technology. It is therefore a generic structure that is implemented differently by different organizations, making it a physical embodiment of the company's 'information ecosystem.'"
+ },
+ {
+   "tag": "7.1",
+   "question": "What type of organization is the CIF most suitable for, and what does it require?",
+   "answer": "The CIF generally takes a long time to design and is most suitable for large and complex organizations. It is also expensive to implement, so the organization must have a large budget for the DWH project."
+ },
+ {
+   "tag": "7.1",
+   "question": "How is the Kimball Lifecycle methodology described in terms of its orientation and data modeling approach?",
+   "answer": "The Kimball Lifecycle methodology is a business process-oriented (rather than data-driven) approach. Dimensional modeling principles are applied to model data in a denormalized format. The DWH comprises consistent departmental data marts based on conformed dimensions, associated with fact tables."
+ },
+ {
+   "tag": "7.1",
+   "question": "List the activities included in the Kimball Lifecycle methodology framework.",
+   "answer": "(1) Gathering business requirements, (2) technical architecture design, (3) logical design (i.e., dimensional modeling), (4) designing the physical databases, (5) designing and developing the ETL architecture and system, (6) designing and developing BI applications, and (7) the deployment, growth, and maintenance of the DWH/BI system."
+ },
+ {
+   "tag": "7.1",
+   "question": "What type of organization and situation is the data mart bus (Kimball) approach most suitable for?",
+   "answer": "The data mart bus method focuses on quick wins. The development of single, individual data marts is less expensive. It is therefore suitable for implementations that must be completed relatively fast and at a lower cost. It will also be the preferred approach where local optimization is a key consideration."
+ },
+ {
+   "tag": "7.1",
+   "question": "MCQ: Which DWH is developed using a bottom-up approach?\nA) The independent DWH\nB) The Corporate Information Factory (CIF)\nC) The centralized DWH\nD) The data mart bus DWH",
+   "answer": "D) The data mart bus DWH — it is a bottom-up approach prescribed by Kimball and Ross (2013), also known as the Kimball Lifecycle methodology."
+ },
+ {
+   "tag": "7.1",
+   "question": "What is the Data Vault (DV) hybrid approach, and what is its latest version?",
+   "answer": "The Data Vault is a hybrid approach that combines a top-down architecture with a bottom-up design. It encompasses the best features of the 3NF CIF DWH and Kimball's data mart bus DWH (dimensional star schema modeling). The latest version is called Data Vault 2.0."
+ },
+ {
+   "tag": "7.1",
+   "question": "What are the three key advantages of the Data Vault loading process?",
+   "answer": "(1) Several tables can be loaded simultaneously, so data can be loaded quickly. (2) Dependencies between tables are decreased during the load process. (3) The ingestion process is simplified by leveraging inserts only — they load more quickly than updates/inserts or merges."
+ },
+ {
+   "tag": "7.1",
+   "question": "How does the Data Vault separate structural and descriptive information, and why?",
+   "answer": "A DV design separates the structural information (in an enterprise DWH) and descriptive information (in a business DWH) to ensure flexibility in the event of organizational changes. The data are not processed in a DV, so data sources can be traced and historical data remain intact."
+ },
+ {
+   "tag": "7.1",
+   "question": "What are the four major activities in a Data Vault project?",
+   "answer": "Project planning, project execution, review, and improvement."
+ },
+ {
+   "tag": "7.1",
+   "question": "What methodologies are combined during the Data Vault project execution phase?",
+   "answer": "Aspects of the traditional software development life cycle (SDLC) approach and the modern (Agile) Scrum methodology are combined. A short iteration of an SDLC is executed within Scrum sprints."
+ },
+ {
+   "tag": "7.1",
+   "question": "What is the purpose of the Data Vault review and improvement phase, and what principles does it incorporate?",
+   "answer": "The review and improvement phase aims to determine whether the product meets all expectations and documented requirements. Core principles from process improvement and quality control fields — such as Six Sigma and Total Quality Management (TQM) — are incorporated to reduce costs, increase profits, and improve customer satisfaction. TQM principles are applied to ensure the quality of data in the DV and the quality of the overall DWH structure."
+ },
+ {
+   "tag": "7.1",
+   "question": "What factors determine whether a top-down or bottom-up approach is best suited for an organization?",
+   "answer": "The choice is determined by the organizational business objectives, the nature of the business, the time and cost that can be spent, the complexity of the business, and the dependencies that exist between various organizational functions."
+ },
+ {
+   "tag": "7.1",
+   "question": "How are new transactional data included in the CIF and data mart bus DWH?",
+   "answer": "In both the CIF and data mart bus DWH, new transactional data are included in scheduled batches that typically run during off-peak times. The schedule can be, for example, daily, weekly, or monthly."
+ },
+ {
+   "tag": "7.1",
+   "question": "How are dimension tables updated in the data mart bus DWH?",
+   "answer": "Dimension tables in the data mart bus DWH are updated based on business events — for example, if data entries require updating due to a changed client address or new product. Dimension tables are updated using pre-defined, slowly changing dimension (SCD) functions that are defined as part of the ETL process."
+ },
+ {
+   "tag": "7.1",
+   "question": "Name and describe the three types of slowly changing dimension (SCD) methods.",
+   "answer": "Type 1 — Overwrite an attribute value: overwrites the old value with a new value; changes are not tracked and the old value is not preserved (e.g., a customer's mobile number changes). Type 2 — Add a row in the dimension table: creates a new row to capture new values of a changed attribute; each row includes 'valid_from' and 'valid_to' timestamps; the previous row's 'valid_to' is updated to the 'valid_from' of the new row; historical data remain associated with the old row (e.g., a bus route changes). Type 3 — Add a column in the dimension table: widens the table by adding a new column to track additional attributes not previously included (e.g., tracking email addresses in addition to postal addresses)."
+ },
+ {
+   "tag": "7.1",
+   "question": "MCQ: Which slowly changing dimension (SCD) type creates a new row in the dimension table with 'valid_from' and 'valid_to' timestamps, preserving historical data associated with the previous attribute values?\nA) Type 1\nB) Type 2\nC) Type 3\nD) Type 4",
+   "answer": "B) Type 2 — Add a row in the dimension table: creates a new row to capture the new values of a changed attribute; each row includes two timestamps (valid_from and valid_to); historical entries remain associated with the previous row."
+ },
+ {
+   "tag": "7.1",
+   "question": "MCQ: Which slowly changing dimension (SCD) type overwrites the old value with a new value without tracking or preserving the old value?\nA) Type 1\nB) Type 2\nC) Type 3\nD) Type 0",
+   "answer": "A) Type 1 — Overwrite an attribute value: this overwrites an old value with a new value; changes are not tracked and the old value is not preserved."
+ },
+ {
+   "tag": "7.1",
+   "question": "MCQ: Which slowly changing dimension (SCD) type adds a new column to the dimension table to track additional attributes not previously included?\nA) Type 1\nB) Type 2\nC) Type 3\nD) Type 4",
+   "answer": "C) Type 3 — Add a column in the dimension table: this changes the table by widening it; an additional column is added to keep track of additional attributes not previously included."
+ },
+ {
+   "tag": "7.1",
+   "question": "Compare the CIF and data mart bus approaches across six dimensions: approach, orientation, data model, complexity/time, suitability, and how enterprise-wide view is achieved.",
+   "answer": "Approach: CIF is top-down; data mart bus is bottom-up. Orientation: CIF is data-driven; data mart bus is business process-oriented. Data model: CIF uses a normalized 3NF model designed first with ERDs; data mart bus uses denormalized dimensional modeling. Complexity/time: CIF is complex and takes a long time to design; data mart bus has a relatively straightforward modeling process and can be implemented in a relatively short period. Suitability: CIF is most suitable for large, complex organizations with large budgets; data mart bus is suitable for fast, lower-cost implementations where local optimization is a key consideration. Enterprise-wide view: CIF achieves it via the central DWH; data mart bus achieves it via the bus matrix and conformed dimensions."
+ },
+ {
+   "tag": "7.1",
+   "question": "Long Answer: Explain Section 7.1 in full — the three DWH approaches (CIF, Kimball, Data Vault) and their key characteristics, how data are updated in the CIF and data mart bus, and the three slowly changing dimension types with examples.",
+   "answer": "Three main DWH approaches exist. The CIF (Inmon, 2006) is top-down and data-driven — it uses a normalized 3NF data model designed first using ERDs; does not explicitly consider business requirements before loading all organizational data into the central DWH; stores all atomic data centrally with data marts and OLAP cubes distinctly separated; is complex and time-consuming; each CIF is uniquely shaped by the company's business, culture, economics, and technology (a physical embodiment of the 'information ecosystem'); most suitable for large, complex organizations with large budgets. The Kimball Lifecycle methodology (bottom-up, business process-oriented) applies dimensional modeling in a denormalized format; comprises consistent data marts based on conformed dimensions and fact tables; follows a framework of activities: gathering business requirements, technical architecture design, logical design, physical database design, ETL architecture, BI application development, and deployment/growth/maintenance; achieves enterprise-wide cohesion via the bus matrix; focuses on quick wins, is less expensive, and suits fast/lower-cost implementations. The Data Vault (Linstedt) is a hybrid combining a top-down architecture with a bottom-up design; its advantages include simultaneous table loading (faster), reduced dependencies during loading, and insert-only ingestion; separates structural information (enterprise DWH) from descriptive information (business DWH) for flexibility; data not processed, so sources traceable and historical data intact; employs a three-tier architecture; project activities are planning, execution (combining SDLC and Agile Scrum), and review/improvement (applying Six Sigma and TQM). Choosing between approaches depends on business objectives, nature of business, time/cost available, complexity, and dependencies. New transactional data are loaded in scheduled batches (daily/weekly/monthly) during off-peak times in both CIF and data mart bus. Dimension tables in the data mart bus are updated using slowly changing dimension (SCD) functions: Type 1 (overwrite) replaces old values with new ones — changes not tracked, old value lost (e.g., mobile number change); Type 2 (add a row) creates a new row with valid_from/valid_to timestamps — previous row's valid_to updated to new row's valid_from, preserving historical associations (e.g., bus route change); Type 3 (add a column) widens the table to track additional attributes not previously included (e.g., adding email addresses alongside postal addresses)."
+ },
 
-  {
-    "tag": "7.4",
-    "question": "MCQ: What are the four factors that influence the decision of whether to buy, ally, or do-it-yourself, according to the coursebook? A) Cost, risk, speed, and culture B) Urgency, uncertainty, type of capabilities, and modularity of capabilities C) Market size, competitor strength, financial resources, and corporate culture D) Strategic fit, cultural fit, fundamental fit, and integration strategy",
-    "answer": "B) Urgency, uncertainty, type of capabilities, and modularity of capabilities. The coursebook states: 'Deciding which strategic growth option is the best for the organization depends on various factors: how fast a company wants to grow (urgency), uncertainties in specific regional markets or technologies, the types of capabilities to be acquired (soft or hard), and the degree of modularity of the capabilities.'"
-  },
-  {
-    "tag": "7.4",
-    "question": "MCQ: Which of the following terms refers to the degree to which something can be separated into individual parts? A) Modularity B) Separability C) Compatibility D) Individuality",
-    "answer": "A) Modularity. The coursebook defines modularity as 'the degree to which something can be separated into individual parts.' This is confirmed directly in the master solutions file."
-  },
-  {
-    "tag": "7.4",
-    "question": "MCQ: According to the coursebook, if a growth strategy has a high degree of urgency, which option is recommended? A) Do-it-yourself, as it allows the most control B) An alliance or M&A, as organic growth will take too long C) Exporting, as it provides the fastest market entry D) Outsourcing, as it reduces the time needed to develop internal capabilities",
-    "answer": "B) An alliance or M&A, as organic growth will take too long. The coursebook states: 'If the growth strategy has a high degree of urgency, the organic growth option will take too long. Therefore, an alliance or M&A would be the better, faster option.' The Geely/Volvo acquisition is given as the example."
-  },
-  {
-    "tag": "7.4",
-    "question": "MCQ: What does the Geely/Volvo acquisition example illustrate in the context of the urgency factor? A) That M&A is always more expensive than organic growth B) That cultural fit is the most important factor in M&A C) That when urgency is high, M&A allows immediate market presence — Geely acquired Volvo to enter the European market immediately rather than spending years building its own reputation D) That alliances are always preferable to M&A in the automotive industry",
-    "answer": "C) That when urgency is high, M&A allows immediate market presence — Geely acquired Volvo to enter the European market immediately rather than spending years building its own reputation. The coursebook states it would have been very difficult for Geely to build an image of high quality as a Chinese company organically."
-  },
-  {
-    "tag": "7.4",
-    "question": "MCQ: According to the coursebook, what is the best growth option when entering uncertain or fluctuating markets? A) Do-it-yourself, as it maintains full independence B) M&A, as it provides complete control C) Alliances, as risk is shared between partners and no single company is solely responsible for success or failure D) Foreign direct investment, as it demonstrates commitment to the market",
-    "answer": "C) Alliances, as risk is shared between partners and no single company is solely responsible for success or failure. The coursebook states: 'If you try to enter uncertain or fluctuating markets, alliances represent the best option. When forming an alliance, the partners usually share the risk.'"
-  },
-  {
-    "tag": "7.4",
-    "question": "MCQ: What lesson does the Helmerich & Payne/Venezuela example illustrate regarding the uncertainty factor? A) That companies should avoid doing business in developing countries B) That legal analysis is insufficient for international expansion C) That a do-it-yourself strategy fails in uncertain markets — Helmerich & Payne lost all its investments to the Venezuelan government; an alliance partner would have shared the risk D) That M&A is preferable to alliances in the oil and gas sector",
-    "answer": "C) That a do-it-yourself strategy fails in uncertain markets — Helmerich & Payne lost all its investments to the Venezuelan government; an alliance partner would have shared the risk. The coursebook states: 'It would have been advisable to look for a possible alliance partner in Venezuela, thereby sharing the risk of the investment with a second company.'"
-  },
-  {
-    "tag": "7.4",
-    "question": "MCQ: According to the coursebook, if a company needs hard capabilities such as machines or a production facility, which growth option is most advisable? A) Do-it-yourself B) Alliance C) M&A D) Outsourcing",
-    "answer": "C) M&A. The coursebook states: 'If a company needs hard capabilities (such as machines or a production facility) in order to grow, it would be advisable to acquire these through M&A.'"
-  },
-  {
-    "tag": "7.4",
-    "question": "MCQ: According to the coursebook, if a company needs soft capabilities such as know-how, which growth option is most advisable? A) M&A B) Forming an alliance C) Do-it-yourself — hire employees with expertise D) Foreign direct investment",
-    "answer": "C) Do-it-yourself — hire employees with expertise. The coursebook states: 'If the company needs soft capabilities (such as know-how) it would be best to take a DIY approach and hire employees with expertise. If the company tries to form an alliance with or acquire an organization that has the soft capabilities, it might encounter integration problems as corporate cultures differ.'"
-  },
-  {
-    "tag": "7.4",
-    "question": "MCQ: According to the coursebook, when capabilities are highly modular (i.e., can be separated into individual parts), which growth option is recommended? A) M&A, as it provides full control over all capabilities B) Alliances or do-it-yourself — alliances can combine specific required capabilities; or the company can build one separate department for the component C) Exporting, as modular capabilities work best in international markets D) Outsourcing, as modular capabilities are easy to delegate externally",
-    "answer": "B) Alliances or do-it-yourself — alliances can combine specific required capabilities; or the company can build one separate department for the component. The coursebook states: 'If capabilities are modular, alliances are the best option. If capabilities are modular, it might also be advantageous to do-it-yourself as the company could build one separate department to develop the component.' Amazon's development of the Kindle is the example."
-  },
-  {
-    "tag": "7.4",
-    "question": "Short Answer: What are the four factors that influence the choice of strategic growth option, and what does each factor recommend, according to the coursebook?",
-    "answer": "The coursebook identifies four factors: (1) Urgency — if expansion is urgent, organic growth takes too long; alliance or M&A are the better, faster option. Example: Geely acquired Volvo to enter the European market immediately. (2) Uncertainty — in uncertain or fluctuating markets, alliances are best as risk is shared; companies should refrain from DIY or direct foreign investments. Example: Helmerich & Payne lost all investments in Venezuela — an alliance would have shared the risk. (3) Type of capabilities — hard capabilities (machines, production facilities) are best acquired through M&A; soft capabilities (know-how) are best developed through DIY by hiring employees with expertise. Example: Roche and Genentech — soft capabilities led to an alliance before eventual acquisition. (4) Modularity of capabilities — if capabilities can be separated into individual parts, alliances are best (to combine specific capabilities) or DIY (to build a separate department). Example: Amazon built a separate Kindle department while continuing its core online store operations."
-  },
-  {
-    "tag": "7.4",
-    "question": "Long Answer: Explain how companies decide whether to buy, ally, or do-it-yourself, as described in the coursebook. Address all four factors with their definitions, recommendations, and examples.",
-    "answer": "The coursebook explains that deciding which strategic growth option is best depends on four key factors:\n\n1. Urgency: If the growth strategy has a high degree of urgency, the organic growth option will take too long. Therefore, an alliance or M&A would be the better, faster option. Example: Chinese auto manufacturer Geely could have invested years trying to establish itself as a reliable, high-quality car manufacturer in Europe. Instead, the decision to acquire Volvo allowed Geely to be present in the European market immediately and start gathering market information.\n\n2. Uncertainty: If a company tries to enter uncertain or fluctuating markets, alliances represent the best option. When forming an alliance, the partners share the risk — no company is solely responsible for success or failure. If the alliance proves successful over time, the company has the option of acquiring the alliance partner. In environments of high uncertainty, companies should refrain from expanding independently and making direct foreign investments, as the investment costs are then fully borne by the company and lost if the development fails. Example: Helmerich & Payne lost all its investments to the Venezuelan government. It would have been advisable to look for a possible alliance partner in Venezuela, thereby sharing the risk with a second company.\n\n3. Type of Capabilities: The type of capabilities needed guides the decision. If a company needs hard capabilities (such as machines or a production facility), it would be advisable to acquire these through M&A. If the company needs soft capabilities (such as know-how), it would be best to take a DIY approach and hire employees with expertise — trying to form an alliance or acquire an organization with soft capabilities might encounter integration problems because corporate cultures differ. Example: Roche and Genentech — Genentech's soft capabilities (biotech know-how and innovative culture) made an alliance more appropriate initially. After many years of partnership, Roche learned to accept the cultural differences before completing the acquisition in 2009.\n\n4. Modularity of Capabilities: Modularity is defined as the degree to which something can be separated into individual parts. If the capabilities are highly modular, alliances are the best option — joint ventures can combine required capabilities with existing ones without having to acquire the entire operation. If capabilities are modular, it might also be advantageous to do-it-yourself by building one separate department. Example: Amazon developed the Kindle internally in a separate department while continuing to operate its core online store as usual. The advantage of modularity is that only part of the organization is affected by and involved in the new development.\n\nAdditionally, the decision depends on finding a suitable partner, which is often difficult. In the case of non-profit organizations or charities, a change of ownership is difficult to execute, which limits their growth options to forming alliances and do-it-yourself."
-  }
+ {
+   "tag": "7.2",
+   "question": "What problem do real-time, closed-loop, and active DWHs aim to solve?",
+   "answer": "Traditional DWHs load data in scheduled batches, creating latency — a time delay between when an event occurs in the real world and when it appears in the DWH. Real-time, closed-loop, and active DWHs aim to overcome these latency issues and shortcomings of traditional DWHs."
+ },
+ {
+   "tag": "7.2",
+   "question": "What is a real-time DWH, and what is its latency threshold?",
+   "answer": "A real-time DWH has a relatively low latency — the time delay between the occurrence of an event and importing the data that describe the event into the DWH is relatively short, usually below a minute. It is not updated according to a schedule or in batches. Instead, triggers in the operational systems are used to initiate real-time updates in the DWH."
+ },
+ {
+   "tag": "7.2",
+   "question": "How does data flow into a real-time DWH?",
+   "answer": "Data associated with business activities are captured at the time they occur, and data of completed business activities flow directly into the DWH."
+ },
+ {
+   "tag": "7.2",
+   "question": "What are the two direct advantages of a real-time DWH?",
+   "answer": "Operational data are available immediately for analysis purposes. Furthermore, the DWH reflects the most current (real-time) situation, so the answer to a query always reflects the actual and current state of the entity at the time of running the query."
+ },
+ {
+   "tag": "7.2",
+   "question": "MCQ: How is a real-time DWH updated, as opposed to a traditional DWH?\nA) Via scheduled batch loads that run during off-peak times\nB) Via triggers in the operational systems that initiate real-time updates\nC) Via ETL processes that run weekly or monthly\nD) Via manual data extraction processes that limit operational overhead",
+   "answer": "B) A real-time DWH is not updated according to a schedule or in batches — instead, triggers in the operational systems are used to initiate real-time updates in the DWH."
+ },
+ {
+   "tag": "7.2",
+   "question": "List the benefits of real-time data warehousing as described in the coursebook.",
+   "answer": "It minimizes operational overhead by limiting manual data extraction. It offers instant decision-making to support the business. It improves governance and data security because real-time data integration means fewer updates and reconciliations. Costs are reduced through predictive analytic capabilities and automated diagnostic reporting. Manual processing errors are reduced because they are detected early and resolved. It increases operational efficiency because data can be retrieved fast. Faster response times result in higher customer satisfaction. The flexibility of the architecture leads to increased competitiveness and lower capital expenditures since the infrastructure is utilized efficiently. Business agility is enhanced and business resilience increased because the organization is less dependent on manual processing."
+ },
+ {
+   "tag": "7.3",
+   "question": "What is a closed-loop DWH, and what makes it different from a traditional DWH?",
+   "answer": "Traditional DWHs generally have a one-way relationship with the operational systems that supply them with data. The closed-loop DWH involves a bidirectional process — it is also referred to as an integrated DWH. Triggers in the operational systems initiate immediate updating of the DWH (like a real-time DWH). In addition, the DWH updates the operational systems as well — operational systems are updated with the relevant changes that occurred in the DWH."
+ },
+ {
+   "tag": "7.3",
+   "question": "What is the purpose of the bidirectional process in a closed-loop DWH?",
+   "answer": "The closed-loop DWH involves a bidirectional process to optimize transactional processing — the data that the operational systems receive from the DWH are applied to optimize the operational environment."
+ },
+ {
+   "tag": "7.3",
+   "question": "Define 'tactical queries' as used in this section.",
+   "answer": "Tactical queries are short queries aimed at enabling quick action-taking and/or decision-making in time-sensitive environments."
+ },
+ {
+   "tag": "7.3",
+   "question": "MCQ: Which DWH is also referred to as an integrated DWH and involves a bidirectional process where both the DWH and the operational systems are updated?\nA) Real-time DWH\nB) Active DWH\nC) Closed-loop DWH\nD) Federated DWH",
+   "answer": "C) Closed-loop DWH — it is also referred to as an integrated DWH and involves a bidirectional process: triggers initiate real-time DWH updates, and the DWH also updates the operational systems with relevant changes."
+ },
+ {
+   "tag": "7.3",
+   "question": "Why is the closed-loop DWH challenging and expensive to implement?",
+   "answer": "Three reasons: (1) The various and diverse operational systems and APIs in an organization are rarely integrated, so they may have difficulty communicating with each other. (2) The level of detail in the DWH may differ from the level of detail in the operational systems — a DWH can contain summarized and/or aggregated data, causing structural problems when writing data back. (3) ERP systems are tightly integrated with business processes and may not be compatible with summarized or aggregated DWH data — this may introduce logical errors that are difficult or impossible to fix if original data in source systems have been overwritten with DWH data."
+ },
+ {
+   "tag": "7.3",
+   "question": "MCQ: What specific problem arises when a closed-loop DWH writes summarized or aggregated data back to ERP systems?\nA) The ETL process cannot identify which data to overwrite in the DWH\nB) ERP systems may not be compatible with the summarized or aggregated data from the DWH, potentially introducing logical errors that are difficult or impossible to fix if original source data have been overwritten\nC) The real-time triggers in the operational systems stop functioning when bidirectional updates are enabled\nD) The DWH loses its historical data because it is overwritten by operational system updates",
+   "answer": "B) ERP systems are tightly integrated with business processes and may not be compatible with summarized or aggregated data from the DWH — this may introduce logical errors that are difficult or impossible to fix if the original data in the source systems have been overwritten with data from the DWH."
+ },
+ {
+   "tag": "7.3",
+   "question": "Compare the real-time DWH and the closed-loop DWH across three dimensions: how the DWH is updated, whether operational systems are updated, and implementation complexity.",
+   "answer": "How DWH is updated: both use triggers in operational systems to initiate real-time updates — neither uses scheduled batch loads. Whether operational systems are updated: the real-time DWH does NOT update operational systems (one-way relationship); the closed-loop DWH DOES update operational systems bidirectionally. Implementation complexity: the real-time DWH is simpler to implement; the closed-loop DWH is challenging and expensive to implement due to rarely integrated operational systems and APIs, differences in data granularity, and ERP system compatibility issues."
+ },
+ {
+   "tag": "7.3",
+   "question": "Long Answer: Explain Sections 7.2 and 7.3 in full — why real-time, closed-loop, and active DWHs emerged, what a real-time DWH is and its benefits, what a closed-loop DWH is and how it differs from both traditional and real-time DWHs, and why it is challenging to implement.",
+   "answer": "Traditional DWHs load data in scheduled batches, creating latency between real-world events and their appearance in the DWH. Real-time, closed-loop, and active DWHs emerged to overcome these latency issues. A real-time DWH has a relatively low latency — usually below a minute — and is not updated on a schedule; instead, triggers in operational systems initiate real-time updates, with data of completed business activities flowing directly into the DWH. Its advantages include: immediate availability of operational data for analysis; the DWH always reflects the current, real-time state. Broader benefits include minimizing operational overhead, instant decision-making, improved governance and data security, cost reduction through predictive analytics and automated diagnostic reporting, early detection of manual errors, increased operational efficiency and customer satisfaction, lower capital expenditures, and enhanced business agility and resilience. The closed-loop DWH (also called the integrated DWH) goes a step further — like the real-time DWH, triggers initiate immediate updating of the DWH; however, additionally, the DWH also updates the operational systems, creating a bidirectional process to optimize transactional processing. This is challenging and expensive to implement for three reasons: (1) diverse operational systems and APIs are rarely integrated and may struggle to communicate; (2) the DWH may contain summarized or aggregated data while operational systems hold more granular data, causing structural problems when writing data back; (3) ERP systems tightly integrated with business processes may not be compatible with summarized DWH data, potentially introducing logical errors that are difficult or impossible to fix if original source data have been overwritten. The key differentiator: a real-time DWH is one-way (operational → DWH); a closed-loop DWH is bidirectional (operational ↔ DWH)."
+ },
 
+ {
+   "tag": "7.4",
+   "question": "What is the formal definition of an active DWH, and who coined the term?",
+   "answer": "The active DWH is defined as 'a logically consistent store of detailed data available for strategic, tactical, and event-driven business decision making' through the provision of 'a single up-to-date view of the enterprise' (Teradata, 2014). The term 'active DWH' was coined by Teradata in 2001."
+ },
+ {
+   "tag": "7.4",
+   "question": "How does the active DWH handle real-time updates, and what makes it different from both the real-time and closed-loop DWH?",
+   "answer": "The active DWH allows the capturing of transaction details at the exact moment they occur or change, with updates to critical data happening very close to real-time. Unlike the real-time DWH, it also automatically exports operational decisions to OLTP systems. Unlike the closed-loop DWH, it additionally enables the automation of routine tasks and decisions. Scheduled batch and cycle refreshes are also maintained and continue to run."
+ },
+ {
+   "tag": "7.4",
+   "question": "What types of queries does the active DWH support, and how?",
+   "answer": "The active DWH supports both tactical queries — which should be returned within seconds — alongside traditional, strategic decision support. Scheduled batch and cycle refreshes are maintained and therefore continue to run, enabling both types."
+ },
+ {
+   "tag": "7.4",
+   "question": "MCQ: Which of the following best distinguishes the active DWH from the closed-loop DWH?\nA) The active DWH uses triggers to update the DWH; the closed-loop DWH uses scheduled batch loads\nB) The active DWH enables the automation of routine tasks and decisions and exports operational decisions to OLTP systems; the closed-loop DWH does not automate decisions\nC) The active DWH has a one-way relationship with operational systems; the closed-loop DWH is bidirectional\nD) The active DWH was proposed by Inmon; the closed-loop DWH was proposed by Kimball",
+   "answer": "B) The active DWH enables the automation of routine tasks and decisions and automatically exports operational decisions to OLTP systems — the closed-loop DWH facilitates bidirectional updates but does not automate decisions."
+ },
+ {
+   "tag": "7.4",
+   "question": "Name the six functionalities of the active DWH.",
+   "answer": "Active load, active access, active events, active workload management, active enterprise integration, and active availability."
+ },
+ {
+   "tag": "7.4",
+   "question": "What is active load?",
+   "answer": "Active load entails the active loading of data in a non-disruptive way while continuing to process other workloads at the same time."
+ },
+ {
+   "tag": "7.4",
+   "question": "What is active access?",
+   "answer": "Active access facilitates the processing of tactical queries to access analytical information quickly and consistently. It provides recurring decision support information for operational business processes."
+ },
+ {
+   "tag": "7.4",
+   "question": "What is active events, and how can operational actions be initiated?",
+   "answer": "Active events enables the automatic detection of a business event, followed by the appropriate application of business rules to update both current and historical data. Applicable operational actions can then be initiated — either automatically by applying business rules, or by presenting different options to users for manual review so that users can choose the actions to implement."
+ },
+ {
+   "tag": "7.4",
+   "question": "What is active workload management?",
+   "answer": "Active workload management facilitates the real-time management of mixed workloads to dynamically optimize the utilization of system resources."
+ },
+ {
+   "tag": "7.4",
+   "question": "What is active enterprise integration?",
+   "answer": "Active enterprise integration simplifies the coordination of applications and business processes on an enterprise level."
+ },
+ {
+   "tag": "7.4",
+   "question": "What is active availability?",
+   "answer": "Active availability considers the effect of enterprise-wide downtime and, given that, identifies application-specific requirements in terms of availability, recoverability, and performance."
+ },
+ {
+   "tag": "7.4",
+   "question": "MCQ: Which active DWH functionality enables the automatic detection of a business event and the application of business rules to update both current and historical data, with operational actions initiated either automatically or manually?\nA) Active load\nB) Active access\nC) Active workload management\nD) Active events",
+   "answer": "D) Active events — it enables the automatic detection of a business event, followed by the application of business rules to update current and historical data; operational actions can be initiated automatically or presented to users for manual selection."
+ },
+ {
+   "tag": "7.4",
+   "question": "Long Answer: Explain Section 7.4 in full — what the active DWH is, who coined it, how it handles real-time updates, what makes it distinct from the real-time and closed-loop DWH, what types of queries it supports, and all six of its functionalities.",
+   "answer": "The active DWH is defined as 'a logically consistent store of detailed data available for strategic, tactical, and event-driven business decision making' through the provision of 'a single up-to-date view of the enterprise' (Teradata, 2014). The term was coined by Teradata in 2001. It allows the capturing of transaction details at the exact moment they occur or change, with updates to critical data happening very close to real-time. It differs from the real-time DWH by also automatically exporting operational decisions to OLTP systems, and from the closed-loop DWH by enabling the automation of routine tasks and decisions. Scheduled batch and cycle refreshes are maintained and continue to run, so the DWH supports both tactical queries (returned within seconds) and traditional strategic decision support. Its six functionalities are: (1) Active load — loads data non-disruptively while processing other workloads simultaneously. (2) Active access — facilitates processing of tactical queries to access analytical information quickly and consistently; provides recurring decision support for operational processes. (3) Active events — automatically detects business events and applies business rules to update current and historical data; operational actions can be initiated automatically or presented to users for manual selection. (4) Active workload management — real-time management of mixed workloads to dynamically optimize system resource utilization. (5) Active enterprise integration — simplifies coordination of applications and business processes on an enterprise level. (6) Active availability — considers enterprise-wide downtime effects and identifies application-specific requirements for availability, recoverability, and performance."
+ },
+ {
+   "tag": "7.5",
+   "question": "What key trend drove digital transformation and impacted DWH implementations?",
+   "answer": "Data are at the center of digital transformation and drive digitization processes. Organizations continue to leverage data to improve their core business — for example, improving customer experience, penetrating new markets, and increasing the efficiency of employees and processes. For this, trillions of data items must be stored and analyzed. Many organizations are moving to cloud solutions to store data and enable real-time data analytics. Historical and real-time data are also increasingly injected into business workflows, as in the case of active DWHs."
+ },
+ {
+   "tag": "7.5",
+   "question": "Name the six use cases that ensure the continued relevance and value of DWHs.",
+   "answer": "(1) Tactical reporting, (2) integration with big data, (3) natural language processing, (4) auditing and compliance, (5) data-mining analytics, and (6) ensuring data quality."
+ },
+ {
+   "tag": "7.5",
+   "question": "What is the tactical reporting use case for DWHs?",
+   "answer": "Since data are stored in a DWH for reporting purposes and DWHs are optimized for high-performance queries, they should also be ideally suited for ad-hoc reporting. It should be possible to provide instantaneous answers to a wide range of queries."
+ },
+ {
+   "tag": "7.5",
+   "question": "What is the integration with big data use case for DWHs?",
+   "answer": "The appropriate architecture will enable integration with big data and automate big data analysis."
+ },
+ {
+   "tag": "7.5",
+   "question": "What is the natural language processing use case for DWHs?",
+   "answer": "Many organizations are implementing basic robotic process automation (RPA) and gathering data through live interactions between chatbots and customers, for example. Collected data must be integrated into existing data related to customer profiles so that they can be analyzed."
+ },
+ {
+   "tag": "7.5",
+   "question": "What is the auditing and compliance use case for DWHs?",
+   "answer": "Electronic copies of data stored in DWHs ease the tedious task of adhering to regulatory aspects of a business."
+ },
+ {
+   "tag": "7.5",
+   "question": "What is the data-mining analytics use case for DWHs?",
+   "answer": "Data-mining analytics stores massive amounts of data centrally so that they can be analyzed easily. It provides valuable business insights — for example, by indicating optimal promotional strategies."
+ },
+ {
+   "tag": "7.5",
+   "question": "What is the ensuring data quality use case for DWHs?",
+   "answer": "Having a DWH enables teams to automate the processes of identifying and correcting errors in their databases."
+ },
+ {
+   "tag": "7.5",
+   "question": "MCQ: Which DWH use case involves implementing robotic process automation (RPA) and integrating data gathered from chatbot interactions into existing customer profile data for analysis?\nA) Tactical reporting\nB) Data-mining analytics\nC) Natural language processing\nD) Auditing and compliance",
+   "answer": "C) Natural language processing — many organizations implement basic RPA and gather data through live interactions between chatbots and customers; collected data must be integrated into existing customer profile data so they can be analyzed."
+ },
+ {
+   "tag": "7.5",
+   "question": "Long Answer: Explain Section 7.5 in full — the key trends that drove DWH implementations and all six use cases that ensure the continued relevance and value of DWHs.",
+   "answer": "Data are at the center of digital transformation and drive digitization processes. Organizations continue to leverage data to improve customer experience, penetrate new markets, and increase employee and process efficiency — requiring trillions of data items to be stored and analyzed. Many organizations are moving to cloud solutions for storage and real-time data analytics, with historical and real-time data increasingly injected into business workflows as in active DWHs. Six use cases ensure the continued relevance of DWHs: (1) Tactical reporting — DWHs are optimized for high-performance queries and suited for ad-hoc reporting; instantaneous answers should be possible across a wide range of queries. (2) Integration with big data — the appropriate architecture enables integration with big data and automates big data analysis. (3) Natural language processing — organizations implementing basic RPA gather data through chatbot interactions; collected data must be integrated into existing customer profile data for analysis. (4) Auditing and compliance — electronic copies of data stored in DWHs ease the task of adhering to regulatory requirements. (5) Data-mining analytics — stores massive amounts of data centrally for easy analysis; provides valuable business insights such as optimal promotional strategies. (6) Ensuring data quality — DWHs enable teams to automate the identification and correction of errors in their databases."
+ }
 
 ]
